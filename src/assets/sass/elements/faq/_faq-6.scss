@@ -1,0 +1,57 @@
+/*=========================
+    FAQ CSS SIX
+==========================*/
+.cdx-faq-area-6 {
+	.cdx-faq-img {
+		width: 100%;
+	}
+}
+
+/*=========================
+    FAQ CSS THREE
+==========================*/
+.cdx-accordion-style-6 {
+	border: none;
+
+	.cdx-title {
+		color: var(--white);
+	}
+	.cdx-accordion-item {
+		padding: 20px 20px 25px 25px;
+	}
+	.cdx-accordion-content {
+		padding: 10px 71px 9px 0px;
+		color: var(--grey-6);
+
+		@media #{$sm} {
+			padding: 10px 20px 9px 0px;
+		}
+	}
+
+	.cdx-accordion-item {
+		background: #1d2739;
+		border: none;
+		margin-bottom: 10px;
+		.cdx-minus {
+			opacity: 0;
+			min-width: 10px;
+		}
+		.cdx-plus {
+			min-width: 10px;
+		}
+
+		&.active {
+			background: #0dc167;
+			.cdx-minus {
+				opacity: 1;
+			}
+			.cdx-title {
+				color: #0f1629;
+			}
+
+			.cdx-accordion-content {
+				color: rgba(15, 22, 41, 0.6);
+			}
+		}
+	}
+}

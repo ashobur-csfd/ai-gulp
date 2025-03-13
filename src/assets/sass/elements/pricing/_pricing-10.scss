@@ -1,0 +1,156 @@
+/*=========================
+    PRICING CSS SEVEN
+==========================*/
+.cdx-pricing-area-10 {
+	border-radius: 60px;
+	margin: 0px 60px;
+	border: 1px solid rgba(16, 18, 33, 0.14);
+	background-color: var(--white);
+	.cdx-subscription-top {
+		gap: 12px;
+		.cdx-subscription-title {
+			color: rgba(16, 18, 33, 0.7);
+			font-size: 16px;
+			font-weight: 500;
+			letter-spacing: -0.32px;
+		}
+		.cdx-save-price {
+			color: var(--white);
+			font-size: 15px;
+			font-weight: 500;
+			letter-spacing: -0.3px;
+			display: inline-block;
+			padding: 2px 6px;
+			width: 78px;
+			position: relative;
+			background: linear-gradient(180deg, #e16366 0%, #ad2222 97.79%);
+			filter: drop-shadow(0px 4px 10px rgba(118, 9, 9, 0.5));
+			&::after {
+				position: absolute;
+				bottom: -8px;
+				left: 15px;
+				width: 15px;
+				height: 12px;
+				content: '';
+				clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+				background: linear-gradient(180deg, #e16366 0%, #ad2222 97.79%);
+				transform: rotate(180deg);
+			}
+		}
+		.cdx-yearly-wrap {
+			position: absolute;
+			top: -30px;
+			left: 29px;
+		}
+	}
+}
+
+.cdx-price-card-7 {
+	padding: 40px 30px 50px;
+	border-radius: 20px;
+	transition: var(--transition);
+	box-shadow: 0px 4px 10px 0px rgba(118, 9, 9, 0);
+	background-color: var(--white);
+	position: relative;
+	z-index: 1;
+	&:hover {
+		background-color: #efeefc;
+		.cdx-btn-radius {
+			&::before {
+				height: 100%;
+			}
+		}
+	}
+	.cdx-title {
+		color: var(--dark);
+		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	.cdx-price {
+		color: var(--dark);
+		font-size: 40px;
+		font-weight: 700;
+		border-bottom: 1px solid rgba(16, 18, 33, 0.14);
+		padding-bottom: 35px;
+		margin-bottom: 35px;
+		.cdx-subscription {
+			color: rgba(16, 18, 33, 0.7);
+			font-size: 15px;
+			font-weight: 500;
+		}
+	}
+	.cdx-btn-radius {
+		display: block;
+	}
+}
+
+.cdx-popular-item {
+	background-color: var(--purple);
+	box-shadow: 0px 4px 10px 0px rgba(118, 9, 9, 0.5);
+	border-radius: 20px;
+	position: relative;
+	padding: 40px 4px 4px;
+	&::before {
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		width: 100%;
+		height: 100%;
+		background-color: #efeefc;
+		content: '';
+		border-radius: 20px;
+		z-index: -1;
+	}
+	.cdx-subtext {
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		width: 100%;
+		height: 100%;
+		color: var(--white);
+		font-size: 16px;
+		font-weight: 700;
+		text-align: center;
+		letter-spacing: -0.32px;
+		padding-top: 10px;
+		text-transform: uppercase;
+	}
+}
+
+// cdx-list-style-3
+.cdx-list-style-3 {
+	.cdx-list-item {
+		color: var(--black-2);
+		font-size: 14px;
+		font-weight: 500;
+		padding: 0px 0px 20px 24px;
+		background-image: url(../images/home-10/icons/check-mark.svg);
+		background-repeat: no-repeat;
+		background-position-x: 0%;
+		background-position-y: 20%;
+	}
+}
+
+// Tab
+.cdx-tab-switch {
+	display: flex;
+	align-items: center;
+	max-width: 70px;
+	border: 1px solid #10122124;
+	padding: 5px;
+	.cdx-btn-switch {
+		width: 22px;
+		height: 22px;
+		border-radius: 2px;
+		background: linear-gradient(180deg, #e163d9 0%, #5022ad 100%);
+		box-shadow: 0px 4px 10px 0px rgba(51, 13, 122, 0.5);
+		display: block;
+		opacity: 0;
+		overflow: hidden;
+		&.active {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}

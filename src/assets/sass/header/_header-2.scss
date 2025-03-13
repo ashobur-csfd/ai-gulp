@@ -1,0 +1,16 @@
+/*=========================
+    HEADER CSS TWO
+==========================*/
+
+.navbar-area-2 {
+    position: relative;
+    z-index: 9; 
+    border-bottom: 1px solid #ffffff20;
+    padding: 10px 85px;
+    @media #{$lg} {
+        padding: 10px 0px;
+    }
+    .cdx-btn-filled { 
+        padding: 10px 32px; 
+    }
+}

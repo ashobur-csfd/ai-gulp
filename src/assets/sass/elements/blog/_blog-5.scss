@@ -1,0 +1,107 @@
+/*=========================
+    BLOG CSS FIVE
+==========================*/
+.cdx-blog-area-5 {
+    background-color: var(--white-2);
+    .cdx-section-title {
+        max-width: 450px; 
+    }
+}
+.cdx-blog-item-5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 410px 45px 50px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    @media #{$md} {
+        padding: 410px 15px 50px; 
+    }
+    &:hover {
+        &::after {
+            opacity: 1;
+            visibility: visible;
+            height: 45%;
+        }
+        .cdx-details {
+            transform: translate(0px, -45px);
+        }
+        .cdx-btn-text { 
+            opacity: 1;
+            visibility: visible;
+        } 
+    }
+    &::before {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(16, 18, 33, 0.00) 0%, #101221 100%);
+        content: "";
+        z-index: -1;
+    }
+    &::after {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        width: 100%;
+        height: 0%;
+        background: linear-gradient(90deg, rgba(154, 32, 223, 0.80) 0%, rgba(36, 103, 208, 0.80) 53.68%, rgba(31, 192, 66, 0.80) 100%);
+        backdrop-filter: blur(7px);
+        content: "";
+        z-index: -1;
+        opacity: 0;
+        visibility: hidden;
+        transition: var(--transition);
+    }
+    .cdx-section-title-xs {
+        padding-top: 20px;
+        transition: var(--transition);
+        &:hover {
+            color: var(--white);
+        }
+    } 
+    .cdx-btn-text { 
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+        transform: translate(-50%, 10px); 
+    }
+    .cdx-details {
+        transition: var(--transition);
+    }
+}
+
+// cdx-meta-5
+.cdx-meta-5 {
+    display: inline-flex; 
+    align-items: center;
+    gap: 24px;
+    .cdx-meta-item {
+        color: var(--white);  
+        font-size: 14px; 
+        font-weight: 500; 
+        letter-spacing: -0.28px;
+        position: relative;
+        &::after {
+            position: absolute;
+            top: 12px;
+            right: -14px;
+            width: 4px;
+            height: 4px;
+            background-color: var(--gray-3);
+            border-radius: 50%;
+            content: "";
+        }
+        &:nth-child(1) {
+            padding: 3px 15px;
+            border: 1px solid var(--gray-5);
+        }
+        &:last-child::after {
+            display: none;
+        }
+    }
+}

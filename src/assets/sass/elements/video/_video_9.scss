@@ -1,0 +1,13 @@
+.cdx-video-area-9 {
+    position: relative;
+    margin-block-start: -187px;
+
+    @media #{$xl} {
+        margin-block-start: -12vw;
+    }
+
+    .cdx-video-wrap {
+        background-size: cover;
+        aspect-ratio: 1.92;
+    }
+}

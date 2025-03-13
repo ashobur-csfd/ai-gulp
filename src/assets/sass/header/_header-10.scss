@@ -1,0 +1,32 @@
+/*=========================
+   HEADER CSS Ten
+==========================*/
+.cdx-navbar-area-10 {
+    position: relative;
+    z-index: 99;   
+    margin-top: 24px;
+    .navbar {
+        max-width: 970px;
+        margin: 0 auto;
+        padding: 12px 20px;
+        border-radius: 100px;
+        background-color: var(--dark);
+    }
+    
+    .nav-menu {
+        gap: 40px;
+    }
+   
+    .nav-menu .menu-link { 
+        &:hover {
+            color: #9A20DF;
+        }
+    }
+    .cdx-btn-radius { 
+        color: var(--dark);
+        background-color: var(--white); 
+        &:hover {
+            color: var(--white);
+        }
+    }
+}

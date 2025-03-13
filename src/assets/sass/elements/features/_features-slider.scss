@@ -1,0 +1,124 @@
+/*=========================
+    FEATURES SLIDER CSS
+==========================*/
+.cdx-features-slider-area {
+	overflow: hidden;
+	.swiper-slide-active {
+		.cdx-features-content-slide {
+			.cdx-title {
+				color: var(--white);
+			}
+			.cdx-content {
+				color: var(--white);
+			}
+		}
+		.cdx-progress-active {
+			transition: all 4s;
+			width: 100%;
+		}
+	}
+}
+.cdx-features-slide-img {
+	padding: 415px 315px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	@media #{$md} {
+		padding: 305px 315px;
+	}
+	@media #{$sm} {
+		padding: 80px 315px;
+	}
+}
+
+.cdx-features-slide-btm {
+	transform: translate(0px, -150%);
+	margin-bottom: -22%;
+	position: relative;
+	z-index: 9;
+	display: flex;
+	gap: 30px;
+	@media #{$md} {
+		display: block;
+		transform: translate(0px, -113%);
+		margin-bottom: -67%;
+	}
+	@media #{$sm} {
+		margin-bottom: 0;
+		transform: translate(0px, 0);
+	}
+}
+
+.cdx-features-content-left {
+	width: 32%;
+	background-color: var(--dark-4);
+	padding: 30px 20px 50px 30px;
+	@media #{$md} {
+		width: 48%;
+		width: 48%;
+		margin-bottom: 30px;
+	}
+	@media #{$sm} {
+		width: 100%;
+	}
+	.cdx-icon-wrap {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		height: 50px;
+		border-radius: 100px;
+		padding: 12px;
+		background-color: var(--dark-5);
+	}
+	.cdx-title {
+		color: var(--white);
+		font-size: 30px;
+		font-weight: 500;
+		letter-spacing: -0.6px;
+		@media #{$lg} {
+			font-size: 26px;
+		}
+	}
+	.cdx-section-title-xs {
+		font-size: 16px;
+		padding: 20px 0px;
+	}
+}
+
+.cdx-features-content-slide {
+	background-color: var(--dark-4);
+	padding: 30px 20px 80px 30px;
+	@media #{$lg} {
+		padding: 30px 20px 40px 30px;
+	}
+	.cdx-title {
+		color: rgba(255, 255, 255, 0.6);
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 1.2;
+		letter-spacing: -0.54px;
+		padding-bottom: 15px;
+	}
+	.cdx-content {
+		color: rgba(255, 255, 255, 0.5);
+		font-size: 15px;
+		font-weight: 700;
+		line-height: 1.5;
+	}
+	.cdx-progress-active {
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		width: 0%;
+		height: 1px;
+		background-color: var(--white);
+		z-index: 9;
+	}
+	.cdx-progress-bar {
+		position: relative;
+		width: 100%;
+		height: 1px;
+		margin-bottom: 30px;
+		background-color: rgba(255, 255, 255, 0.1);
+	}
+}

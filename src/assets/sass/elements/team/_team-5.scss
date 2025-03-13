@@ -1,0 +1,55 @@
+/*=========================
+    TEAM CSS FIVE
+ ==========================*/
+
+.cdx-team-area-5 {
+	.cdx-section-heading {
+		max-width: 700px;
+		margin: auto;
+		text-align: center;
+	}
+}
+
+.cdx-team-item-5 {
+	transition: var(--transition);
+	&:hover {
+		transform: scale(1.02);
+		.cdx-thumb {
+			transform: scale(1.1);
+		}
+	}
+	.cdx-thumb-wrap {
+		overflow: hidden;
+		position: relative;
+		background-color: var(--white-4);
+		text-align: center;
+	}
+	.cdx-thumb {
+		transition: var(--transition);
+		min-height: 371px;
+		object-fit: cover;
+	}
+	.cdx-team-btm {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border: 1px solid #10122110;
+		padding: 20px 30px;
+	}
+	.cdx-name {
+		color: var(--dark);
+		font-size: 15px;
+		font-weight: 700;
+		padding-bottom: 7px;
+		transition: var(--transition);
+	}
+	.cdx-section-content {
+		color: var(--gray-10);
+	}
+	.cdx-btn-video {
+		position: absolute;
+		top: 53%;
+		left: 50%;
+		transform: translate(-50%, 0px);
+	}
+}

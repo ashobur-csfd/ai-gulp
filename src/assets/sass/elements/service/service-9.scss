@@ -1,0 +1,68 @@
+/*=========================
+    SERVICE CSS NINE
+==========================*/
+$card-padding-block: clamp(30px, 4vw, 44px);
+$card-padding-inline: clamp(20px, 3vw, 34px);
+$transition-duration: 0.3s;
+$hover-transform: translateY(-5px);
+
+@mixin hover-transition {
+    transition: transform $transition-duration ease;
+}
+
+.cdx-service-card-9 {
+    display: flex;
+    flex-direction: column;
+    contain: content;
+    background: #eef7fc;
+    padding-block: $card-padding-block;
+    padding-inline: $card-padding-inline;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    @include hover-transition;
+
+    .cdx-icon-wrap {
+        .cdx-icon {
+            @include hover-transition;
+        }
+    }
+
+    .cdx-section-title-sm {
+        color: var(--dark);
+        font-weight: 500;
+        margin-block-start: 26px;
+    }
+
+    .cxd-full-card-clickable {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+    }
+
+    .cdx-section-content-2 {
+        margin-block-start: 30px;
+        padding-block-start: 26px;
+        border-top: 1px solid rgba(16, 18, 33, 0.14);
+    }
+
+    .cdx-card-action {
+        margin-block-start: 36px;
+    }
+
+    &:hover {
+        will-change: transform;
+        transform: translateY(-5px);
+
+        .cdx-icon-wrap {
+            .cdx-icon {
+                will-change: transform;
+                transform: rotateY(-360deg);
+            }
+        }
+
+        .cdx-section-title-sm {
+            color: #1e9261;
+        }
+    }
+}

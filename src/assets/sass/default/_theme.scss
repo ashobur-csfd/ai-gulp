@@ -1,0 +1,50 @@
+/*=========================
+    THEME CSS
+==========================*/
+.body-bg {
+    background-color: var(--black-2);
+}
+.body-bg-2 {
+    background-color: var(--dark);
+}
+.body-bg-6 {
+    background-color: var(--dark-4);
+}
+.bg-body-10 {
+    background-color: var(--white-6);
+}
+.bg-cover {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.gradient-border { 
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 1px; 
+    border-image-source: linear-gradient(85deg, #E3B419 0%, #23E173 50.5%, #27A1ED 100%); 
+}
+
+// Border line 
+.line {
+    position: relative;
+    border-left: 1px solid var(--gray-5);
+    border-right: 1px solid var(--gray-5);
+    &::before {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        width: 1px;
+        height: 100%;
+        background-color: var(--gray-5);
+        content: "";
+        z-index: -1;
+    }
+}
+
+// position-center 
+.position-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

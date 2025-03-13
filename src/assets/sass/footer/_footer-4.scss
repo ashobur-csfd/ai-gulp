@@ -1,0 +1,17 @@
+.cdx-footer-area-4 {
+	background: var(--dark-5);
+}
+
+.cdx-footer-bottom-4 {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+
+	@media #{$sm} {
+		gap: 20px;
+		flex-direction: column;
+		text-align: center;
+	}
+}

@@ -1,0 +1,61 @@
+/*=========================
+    TESTIMONIAL CSS TWO
+==========================*/
+.cdx-testimonal-area-7 {
+    .cdx-thump {
+        overflow: hidden;
+        background-color: #E3F5F8; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 80px 80px 80px 80px;
+        @media #{$xl} {
+            padding: 80px 60px 80px 60px;
+        }
+        @media #{$lg} {
+            padding: 80px 47px 80px 47px;
+        }
+        @media #{$md} {
+            padding: 35px 47px 35px 112px;
+        }
+        @media #{$md} {
+            padding: 35px 47px 35px 112px;
+        }
+        @media #{$xs} {
+            padding: 41px 47px 40px 43px;
+        }
+     }
+} 
+.cdx-testimonial-slider-7 {
+    background-color: #EDF2ED;
+    .swiper-wrapper {
+        transition-timing-function: linear;
+     }
+}
+.cdx-testimonial-item-7 {
+    padding: 80px 40px 120px 80px;
+    @media #{$xl} {
+        padding: 67px 30px 80px 70px;
+    }
+    @media #{$lg} {
+        padding: 55px 30px 66px 55px;
+    }
+    @media #{$xs} {
+        padding: 40px 20px 50px 40px;
+    }
+   
+    .cdx-section-content-4 {
+        color: var(--gray-7);
+        padding: 30px 0px 60px;
+        @media #{$lg} {
+            padding: 15px 0px 30px;
+        }
+    } 
+    .cdx-title {
+        color: var( --dark);
+    }  
+    .cdx-subtitle {
+         color: var(--gray-7);
+    }
+}
+
+   

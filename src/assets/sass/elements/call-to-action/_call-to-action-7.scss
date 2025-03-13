@@ -1,0 +1,98 @@
+.cdx-call-to-action-7 {
+    position: relative;
+    background-color: var(--gray-2);
+    border-radius: 40px;
+    overflow: hidden;
+    background-image: url("../../assets/images/home-7/features/background-img.webp");
+    width: calc(100% - 160px);
+    margin: 0 auto;
+    max-width: 1920px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 15px;
+    border-radius: 40px;
+    backdrop-filter: blur(5px);
+    @media #{$xxl} {
+        padding: 100px 15px;
+    }
+    @media #{$lg} {
+        padding: 80px 15px;
+    }
+    @media #{$md} {
+        padding: 40px 15px;
+        width: calc(100% - 30px);
+    }
+    &::before {
+        content: "";
+        width: 120px;
+        height: 120px;
+        flex-shrink: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 0px 40px;
+        background: var(--white);
+        z-index: -1;
+    }
+    .cdx-section-wrap {
+        max-width: 1292px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+
+        @media #{$xxl} {
+            gap: 60px;
+        }
+        @media #{$lg} {
+            gap: 40px;
+        }
+        @media #{$md} {
+            flex-direction: column;
+            gap: 40px;
+        }
+        .cdx-left {
+            width: 50%;
+            height: 460px;
+            background: #b6b2ee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            position: relative;
+            padding: 50px;
+
+            @media #{$md} {
+                width: 100%;
+                height: auto;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                top: -30px;
+                left: -30px;
+                width: 100%;
+                height: calc(100% + 60px);
+                background: rgba(255, 255, 255, 0.56);
+                backdrop-filter: blur(5px);
+                z-index: -1;
+            }
+        }
+        .cdx-right {
+            .cdx-section-title {
+                margin-bottom: 46px;
+                @media #{$md} {
+                    margin-bottom: 30px;
+                }
+            }
+            .cdx-section-content-2 {
+                margin-bottom: 50px;
+                @media #{$md} {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}

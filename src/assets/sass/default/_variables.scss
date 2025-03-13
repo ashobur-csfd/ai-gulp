@@ -1,0 +1,61 @@
+/*=========================
+    Variables 
+==========================*/
+:root {
+    --primary: #f8a85e;
+    --secondary: #de6815;
+    --white: #ffffff;
+    --white-2: #e4e5ef;
+    --white-3: #cecfe0;
+    --white-4: #edf2ed;
+    --white-5: #d9d9d9;
+    --white-6: #efeefc;
+    --gray-1: rgba(255, 255, 255, 0.7);
+    --gray-2: rgba(255, 255, 255, 0.6);
+    --gray-3: rgba(255, 255, 255, 0.5);
+    --gray-4: rgba(255, 255, 255, 0.4);
+    --gray-5: rgba(255, 255, 255, 0.2);
+    --gray-6: rgba(255, 255, 255, 0.1);
+    --gray-7: rgba(16, 18, 33, 0.6);
+    --gray-8: rgba(16, 18, 33, 0.1);
+    --gray-9: #292c3b;
+    --gray-10: #70717a;
+    --gray-11: rgba(16, 18, 33, 0.7);
+    --black: #000000;
+    --black-2: #0a090f;
+    --dark: #101221;
+    --dark-2: #151827;
+    --dark-3: #141728;
+    --dark-4: #0f1629;
+    --dark-5: #1d2739;
+    --dark-6: #030611;
+    --yellow: #f7931a;
+    --yellow-2: #f8a85e;
+    --yellow-3: #dbeb25;
+    --yellow-4: #ffd20d;
+    --blue: #1877f2;
+    --blue-2: #1da0f1;
+    --blue-3: #0a66c2;
+    --blue-4: #1a71f5;
+    --green: #0dc167;
+    --green-2: #7be1a4;
+    --green-3: #26ee3a;
+    --green-4: #1e9261;
+    --green-5: #29b33e;
+    --purple: #bf54cf;
+    --red: #cb2027;
+    --bg-gradient: linear-gradient(85deg, #e3b419 0%, #23e173 50.5%, #27a1ed 100%);
+    --bg-gradient-2: linear-gradient(90deg, #bb26b9 0%, #5926b0 100%);
+    --font-space-grotesk: "Space Grotesk", serif;
+    --transition: all 0.5s;
+}
+
+// Layouts Variation
+$xxxl: "only screen and (min-width: 1921px)";
+$xxl: "only screen and (max-width: 1599px)";
+$xl: "only screen and (max-width: 1400px)";
+$lg: "only screen and (max-width: 1199px)";
+$md: "only screen and (max-width: 991px)";
+$sm: "only screen and (max-width: 767px)";
+$xs: "only screen and (max-width: 575px)";
+$xxs: "only screen and (max-width: 390px)";

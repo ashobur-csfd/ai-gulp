@@ -1,0 +1,49 @@
+/*=========================
+    TESTIMONIAL CSS THREE
+==========================*/
+.cdx-testimonial-area-3 {
+	background: linear-gradient(90deg, #112b49, #e8479a 115%);
+	margin: 0px 160px;
+	padding: 100px 0px 100px 150px;
+	overflow: hidden;
+	@media #{$xxl} {
+		margin: 0px;
+		padding: 100px 0px 100px 40px;
+	}
+	@media #{$md} {
+		padding: 60px 15px;
+	}
+	.swiper-wrapper {
+		transition-timing-function: linear;
+	}
+	.cdx-section-content-4 {
+		padding-right: 42px;
+		@media #{$lg} {
+			padding-right: 0px;
+		}
+	}
+}
+
+.cdx-testimonial-item-3 {
+	border: 1px solid var(--gray-5);
+	background-color: var(--dark-3);
+	box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.1) inset;
+	padding: 40px 40px 50px;
+	@media #{$xl} {
+		padding: 30px 30px 35px;
+	}
+	@media #{$lg} {
+		padding: 20px 20px 30px;
+	}
+	position: relative;
+	.cdx-section-content-4 {
+		padding: 20px 0px 55px;
+		font-size: 15px;
+
+		@media #{$lg} {
+			padding: 15px 0px 20px;
+			font-size: 14px;
+			font-weight: 400;
+		}
+	}
+}

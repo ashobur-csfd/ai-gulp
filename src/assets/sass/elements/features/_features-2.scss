@@ -1,0 +1,123 @@
+/*=========================
+    Features CSS Two
+==========================*/
+
+.cdx-features-area-2 {
+	.cdx-features-img {
+		background-color: var(--dark-2);
+		padding: 15px;
+		border-image: linear-gradient(to bottom, #101221 0%, #4de864 100%) 0.5;
+		border-width: 1px;
+		border-style: solid;
+		@media #{$xxxl} {
+			height: 550px;
+		}
+	}
+
+	.cdx-content-box {
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		background-color: var(--dark-2);
+		box-shadow: 0px 10px 10px 0px rgba(5, 6, 13, 0.3);
+		padding: 95px 60px;
+		position: relative;
+		@media #{$xl} {
+			padding: 60px 20px;
+		}
+		@media #{$md} {
+			padding: 60px 40px;
+		}
+		.cdx-btn.two {
+			position: absolute;
+			top: 16px;
+			right: 16px;
+			padding: 8px 20px;
+		}
+		.cdx-title {
+			font-size: 80px;
+			font-weight: 500;
+			line-height: 1.2;
+			background: linear-gradient(191deg, #fff 21.22%, #999 92.49%);
+			background-clip: text;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.bottom {
+			padding: 60px 60px;
+		}
+	}
+
+	.count-box {
+		margin: 0 auto;
+		display: block;
+		max-width: 200px;
+	}
+
+	.cdx-features-social-box {
+		position: relative;
+		background-color: var(--dark-2);
+		padding: 90px 180px 90px 50px;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		height: 100%;
+		.cdx-section-content-3 {
+			padding: 30px 0px 90px;
+		}
+		@media #{$xl} {
+			padding: 50px 70px 56px 30px;
+		}
+	}
+	.cdx-robot-img {
+		position: absolute;
+		top: 70px;
+		right: 0px;
+		@media #{$xl} {
+			width: 20%;
+		}
+		@media #{$md} {
+			display: none;
+		}
+	}
+	.cdx-btn {
+		color: #fff;
+		text-align: center;
+		font-size: 16px;
+		font-weight: 500;
+		background: rgba(255, 255, 255, 0.1);
+		padding: 4px 20px;
+	}
+
+	.cdx-sec-title {
+		color: #fff;
+		text-align: center;
+		font-size: 40px;
+		font-weight: 500;
+		line-height: 1.2;
+		span {
+			color: var(--yellow-2);
+		}
+	}
+}
+
+// cdx-social-list
+.cdx-social-list {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	.cdx-social-link {
+		width: 60px;
+		height: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: var(--dark-2);
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		box-shadow: 0px 10px 10px 0px rgba(5, 6, 13, 0.3);
+		transition: var(--transition);
+		&:hover {
+			background-color: var(--yellow-2);
+		}
+		@media #{$sm} {
+			width: 55px;
+			height: 55px;
+		}
+	}
+}

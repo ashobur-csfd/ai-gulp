@@ -1,0 +1,34 @@
+/*=========================
+    ABOUT CSS FOUR
+==========================*/
+
+.cdx-about-area-4 {
+	.cdx-iconbox-lg {
+		background-color: var(--dark-5);
+		padding: 30px;
+
+		@media #{$md} {
+			margin-bottom: 30px;
+		}
+	}
+	.cdx-iconbox-inner {
+		background-color: var(--dark-4);
+		text-align: center;
+		padding: 70px 65px;
+		@media #{$xs} {
+			padding: 18px 65px;
+		}
+	}
+	.cdx-content-box {
+		padding: 0px 40px 0px 35px;
+		@media #{$lg} {
+			padding: 0;
+		}
+	}
+	.cdx-right {
+		padding-top: 80px;
+		@media #{$lg} {
+			padding-top: 20px;
+		}
+	}
+}

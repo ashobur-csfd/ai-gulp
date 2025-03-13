@@ -1,0 +1,53 @@
+/*=========================
+   HEADER CSS FIVE
+==========================*/
+.cdx-navbar-area-5 {
+    position: relative;
+    z-index: 99;  
+    background-color: var(--white);
+    box-shadow: 0px 2px 4px 0px rgba(16, 18, 33, 0.10);
+    .navbar {
+        padding: 12px 0px;
+    }
+    
+    .nav-menu {
+        @media #{$xl} {
+            gap: 45px;
+        }
+    }
+   
+    .nav-menu .menu-link {
+        color: var(--dark);
+        &:hover {
+            color: #9A20DF;
+        }
+    }
+    .nav-menu .menu-item-has-children:before { 
+        filter: invert(1);
+    }
+}
+    
+.cdx-navbar-top-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background: linear-gradient(90deg, #9A20DF 0%, #2467D0 53.68%, #1FC042 100%); 
+    padding: 10px;
+    .cdx-btn-relase {
+        color: var(--white);  
+        font-size: 15px; 
+        font-weight: 500;  
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(57, 90, 211, 0.24) 100%);
+    }
+    .btn-underline {
+        color: var(--white); 
+        font-size: 16px; 
+        font-weight: 500; 
+        letter-spacing: -0.32px;
+        text-decoration-line: underline; 
+    }
+    .cdx-section-content-2 {
+        color: var(--white);
+    }
+}

@@ -1,0 +1,101 @@
+/*=========================
+    BLOG CSS SIX
+==========================*/
+.cdx-blog-area-6 { 
+    .cdx-section-title {
+        max-width: 450px; 
+        margin: 0 auto;
+    }
+}
+
+.cdx-blog-item-6 {
+    display: grid;
+    grid-template-columns: 230px auto;
+    background-color: var(--dark);
+    transition: var(--transition);
+    @media #{$sm} {
+       grid-template-columns: 1fr;
+    }
+    &:hover {
+        .cdx-thumb {
+            transform: scale(1.1);
+        }
+        .cdx-title {
+            color: #8FE444;
+        }
+    }
+    .cdx-thumb-wrap {
+        overflow: hidden;
+    }
+    .cdx-thumb {
+        transition: var(--transition);
+        @media #{$sm} {
+           width: 100%;
+        }
+    }
+    .cdx-content {
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        padding: 30px 40px 20px 40px;
+    }
+    .cdx-category {
+        color: var(--white); 
+        font-size: 14px; 
+        font-weight: 500;
+        padding: 7px 12px;
+        background-color: rgba(255, 255, 255, 0.10);
+        transition: var(--transition);
+        &:hover {
+            background-color: var(--white);
+            color: var(--dark);
+        }
+    }
+    .cdx-title {
+        color: var(--white); 
+        font-size: 20px; 
+        font-weight: 500; 
+        line-height: 1.2;
+        letter-spacing: -0.4px;
+        display: inline-block;
+        margin: 20px 0px 70px;
+        transition: var(--transition);
+        @media #{$xl} {
+            margin: 20px 0px 30px;
+        }
+        @media #{$lg} {
+            margin: 20px 0px 60px;
+        }
+    }
+    .cdx-blog-meta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid rgba(255, 255, 255, 0.10);
+        padding-top: 20px;
+        margin-top: 30px;
+        .cdx-meta-list {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--white); 
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+}
+
+.cdx-authorbox-style-2 { 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .cdx-avatar-wrap {
+        width: 34px;
+        height: 34px;
+        overflow: hidden;
+        border-radius: 100px;
+    }
+    .cdx-author-title {
+        color: var(--white); 
+        font-size: 16px; 
+        font-weight: 500; 
+    }
+}

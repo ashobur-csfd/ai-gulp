@@ -1,0 +1,78 @@
+.cdx-tools-wrap {
+	background: var(--white-2);
+	padding: 30px 0;
+
+	.tools-slider {
+		margin-bottom: 14px;
+	}
+	.swiper-wrapper {
+		transition-timing-function: linear;
+	}
+}
+
+.cdx-tools-item {
+	background: var(--white);
+	padding: 12px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	.cdx-thumb-wrap {
+		background: rgba(149, 191, 70, 0.14);
+		width: 70px;
+		height: 70px;
+		flex-shrink: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&.hubspot {
+			background: rgba(254, 92, 53, 0.1);
+		}
+		&.shopify {
+			background: rgba(149, 191, 70, 0.14);
+		}
+		&.zapier {
+			background: rgba(198, 34, 51, 0.1);
+		}
+		&.lattice {
+			background: rgba(22, 184, 162, 0.1);
+		}
+		&.intercom {
+			background: rgba(31, 141, 237, 0.08);
+		}
+		&.google {
+			background: rgba(52, 163, 83, 0.1);
+		}
+		&.mailchimp {
+			background: rgba(30, 30, 30, 0.08);
+		}
+		&.dropbox {
+			background: rgba(0, 97, 255, 0.08);
+		}
+		&.slack {
+			background: rgba(46, 182, 125, 0.1);
+		}
+	}
+
+	.cdx-tool-content {
+		.cdx-tool-title {
+			color: var(--dark-6);
+			font-size: 22px;
+			font-weight: 700;
+
+			@media #{$sm} {
+				font-size: 18px;
+			}
+		}
+		.cdx-tool-text {
+			color: var(--dark-6);
+			font-size: 16px;
+			opacity: 0.6;
+			font-weight: 500;
+
+			@media #{$sm} {
+				font-size: 14px;
+			}
+		}
+	}
+}

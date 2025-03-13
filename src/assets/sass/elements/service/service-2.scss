@@ -1,0 +1,79 @@
+/*=========================
+    SERVICE CSS
+==========================*/
+.service-area-2 {
+     
+}
+.cdx-service-card-2 {  
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background-color: var(--dark-2);
+    box-shadow: 0px 10px 10px 0px rgba(5, 6, 13, 0.30);
+    padding: 40px 40px 50px;
+    transition: var(--transition);
+    @media #{$lg} {
+        padding: 40px 20px 50px;
+    }
+    &:hover {
+        box-shadow: 0px 10px 10px 0px rgba(5, 6, 13, 0.40);
+        border: 1px solid var(--primary);
+        .title {  
+            color: var(--primary);
+        }
+        .cdx-icon {
+            transform: rotateY(-360deg);
+        }
+    } 
+    .icon-wrap {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    .cdx-icon {
+        transition: var(--transition);
+    }
+    .icon-wrap {
+        &.one {
+            background-color: #F8A85E;
+        }
+        &.two {
+            background-color: #979BFF;
+        }
+        &.three {
+            background-color: #7BE1A4;
+        }
+        &.four {
+            background-color: #DE5EF8;
+        }
+        &.five {
+            background-color: #E1DE7B;
+        }
+        &.six {
+            background-color: #FF97B1;
+        }
+    }
+    .title {
+        color: var(--white); 
+        font-size: 20px; 
+        font-weight: 700; 
+        line-height: 1.2;
+        letter-spacing: -0.6px;
+        display: inline-block;
+        padding: 35px 0px 20px;
+        transition: var(--transition);
+        &:hover {
+            color: var(--primary);
+        }
+        @media #{$lg} {
+            font-size: 18px;
+        }
+    }
+    .text {
+        color: var(--gray-3); 
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 173.333% */
+    }
+}

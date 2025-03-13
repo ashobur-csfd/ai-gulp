@@ -1,0 +1,38 @@
+/*=========================
+  ABOUT SEVEN
+==========================*/
+.cdx-about-area-7 {
+    .cdx-about-img {
+        background-color: #E3F5F8;
+        overflow: hidden;
+        position: relative;
+        .cdx-img-2 {
+            position: absolute;
+            top: 6%;
+            left: -2%;
+        }
+        &.bottom {
+            background-color: #E5F3DE;
+            .cdx-img-3 {
+                position: absolute;
+                top: 6%;
+                right: 2%; 
+            }
+        }
+    }
+    .cdx-details {
+        padding-left: 40px;
+        @media #{$md} {
+            padding-left: 0px;  
+        }
+        .cdx-section-content-2.text-gray {
+            padding-bottom: 60px;
+            @media #{$lg} {
+                padding-bottom: 20px;   
+            }
+        }
+        &.bottom {
+            padding-left: 0px;
+        }
+    }    
+}

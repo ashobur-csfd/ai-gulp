@@ -1,0 +1,96 @@
+/*=========================
+    SERVICE CSS SIX
+==========================*/
+.cdx-service-slide-6 { 
+    display: grid;
+    grid-template-columns: auto 140px;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background-color: var(--dark);
+    transition: var(--transition);
+    padding: 20px 20px 20px 40px;
+    @media #{$sm} {
+        padding: 15px;
+    }
+    &:hover {
+        .cdx-thumb {
+            transform: scale(1.1);
+        }
+        .cdx-title {
+            color: #8FE444;
+        }
+    }
+    .cdx-title {
+        color: var(--white);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -0.54px; 
+        transition: var(--transition);
+    }
+    .cdx-section-content-2 {
+        padding-top: 10px;
+    }
+    .cdx-thumb-wrap {
+        overflow: hidden;
+    }
+    .cdx-thumb {
+        transition: var(--transition);
+    }
+
+}
+
+// Pagination style
+.cdx-slider-pagination-style-2 {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    .cdx-slider-bullet-pagination { 
+        display: inline-block;
+        width: auto;
+        z-index: 3;
+        position: relative;
+        margin-top: 30px; 
+        opacity: 1;
+        .swiper-pagination-bullet {
+            background-color: var(--white);
+            position: relative;
+            margin: 10px;
+            transition: 0.4s;
+            opacity: 1;
+            &:after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                height: 4px;
+                width: 4px;
+                transform: translate(-50%, -50%); 
+                border: 1px solid var(--white);
+                border-radius: 50%;
+                z-index: -1;
+                transition: 0.7s;
+            }   
+            
+        }
+        .swiper-pagination-bullet-active {
+            z-index: -1;
+            &::before {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 4px;
+                height: 4px;
+                border-radius: 100px;
+                transform: translate(-50%, -50%);
+                background-color: var(--white);
+                content: "";
+            }
+            &:after {
+                height: 25px;
+                width: 25px;
+            }
+        }
+    }
+}

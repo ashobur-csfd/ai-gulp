@@ -1,0 +1,14 @@
+.cdx-contact-area-4 {
+	.container {
+		position: relative;
+
+		.contact-icon {
+			position: absolute;
+			bottom: 0;
+			left: -240px;
+			@media #{$xl} {
+				display: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,63 @@
+/*=========================
+    TEAM CSS THREE
+==========================*/
+.cdx-team-area-3 {
+    background-color: var(--dark-5);
+    .swiper-wrapper {
+        transition-timing-function: linear;
+    }
+    .cdx-section-title { 
+        max-width: 700px;
+    }
+}
+
+.team-item-3 {
+    background-color: var(--dark-4);
+    padding-bottom: 20px; 
+    &:hover {
+        .cdx-thumb {
+            transform: scale(1.1);
+        }
+    }
+    .cdx-thumb-wrap {
+        overflow: hidden;
+    }
+    .cdx-thumb {
+        width: 100%;
+        transition: all ease 2s;
+    } 
+    .cdx-subtitle {
+        color: var(--white); 
+        font-size: 14px; 
+        font-weight: 500; 
+        letter-spacing: -0.28px;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12); 
+        padding: 10px 20px 15px; 
+        margin-bottom: 15px;
+        .cdx-percent {
+            font-size: 20px;
+        }
+    }
+     
+    .cdx-name {
+        color: var(--white); 
+        font-size: 15px; 
+        font-weight: 400; 
+        padding-bottom: 8px;
+    }
+    .cdx-designation {
+        color: var(--white); 
+        font-size: 14px; 
+        font-weight: 400; 
+    }
+    .cdx-details-wrap { 
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        padding: 0px 40px;
+        @media #{$xxl} {
+            padding: 0px 15px;
+        }
+    }
+}

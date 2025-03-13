@@ -1,0 +1,108 @@
+/*=========================
+    PRICING CSS SEVEN
+==========================*/
+.cdx-pricing-area-6 {
+	.cdx-section-heading {
+		max-width: 700px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.cdx-pricing-item {
+		border: 1px solid rgba(255, 255, 255, 0.12);
+		background: #101221;
+		.cdx-pricing-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: stretch;
+			border-bottom: 1px solid var(--gray-5);
+
+			.cdx-pricing-title {
+				flex: 1;
+				color: var(--white);
+				font-size: 20px;
+				font-weight: 700;
+				border-right: 1px solid var(--gray-5);
+				display: flex;
+				align-items: center;
+				padding-left: 30px;
+
+				@media #{$md} {
+					padding-left: 20px;
+					font-size: 18px;
+				}
+			}
+			.cdx-pricing-value {
+				flex: 1;
+				color: var(--white);
+				font-size: 40px;
+				text-align: right;
+				font-weight: 700;
+				padding: 17px 30px;
+				@media #{$md} {
+					font-size: 32px;
+					padding: 10px 20px;
+				}
+			}
+		}
+	}
+
+	.cdx-pricing-content {
+		padding: 35px 30px 80px 30px;
+		@media #{$md} {
+			padding: 25px 20px 50px 20px;
+		}
+		.cdx-price-title {
+			color: var(--white);
+			font-size: 20px;
+			font-weight: 700;
+			margin-bottom: 45px;
+			@media #{$md} {
+				font-size: 18px;
+				margin-bottom: 30px;
+			}
+		}
+
+		.cdx-pricing-list {
+			padding-left: 20px;
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			.cdx-price-text {
+				list-style: disc;
+				color: var(--white);
+				font-size: 14px;
+				font-weight: 700;
+				@media #{$md} {
+					font-weight: 500;
+				}
+			}
+		}
+	}
+
+	.cdx-pricing-footer {
+		padding: 0 30px 60px 30px;
+		@media #{$md} {
+			padding: 0 20px 40px 20px;
+		}
+		.cdx-pricing-btn {
+			color: var(--white);
+			text-align: center;
+			font-size: 15px;
+			font-weight: 700;
+			background: var(--gray-6);
+			box-shadow: 0px 4px 6px 0px rgba(16, 18, 33, 0.24);
+			height: 44px;
+			width: 100%;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			@media #{$md} {
+				height: 38px;
+				font-size: 14px;
+				font-weight: 500;
+			}
+		}
+	}
+}

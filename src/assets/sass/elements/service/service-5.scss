@@ -1,0 +1,80 @@
+/*=========================
+    SERVICE CSS FIVE
+==========================*/
+.cdx-service-card-5 {  
+    background-color: var(--white-2);
+    transition: var(--transition);
+    &:hover {
+        .cdx-thumb {
+            transform: scale(1.1);
+        }
+    }
+    .cdx-section-content-2 {
+        padding: 20px 0px 25px;
+    }
+    .cdx-thumb-wrap {
+        position: relative;
+        overflow: hidden;
+    }
+    .cdx-thumb {
+        transition: var(--transition);
+    }
+    .cdx-details {
+        padding: 40px 40px 50px;
+        @media #{$lg} {
+         padding: 40px 20px 50px; 
+        }
+    }
+}
+
+// Pagination style
+.cdx-slider-pagination-style-1 {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    .cdx-slider-bullet-pagination { 
+        display: inline-block;
+        width: auto;
+        z-index: 3;
+        position: relative;
+        margin-top: 30px; 
+        .swiper-pagination-bullet {
+            background-color: var(--dark-4);
+            position: relative;
+            margin: 10px;
+            transition: 0.4s;
+            &:after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                height: 10px;
+                width: 10px;
+                transform: translate(-50%, -50%);
+                background-color: var(--blue-4);
+                border-radius: 50%;
+                z-index: -1;
+                transition: 0.7s;
+            }
+            
+        }
+        .swiper-pagination-bullet-active {
+            z-index: -1;
+            &::before {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 5px;
+                height: 5px;
+                border-radius: 100px;
+                transform: translate(-50%, -50%);
+                background-color: var(--white);
+                content: "";
+            }
+            &:after {
+                height: 25px;
+                width: 25px;
+            }
+        }
+    }
+}

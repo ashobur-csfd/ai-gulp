@@ -1,0 +1,136 @@
+/*=========================
+    Features CSS THREE
+==========================*/
+.cdx-features-area-5 {
+	padding-bottom: 200px;
+	overflow: hidden;
+	@media #{$lg} {
+		padding-bottom: 100px;
+	}
+	.cdx-features-left {
+		position: relative;
+		.cdx-shape {
+			position: absolute;
+			left: -6%;
+			bottom: -12%;
+		}
+		.cdx-img-1 {
+			@media #{$xl} {
+				max-width: 50%;
+			}
+		}
+		.cdx-img-2 {
+			position: absolute;
+			top: 5%;
+			right: 1%;
+
+			@media #{$xl} {
+				max-width: 48%;
+				right: 0;
+				top: 0;
+			}
+		}
+		.cdx-img-3 {
+			position: absolute;
+			right: -9%;
+			bottom: -21%;
+			@media #{$xl} {
+				max-width: 48%;
+				right: 0;
+				bottom: -14%;
+			}
+		}
+		.cdx-chat-btn {
+			position: absolute;
+			bottom: -14%;
+			left: 35%;
+			@media #{$xl} {
+				left: 26%;
+			}
+			@media #{$xs} {
+				left: 12%;
+				bottom: -20%;
+			}
+			.cdx-btn {
+				font-size: 14px;
+				color: var(--white);
+				border-radius: 4px;
+				background-color: #ff5600;
+				padding: 4px 18px;
+			}
+			.cdx-icon {
+				width: 28px;
+				height: 20px;
+			}
+		}
+		&.bottom {
+			position: relative;
+
+			.cdx-img-4 {
+				@media #{$xl} {
+					max-width: 50%;
+				}
+			}
+			.cdx-img-5 {
+				position: absolute;
+				left: 15%;
+				bottom: -29%;
+				@media #{$xl} {
+					left: 0;
+				}
+				@media #{$sm} {
+					max-width: 50%;
+				}
+			}
+			.cdx-img-6 {
+				position: absolute;
+				right: -9%;
+				bottom: -30%;
+				@media #{$xl} {
+					max-width: 48%;
+					right: 0;
+				}
+			}
+			.cdx-shape-2 {
+				position: absolute;
+				top: -14%;
+				right: -6%;
+			}
+
+			.cdx-btn {
+				position: absolute;
+				top: -1%;
+				right: 0%;
+				color: var(--white);
+				padding: 12px 15px;
+				background-color: var(--dark);
+				border-radius: 35px;
+			}
+		}
+	}
+	.cdx-features-right {
+		padding-left: 120px;
+		display: block;
+		@media #{$xl} {
+			padding-left: 0px;
+		}
+		@media #{$md} {
+			padding-top: 120px;
+		}
+		@media #{$sm} {
+			padding-top: 100px;
+		}
+		&.bottom {
+			padding-left: 0px;
+		}
+		.cdx-section-title {
+			padding-bottom: 30px;
+		}
+		.cdx-title {
+			color: var(--yellow-3);
+			font-size: 15px;
+			font-weight: 500;
+			letter-spacing: -0.3px;
+		}
+	}
+}

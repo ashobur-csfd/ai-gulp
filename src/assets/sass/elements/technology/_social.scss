@@ -1,0 +1,118 @@
+/*=========================
+    SOCIAL CSS
+==========================*/
+.cdx-social-area {
+    position: relative;
+    .social-border {
+        border-bottom: 1px solid var(--gray-4);
+        @media #{$md} {
+             border-bottom: 0px solid var(--gray-4);
+        }
+    }
+    .icon-box {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @media #{$md} {
+            display: none;
+        }
+    }
+    .icon-lg { 
+        background-color: rgb(10 10 8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        &::before {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(85deg, rgba(227, 180, 25, 0.20) 0%, rgba(35, 225, 115, 0.20) 50.5%, rgba(39, 161, 237, 0.20) 100%);
+            content: "";
+       }
+    }
+}
+
+.social-box {
+    &:nth-child(2) {
+        .cdx-social-item {
+            padding-left: 450px;
+            @media #{$xxl} {
+                padding-left: 420px;
+            }
+            @media #{$xl} {
+                padding-left: 370px;
+            }
+            @media #{$lg} {
+                padding-left: 280px;
+            }
+            @media #{$md} {
+               padding: 0px;
+            }
+           
+        }
+    }
+    &:nth-child(4) {
+        .cdx-social-item {
+            padding-left: 430px;
+            @media #{$xxl} {
+                padding-left: 400px;
+            }
+            @media #{$xl} {
+                padding-left: 350px;
+            }
+            @media #{$lg} {
+                padding-left: 255px;
+            }
+            @media #{$md} {
+               padding: 0px;
+            }
+        }
+    }
+    
+}
+.cdx-social-item {
+    border-top: 1px solid var(--gray-4);
+    padding: 80px 60px;
+    @media #{$md} {
+        border-top: 0px solid var(--gray-4);
+        padding: 0px
+    }
+    .subtext {
+        color: var(--gray-2); 
+        font-size: 15px; 
+        font-weight: 500; 
+        display: block;
+        padding-bottom: 5px;
+    }
+    .icon {
+        transition: var(--transition);
+    }
+    .social-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--white);   
+        font-size: 30px; 
+        font-weight: 500; 
+        letter-spacing: -0.6px;
+        transition: var(--transition);
+        @media #{$md} {
+            font-size: 25px;
+        }
+        &:hover {
+            background: linear-gradient(85deg, #E3B419 0%, #23E173 50.5%, #27A1ED 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            .icon { 
+                transform: rotate(45deg);
+            }
+        }
+    }
+}

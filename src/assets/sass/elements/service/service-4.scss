@@ -1,0 +1,26 @@
+/*=========================
+    SERVICE CSS FOUR
+==========================*/
+.cdx-service-card-4 {  
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background-color: rgba(29, 39, 57, 0.00);
+    padding: 30px;
+    transition: var(--transition);
+    @media #{$xl} {
+        padding: 30px 20px;
+    }
+    &:hover {
+        background-color: var(--dark-5);
+        border: 1px solid transparent; 
+    }
+    .cdx-section-title-xs {
+        display: block; 
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        padding: 20px 0px 17px;
+        margin-bottom: 20px; 
+        transition: var(--transition);
+        &:hover {
+            color: var(--green);
+        }
+    }
+}

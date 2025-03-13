@@ -1,0 +1,51 @@
+/*=========================
+   HEADER CSS THREE
+==========================*/
+.cdx-navbar-area-3 {
+	position: relative;
+	z-index: 99;
+	padding: 15px 130px 20px;
+	.navbar-menu {
+		background-color: var(--dark);
+		padding: 24px 74px 34px;
+		// border-radius: 0px 0px 100px 100px;
+		position: relative;
+		&::before {
+			position: absolute;
+			top: 0;
+			left: -90px;
+			background-size: cover;
+			width: 90px;
+			content: '';
+			height: 100%;
+			background-image: url('../images/home-3/icon/nav-shape.svg');
+			background-repeat: no-repeat;
+		}
+		&::after {
+			position: absolute;
+			top: 0;
+			right: -90px;
+			background-size: cover;
+			width: 90px;
+			content: '';
+			height: 100%;
+			background-image: url('../images/home-3/icon/nav-shape.svg');
+			background-repeat: no-repeat;
+			transform: scaleX(-1);
+		}
+	}
+}
+
+// offcanvas-menu
+.offcanvas-menu {
+	display: inline-flex;
+	align-items: flex-end;
+	gap: 10px;
+	color: var(--white);
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: -0.32px;
+	span {
+		padding-bottom: 3px;
+	}
+}

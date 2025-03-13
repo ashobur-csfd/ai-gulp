@@ -1,0 +1,51 @@
+/*=========================
+    ABOUT CSS
+==========================*/
+
+.about-area {
+    position: relative;
+    
+    .left {
+        position: relative;
+        img {
+            border-radius: 10px;
+        }  
+    }
+    .img-3 {
+        position: absolute;
+        top: 120px;
+        right: 82px; 
+        box-shadow: 0px 20px 60px 0px rgba(10, 9, 15, 0.30);  
+        @media #{$lg} {
+            top: 70px;
+            right: 30px;
+        }
+        @media #{$sm} {
+            display: none;
+        }
+    }
+    .img-2 {
+        position: absolute;
+        bottom: -86%;
+        left: 0%;
+        @media #{$md} {
+            display: none;
+        }
+    }
+    .cdx-section-content {
+        padding: 10px 0px 50px;
+    }
+    .about-shape {
+        position: absolute;
+        top: -21%;
+        left: 9.5%;
+        @media #{$xxl} {
+            top: -12%;
+            left: 0%;
+            width: 45%;
+        }
+        @media #{$md} {
+            display: none;
+        }
+    }
+}

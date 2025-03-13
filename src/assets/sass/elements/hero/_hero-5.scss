@@ -1,0 +1,72 @@
+/*=========================
+    HERO CSS FIVE
+==========================*/
+.cdx-hero-area-5 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 0px 0px 20px 20px;
+	padding: 100px 0px 320px;
+
+	@media #{$lg} {
+		padding: 100px 0px 250px;
+	}
+
+	@media #{$md} {
+		padding: 100px 0px 200px;
+	}
+	@media #{$sm} {
+		padding: 100px 0px 160px;
+	}
+	@media #{$xs} {
+		padding: 100px 0px 120px;
+	}
+	.cdx-hero-wrap {
+		text-align: center;
+	}
+	.cdx-section-title {
+		color: var(--dark);
+		font-size: 100px;
+		line-height: 1.1;
+		font-weight: 700;
+		margin-bottom: 16px;
+		@media #{$md} {
+			font-size: 60px;
+		}
+		@media #{$xs} {
+			font-size: 50px;
+		}
+		.title-mark {
+			background: linear-gradient(
+				90deg,
+				#9a20df 0%,
+				#2467d0 53.68%,
+				#1fc042 100%
+			);
+			background-clip: text;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+	.cdx-section-content-2 {
+		color: var(--gray-11);
+		max-width: 760px;
+		margin: 0 auto;
+		padding-bottom: 40px;
+		font-size: 18px;
+	}
+	.cdx-btn-text {
+		display: inline-flex;
+		align-items: center;
+		gap: 7px;
+		color: var(--dark);
+		font-size: 16px;
+		font-weight: 500;
+		padding: 7px 14px;
+		border-top: 1px solid rgba(186, 230, 208, 0.1);
+		background: linear-gradient(
+			180deg,
+			rgba(16, 18, 33, 0.1) 0%,
+			rgba(186, 230, 208, 0.1) 100%
+		);
+	}
+}

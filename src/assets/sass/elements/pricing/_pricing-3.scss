@@ -1,0 +1,106 @@
+/*=========================
+    PRICING CSS  
+==========================*/
+.cdx-pricing-area-3 {
+	.cdx-section-heading {
+		max-width: 600px;
+		margin: auto;
+	}
+}
+.cdx-pricing-card-3 {
+	border: 1px solid var(--gray-9);
+	background-color: var(--black-3);
+	box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.1) inset;
+	padding: 50px 40px;
+	font-weight: 500;
+	transition: var(--transition);
+
+	@media #{$md} {
+		padding: 30px 20px;
+	}
+
+	&:hover {
+		.cdx-btn-pricing {
+			background-color: var(--yellow-3);
+			color: var(--dark);
+		}
+	}
+	.cdx-card-top {
+		border-bottom: 1px solid var(--gray-6);
+	}
+	.cdx-subtitle {
+		color: var(--gray-4);
+		font-size: 15px;
+		padding-top: 15px;
+	}
+	.cdx-price-wrap {
+		display: flex;
+		padding: 40px 0 20px;
+		gap: 10px;
+		align-items: end;
+		@media #{$md} {
+			padding: 25px 0 25px;
+		}
+		.cdx-title {
+			font-size: 60px;
+			color: var(--white);
+			@media #{$md} {
+				font-size: 40px;
+			}
+		}
+		.cdx-status {
+			color: var(--white);
+			font-size: 14px;
+			bottom: 1.5em;
+		}
+	}
+	.cdx-details {
+		padding: 40px 0px;
+		@media #{$md} {
+			padding: 0;
+		}
+	}
+	.cdx-btn-pricing {
+		padding: 14px 30px;
+		display: block;
+		color: var(--white);
+		text-align: center;
+		font-size: 15px;
+		border: 1px solid var(--gray-9);
+		background-color: var(--black-3);
+		box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.1) inset;
+		@media #{$md} {
+			padding: 10px 30px;
+		}
+	}
+	.cdx-list {
+		padding-bottom: 40px;
+		@media #{$md} {
+			padding-bottom: 20px;
+		}
+		.cdx-list-item {
+			color: var(--white);
+			font-size: 14px;
+			line-height: 40px;
+			position: relative;
+			padding-left: 20px;
+			@media #{$md} {
+				line-height: 20px;
+			}
+
+			&::before {
+				position: absolute;
+				top: 18px;
+				left: 0px;
+				width: 5px;
+				height: 5px;
+				border-radius: 100px;
+				background-color: var(--white);
+				content: '';
+				@media #{$md} {
+					top: 8px;
+				}
+			}
+		}
+	}
+}

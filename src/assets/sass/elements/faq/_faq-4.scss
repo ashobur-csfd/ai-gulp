@@ -1,0 +1,26 @@
+/*=========================
+    FAQ CSS FOUR
+==========================*/
+.cdx-faq-area-4 { 
+    
+  
+}
+
+.cdx-accordion-style-5 {
+    .cdx-title {
+        color: var(--dark);
+    }
+    .cdx-content {
+        color: rgba(16, 18, 33, 0.50); 
+        font-size: 18px; 
+        font-weight: 500; 
+        padding-top: 10px;
+    } 
+    .cdx-accordion-item {
+        border-radius: 10px;
+        border: 1px solid rgba(16, 18, 33, 0.14);
+        background-color: var(--white);
+        margin-bottom: 24px;
+        padding: 25px 34px;
+    }
+}

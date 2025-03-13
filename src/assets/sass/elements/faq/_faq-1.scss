@@ -1,0 +1,51 @@
+/*=========================
+    FAQ CSS
+==========================*/
+.faq-area {
+    padding-bottom: 240px;
+    @media #{$md} {
+        padding-bottom: 180px;
+    }
+}
+
+.accordion-style-1 {
+    
+    .accordion-button { 
+        background-color: transparent;
+        border: 0;
+        color: var(--white); 
+        font-size: 18px; 
+        font-weight: 500; 
+        padding: 30px 34px; 
+        &:focus { 
+            border-color: unset;
+            outline: 0;
+            box-shadow: unset;
+        }
+         
+    } 
+     
+    .accordion-button::after { 
+        background-image: url(../images/home-1/icon/plus.svg); 
+    }
+    .accordion-button:not(.collapsed)::after {
+       background-image: url(../images/home-1/icon/minus.svg);  
+    }
+    .accordion-item { 
+        background: linear-gradient(85deg, rgba(227, 180, 25, 0.06) 0%, rgba(35, 225, 115, 0.06) 50.5%, rgba(39, 161, 237, 0.06) 100%);
+        margin-bottom: 24px;
+        border: 1px solid;
+        border-image-slice: 1;
+        border-width: 1px; 
+        border-image-source: linear-gradient(85deg, #E3B419 0%, #23E173 50.5%, #27A1ED 100%); 
+    }
+    .accordion-body {
+        padding: 0px;
+    }
+    .content {
+        color: rgba(255, 255, 255, 0.50); 
+        font-size: 18px; 
+        font-weight: 500;
+        padding: 0px 50px 20px 34px;
+    }
+}

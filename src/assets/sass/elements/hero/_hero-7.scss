@@ -1,0 +1,129 @@
+/*=========================
+   HERO CSS THREE
+==========================*/
+.cdx-hero-area-7 {
+    margin: 0 80px 25px 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    background-color: var(--gray-2);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    position: relative;
+    background-image: url("../../assets/images/home-7/features/background-img.webp");
+    @media #{$lg} {
+        margin: 25px 25px;
+        border-radius: 40px;
+    }
+    @media #{$md} {
+        margin: 25px 15px 0 15px;
+        padding: 25px 15px;
+        background-position: right;
+    }
+    .cdx-hero-wrap {
+        position: relative;
+        z-index: 999;
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0%;
+            left: 0%;
+            width: 120px;
+            height: 120px;
+            border-radius: 0px 40px;
+            background-color: var(--white);
+            @media #{$lg} {
+                display: none;
+            }
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 120px;
+            height: 120px;
+            border-radius: 40px 0px;
+            background-color: var(--white);
+            @media #{$lg} {
+                display: none;
+            }
+        }
+    }
+    .right-to-left-move {
+        bottom: -2%;
+        left: 0%;
+        @media #{$md} {
+            display: none;
+        }
+    }
+    .cdx-hero-left {
+        padding-left: 80px;
+        padding-top: 190px;
+        padding-bottom: 220px;
+        @media #{$lg} {
+            padding: 0;
+        }
+    }
+    .cdx-section-title {
+        color: var(--dark);
+        font-size: 80px;
+        @media #{$xxl} {
+            font-size: 60px;
+        }
+        @media #{$xl} {
+            font-size: 40px;
+        }
+        @media #{$md} {
+            font-size: 30px;
+        }
+    }
+    .cdx-section-content-5 {
+        color: rgba(16, 18, 33, 0.7);
+        padding: 15px 0px 55px;
+        @media #{$lg} {
+            padding: 0px 0px 20px;
+        }
+        @media #{$lg} {
+            padding: 15px 0px 55px;
+        }
+        @media #{$md} {
+            padding: 15px 0px 15px;
+        }
+    }
+    .cdx-form-seven {
+        max-width: 600px;
+        @media #{$lg} {
+            max-width: 430px;
+        }
+    }
+    .cdx-hero-right {
+        padding-left: 110px;
+        backdrop-filter: blur(5px);
+        @media #{$xxl} {
+            padding-left: 40px;
+        }
+        @media #{$lg} {
+            padding-left: 0;
+        }
+    }
+    .cdx-img {
+        padding: 30px 20px 30px 30px;
+        border-radius: 80px;
+        @media #{$lg} {
+            padding: 20px;
+            border-radius: 40px;
+        }
+        @media #{$sm} {
+            padding: 0;
+            border-radius: 20px;
+        }
+    }
+    .form-control {
+        @media #{$md} {
+            border: 1px solid rgba(16, 18, 33, 0.4);
+            overflow: hidden;
+            border-radius: 0;
+        }
+    }
+}

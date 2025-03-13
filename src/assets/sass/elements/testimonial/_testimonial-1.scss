@@ -1,0 +1,140 @@
+/*=========================
+    TESTIMONIAL CSS ONE
+==========================*/
+
+.cdx-testimonial-area {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid var(--gray-4);
+    .testimonial-top {
+        padding-left: 135px;
+        padding-right: 360px;
+        @media #{$xxl} {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        @media #{$md} {
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-bottom: 30px;
+        }
+        @media #{$sm} {
+            margin-bottom: 150px;
+        }
+    }
+    .navigation-wrap {
+        position: absolute;
+        top: 41%;
+        left: 6%;
+        @media #{$xxl} {
+            top: 37%;
+            left: 0.5%;
+        }
+        @media #{$lg} {
+            top: 40%;
+        }
+        @media #{$sm} {
+            top: 36%;
+        }
+    }
+    .cdx-section-content {
+        padding-top: 65px;
+        @media #{$lg} {
+            padding-top: 0px;
+        }
+    }
+}
+
+.testimonial-slider {
+    margin-left: 395px;
+    @media #{$xxl} {
+        margin-left: 200px;
+    }
+    @media #{$sm} {
+        margin-left: 0px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+
+.cdx-testimonial-item.swiper-slide-active {
+    opacity: 1;
+    pointer-events: unset;
+}
+
+.cdx-testimonial-item {
+    opacity: 0.4;
+    pointer-events: none;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(85deg, #e3b419 0%, #23e173 50.5%, #27a1ed 100%);
+    padding: 40px 40px 50px 34px;
+    background: linear-gradient(85deg, rgba(227, 180, 25, 0.1) 0%, rgba(35, 225, 115, 0.1) 50.5%, rgba(39, 161, 237, 0.1) 100%);
+    transition: all 0.7s;
+    @media #{$xxxl} {
+        width: 675px !important;
+    }
+    @media only screen and (min-width: 1366px) and (max-width: 1500px) {
+        margin-right: 100px !important;
+    }
+    @media #{$sm} {
+        padding: 20px;
+    }
+
+    .top-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+    .author-wrap {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    .author-img {
+        position: relative;
+        .icon-wrap {
+            position: absolute;
+            bottom: -5%;
+            right: -5%;
+        }
+    }
+    .thumb-wrap {
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        overflow: hidden;
+        .thumb {
+            width: auto;
+            height: 100%;
+        }
+    }
+    .icon-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        background-color: #00b57a;
+        border-radius: 50%;
+    }
+    .name {
+        color: var(--white);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1;
+        margin: 0;
+    }
+    .username {
+        color: var(--gray-3);
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .content {
+        color: var(--gray-3);
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

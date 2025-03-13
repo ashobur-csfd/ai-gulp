@@ -1,0 +1,42 @@
+/*=========================
+    CLIENT CSS
+==========================*/
+.cdx-client-area {
+    .client-top {
+        padding-left: 135px;
+        padding-right: 360px;
+        @media #{$xxl} {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        @media #{$xl} {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+    .cdx-section-content { 
+        padding-top: 65px;
+        @media #{$md} {
+            padding-top: 0px;
+            padding-bottom: 15px;
+        }
+    }
+}
+.client-border {
+    border-top: 1px solid var(--gray-4);
+}
+.cdx-client-item { 
+    border-bottom: 1px solid var(--gray-4);
+    padding: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        transition: var(--transition);
+    }
+    &:hover {
+        img {
+            transform: scale(1.1);
+        }
+    }
+}

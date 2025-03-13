@@ -1,0 +1,34 @@
+/*=========================
+   HEADER CSS FOUR
+==========================*/
+
+.navbar-area-4 {
+	position: relative;
+	z-index: 99;
+	padding: 10px 0px 10px;
+	.cdx-btn-filled-2 {
+		border-radius: 6px;
+		.cdx-btn-effect {
+			white-space: nowrap;
+		}
+	}
+}
+
+.navbar-menu-4 {
+	border-radius: 6px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	background-color: rgba(255, 255, 255, 0.04);
+	backdrop-filter: blur(10px);
+	padding: 12px 35px;
+	.nav-menu .menu-link {
+		&:hover {
+			color: var(--green);
+		}
+		&::before {
+			bottom: 11px;
+		}
+	}
+	@media #{$md} {
+		display: none;
+	}
+}

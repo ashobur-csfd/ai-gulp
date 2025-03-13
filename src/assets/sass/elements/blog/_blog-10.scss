@@ -1,0 +1,88 @@
+/*=========================
+    BLOG CSS TEN
+==========================*/
+.cdx-blog-area-10 { 
+     
+}
+
+.cdx-blog-item-10{
+    border-radius: 20px;
+    background-color: var(--white);
+    overflow: hidden;
+    &:hover {
+        .cdx-thumb {
+            transform: scale(1.1);
+        }
+        .cdx-title {
+            color: var(--purple);
+        }
+    }
+    .cdx-top {
+        border-radius: 20px 20px 0px 0px;
+        padding: 30px 30px 40px;
+        border: 1px solid #CFD7DD; 
+    }
+    .cdx-thumb-wrap {
+        overflow: hidden;
+    }
+    .cdx-thumb {
+        width: 100%;
+        transition: var(--transition);
+    }
+    .cdx-discription { 
+        color: var(--dark);
+        padding: 15px 0px 20px;
+    }
+    .cdx-category {
+        color: var(--white); 
+        font-size: 14px; 
+        font-weight: 500;
+        padding: 7px 12px;
+        background-color: rgba(255, 255, 255, 0.10);
+        transition: var(--transition);
+        &:hover {
+            background-color: var(--white);
+            color: var(--dark);
+        }
+    }
+    .cdx-title { 
+        color: var(--dark); 
+        font-size: 20px; 
+        font-weight: 500; 
+        line-height: 1.2;
+        letter-spacing: -0.4px;
+        padding-top: 15px;
+        display: inline-block;
+        transition: var(--transition);
+    }
+    
+    .cdx-blog-meta {
+        display: flex;
+        align-items: center; 
+        gap: 24px;
+        .cdx-meta-list {  
+            color: var(--dark); 
+            font-size: 14px;
+            font-weight: 500;
+            &:nth-child(1) {
+                display: inline-block;
+                padding: 5px 18px;
+                border-radius: 30px;
+                border: 1px solid rgba(16, 18, 33, 0.20);
+            }
+            &:last-child {
+                position: relative;
+                &::before {
+                    position: absolute;
+                    top: 9px;
+                    left: -14px;
+                    width: 4px;
+                    height: 4px;
+                    content: "";
+                    border-radius: 100px;
+                    background-color: rgba(16, 18, 33, 0.20);                
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+/*=========================
+    CLIENT CSS
+==========================*/
+.cdx-client-area-7 {
+    padding-top: 90px;
+    @media #{$lg} {
+        padding-top: 30px; 
+    }
+    .swiper-wrapper {
+        transition-timing-function: linear;
+        align-items: center;
+    }
+}

@@ -1,0 +1,142 @@
+@mixin mask-image($url, $repeat: no-repeat, $position: center, $size: contain) {
+    -webkit-mask-image: url($url);
+    mask-image: url($url);
+    -webkit-mask-repeat: $repeat;
+    mask-repeat: $repeat;
+    -webkit-mask-position: $position;
+    mask-position: $position;
+    -webkit-mask-size: $size;
+    mask-size: $size;
+}
+
+.cdx-audio {
+    &-item {
+        padding-block: 30px;
+        border-top: 1px solid rgba(16, 18, 33, 0.14);
+        cursor: pointer;
+        position: relative;
+
+        &:last-child {
+            border-bottom: 1px solid rgba(16, 18, 33, 0.14);
+        }
+
+        .cdx-floating-image {
+            @include position-center();
+            pointer-events: none;
+            visibility: hidden;
+            opacity: 0;
+            transition: all 0.3s ease-out;
+        }
+
+        &:hover {
+            .cdx-floating-image {
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+    }
+
+    &-heading {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        .heading-content {
+            flex-grow: 1;
+
+            .title {
+                color: var(--dark);
+            }
+
+            .description {
+                color: var(--gray-7);
+                margin-block-start: 4px;
+                @include line-clamp(1);
+            }
+        }
+
+        @media #{$xs} {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    &-visualization {
+        height: 100%;
+        background: linear-gradient(90deg, #4b39b3, #d34877) left/0% 100% no-repeat,
+            rgba(16, 18, 33, 0.2) right/100% 100% no-repeat;
+        @include mask-image("../../assets/images/home-9/audio/audio-visualize-mask.webp");
+    }
+
+    &-controls {
+        @include flex-center(inline-flex);
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+
+        .cdx-audio-play-button {
+            @include square-element(60px, 50%);
+            @include flex-center(inline-flex);
+            border: 2px solid var(--dark);
+            background: var(--yellow-4);
+            position: relative;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+
+            .state-icon {
+                margin-inline-end: -4px;
+                position: relative;
+                z-index: 1;
+                transition: all 0.3s ease;
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(95deg, #4038b7 0%, #e24a70 100%);
+                border-radius: 50%;
+                transform: scale(0);
+                z-index: 0;
+                transition: all 0.3s ease;
+            }
+
+            &:hover,
+            &.playing {
+                color: #fff;
+                border-color: transparent;
+                box-shadow: 0px 4px 6px 0px rgba(16, 18, 33, 0.24);
+
+                img {
+                    filter: invert(100%) brightness(200%);
+                }
+
+                &::before {
+                    transform: scale(1.1);
+                }
+            }
+
+            .pause-icon {
+                display: none !important;
+            }
+
+            &.playing {
+                .play-icon {
+                    display: none !important;
+                }
+
+                .pause-icon {
+                    display: block !important;
+                }
+            }
+
+            @media #{$sm} {
+                @include square-element(50px, 50%);
+
+                .img {
+                    @include square-element(14px);
+                }
+            }
+        }
+    }
+}

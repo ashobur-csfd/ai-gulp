@@ -1,0 +1,39 @@
+.cdx-progress-bar-2 {
+	height: 4px;
+	background-color: var(--white);
+	.cdx-line {
+		height: 4px;
+		max-width: calc(100% - 28px);
+		min-width: 0%;
+		background: linear-gradient(
+			90deg,
+			#9a20df 0%,
+			#2467d0 53.68%,
+			#1fc042 100%
+		);
+		position: relative;
+		.cdx-value {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 100%;
+			color: #fff;
+			font-size: 14px;
+			font-weight: 700;
+			width: 28px;
+			height: 28px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-shrink: 0;
+			border-radius: 30px;
+			border: 2px solid #fff;
+			background: linear-gradient(
+				90deg,
+				#9a20df 0%,
+				#2467d0 53.68%,
+				#1fc042 100%
+			);
+		}
+	}
+}

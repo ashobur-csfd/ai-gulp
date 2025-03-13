@@ -1,0 +1,90 @@
+/*=========================
+    HERO CSS TEN
+==========================*/
+.cdx-hero-area-10 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px 200px;
+    position: relative;
+    border-radius: 60px;
+    background-color:  var(--white);
+    margin: -36px 60px 0px;
+    border-radius: 60px;
+    overflow: hidden;
+    .cdx-section-title-lg { 
+        padding: 10px 102px 20px;
+    }
+    .cdx-hero-wrap {
+        text-align: center;
+    }
+  
+    .cdx-section-content-4 {
+        color: rgba(16, 18, 33, 0.60);
+        max-width: 600px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .cdx-shape-3 {
+        position: absolute;
+        bottom: 1%;
+        left: 2%;
+    }
+
+    .cdx-shape-2 {
+        position: absolute;
+        top: 37%;
+        right: 8%;
+    }
+
+    .cdx-shape-1 {
+        position: absolute;
+        bottom: 31%;
+        left: 23%;
+    }
+}
+
+// cdx-subtext-content
+.cdx-subtext-content { 
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 6px 6px 15px;
+    border-radius: 100px;
+    border: 1px solid rgba(16, 18, 33, 0.14);
+    background-color: var(--white);
+    .cdx-section-content {
+        color: rgba(16, 18, 33, 0.70);
+    } 
+}
+
+// cdx-search-form-style-3
+.cdx-search-form-style-3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 30px;
+    border-radius: 100px;
+    border: 1px solid rgba(16, 18, 33, 0.14);
+    background-color: var(--white);
+    .cdx-search-input { 
+        display: block;
+        width: 100%;
+        border: 0;
+        outline: 0;
+        &:focus {
+            border: 0;
+        }
+        color: var(--dark);
+        &::placeholder {
+             color: rgba(16, 18, 33, 0.60); 
+            font-size: 16px; 
+            font-weight: 500; 
+            letter-spacing: -0.32px;
+        }
+    }
+    .cdx-btn-gradient-4 { 
+        padding: 14px 48px 14px 30px; 
+    }
+}

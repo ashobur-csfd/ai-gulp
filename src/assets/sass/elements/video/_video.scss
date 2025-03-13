@@ -1,0 +1,79 @@
+/*=========================
+    VIDEO CSS
+==========================*/
+.cdx-video-item {
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 280px 50px;
+
+	@media #{$lg} {
+		padding: 200px 50px;
+	}
+	@media #{$md} {
+		padding: 150px 50px;
+	}
+	@media #{$sm} {
+		padding: 100px 50px;
+	}
+	@media #{$xs} {
+		padding: 75px 50px;
+	}
+	.cdx-btn-video-2 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+.cdx-video-tabs {
+	display: flex;
+	align-items: stretch;
+	gap: 30px;
+	overflow: auto;
+
+	@media #{$md} {
+		gap: 20px;
+	}
+	.cdx-tab-btn {
+		border: 1px solid rgba(255, 255, 255, 0.14);
+		background-color: var(--dark-3);
+		box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.1) inset;
+		transition: var(--transition);
+		padding: 30px 30px 50px 30px;
+		min-width: 220px;
+
+		@media #{$lg} {
+			padding: 20px 20px 40px 20px;
+		}
+
+		&:hover,
+		&.active {
+			border: 1px solid var(--yellow-3);
+		}
+	}
+	.cdx-section-title-sm {
+		display: block;
+		padding: 30px 0px 12px;
+		@media #{$lg} {
+			padding: 20px 0px 12px;
+		}
+	}
+}
+
+// Custom tab css
+.cdx-tab-contents {
+}
+
+.cdx-tab-item {
+	display: none;
+	&.active {
+		display: block;
+	}
+}
+
+// .cdx-tab-btn {
+//     &.active {
+//         border: 1px solid var(--yellow-3);
+//     }
+// }

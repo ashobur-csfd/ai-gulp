@@ -1,0 +1,178 @@
+/*=========================
+   SECTION HEADNG & CONTENT CSS
+==========================*/
+@mixin cdx-section-title {
+	color: var(--white);
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 1.3;
+	@media #{$xl} {
+		font-size: 45px;
+	}
+	@media #{$lg} {
+		font-size: 40px;
+	}
+	@media #{$md} {
+		font-size: 36px;
+	}
+	@media #{$sm} {
+		font-size: 32px;
+	}
+	.title-mark {
+		background: var(--bg-gradient);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	.title-mark-2 {
+		background: var(--bg-gradient-2);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
+
+.cdx-section-title-lg {
+	color: var(--dark);
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 1.2;
+	letter-spacing: -2px;
+	.title-mark {
+		background: linear-gradient(90deg, #d85fd6 0%, #5926b0 100%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
+
+.cdx-section-title {
+	@include cdx-section-title;
+}
+
+.cdx-section-title-dark {
+	@include cdx-section-title;
+	color: var(--dark);
+}
+.cdx-section-title.cdx-dark {
+	@include cdx-section-title;
+	color: var(--dark);
+}
+.cdx-section-title-2 {
+	@include cdx-section-title;
+	background: linear-gradient(191deg, #fff 21.22%, #999 92.49%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@mixin cdx-section-heading {
+	color: var(--white);
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.3;
+	display: inline-block;
+}
+
+.cdx-section-title-xxs {
+	@include cdx-section-heading;
+}
+.cdx-section-title-xs {
+	@include cdx-section-heading;
+	font-size: 20px;
+}
+.cdx-section-title-xs.text-gray {
+	@include cdx-section-heading;
+	font-size: 20px;
+	color: var(--dark);
+}
+
+.cdx-section-title-sm {
+	@include cdx-section-heading;
+	font-size: 24px;
+	@media #{$lg} {
+		font-size: 20px;
+	}
+}
+.cdx-section-title-md {
+	@include cdx-section-heading;
+	font-size: 26px;
+	letter-spacing: -0.52px;
+}
+
+// Section content
+@mixin cdx-section-content {
+	color: var(--gray-3);
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.cdx-section-content {
+	@include cdx-section-content;
+}
+
+.cdx-section-content-xs {
+	@include cdx-section-content;
+	font-size: 12px;
+}
+.cdx-section-content-2 {
+	@include cdx-section-content;
+	font-size: 15px;
+
+	@media #{$lg} {
+		font-size: 14px;
+	}
+}
+.cdx-section-content-2.text-gray {
+	@include cdx-section-content;
+	font-size: 15px;
+	color: var(--gray-7);
+}
+
+.cdx-section-content-3 {
+	@include cdx-section-content;
+	font-size: 16px;
+}
+.cdx-section-content-3.text-gray {
+	@include cdx-section-content;
+	color: var(--gray-7);
+}
+
+.cdx-section-content-4 {
+	@include cdx-section-content;
+	font-size: 18px;
+
+	@media #{$md} {
+		font-size: 16px;
+	}
+}
+
+.cdx-section-content-5 {
+	@include cdx-section-content;
+	font-size: 20px;
+	color: var(--gray-1);
+	@media #{$md} {
+		font-size: 18px;
+	}
+	@media #{$sm} {
+		font-size: 16px;
+	}
+}
+
+// cdx-section-subtext
+.cdx-section-subtext {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	border-radius: 100px;
+	border: 1px solid rgba(16, 18, 33, 0.14);
+	padding: 8px 20px;
+	background-color: var(--white);
+	.cdx-section-content-2 {
+		color: rgba(16, 18, 33, 0.7);
+		font-size: 15px;
+		font-weight: 500;
+		letter-spacing: -0.3px;
+	}
+}

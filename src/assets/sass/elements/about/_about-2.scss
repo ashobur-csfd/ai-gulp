@@ -1,0 +1,27 @@
+/*=========================
+    ABOUT CSS
+==========================*/
+
+.cdx-about-area-2 {
+    .cdx-img-2 {
+        position: absolute;
+        top: 20px;
+        left: -14px;
+        @media #{$sm} {
+            left: 0px;
+        }
+    } 
+    .cdx-shape {
+        position: absolute;
+        bottom: -31%;
+        left: -33px;
+        z-index: -1;
+        @media #{$md} {
+         display: none;
+        }
+    }
+    .cdx-section-content-2 {
+        padding: 40px 0px 40px;
+        
+    }
+}

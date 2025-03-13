@@ -1,0 +1,39 @@
+/*=========================
+   HEADER CSS ONE
+==========================*/
+
+.navbar-area {
+    position: relative;
+    z-index: 9;
+    margin-top: 40px;
+    padding: 5px 85px; 
+    border-top: 1px solid;
+    border-image-slice: 1;
+    border-width: 1px; 
+    border-image-source: linear-gradient(85deg, #E3B419 0%, #23E173 50.5%, #27A1ED 100%); 
+    @media #{$xxl} {
+        padding: 5px 5px; 
+    }
+    @media #{$xl} {
+        padding: 5px 5px; 
+    }
+    @media #{$md} {
+        border-width: 0px; 
+    }
+    .btn-gradient-border { 
+        padding: 10px 30px 10px; 
+    }
+    .navbar {
+        padding-bottom: 15px;
+        margin-top: -16px;
+    }
+    .navbar-top {
+        transform: translate(0px, -37px);
+        .text {
+            color: var(--gray-3); 
+            font-size: 15px; 
+            font-weight: 500; 
+        }
+    } 
+   
+}

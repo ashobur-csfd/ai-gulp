@@ -1,0 +1,57 @@
+/*=========================
+  CONTAACT SEVEN
+==========================*/
+.cdx-contact-area-7 {
+    background: linear-gradient(90deg, #C7D092 -6%, rgb(255, 255, 255) 54%, rgb(109, 177, 220));
+    .cdx-contact-img {
+        padding: 30px  0px 0px 100px;
+        @media #{$lg} {
+            padding: 0px; 
+            text-align: center;
+        }
+    }
+    .cdx-contact-tab {
+        padding-top: 45px;
+    }
+    .cdx-img-wrap {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .cdx-img-menu {
+       display: flex;
+       justify-content: center;
+    }
+    .menu-list { 
+        margin-left: -5px ;
+    }
+    .cdx-img {
+        border-radius: 17px;
+    }
+    .cdx-section-title.cdx-dark {
+        font-size: 70px;
+        padding: 20px 0px 40px;
+        @media #{$lg} {
+            font-size: 55px;  
+        }
+        @media #{$lg} {
+            font-size: 50px; 
+        }
+        @media #{$lg} {
+            font-size: 50px; 
+            padding: 10px 0px 20px; 
+        }
+    }
+    .form-group {
+        @media #{$md} {
+            border: none;
+            padding: 0px;
+        }
+    }  
+    .form-control {
+        @media #{$md} {
+            border: 1px solid rgba(16, 18, 33, 0.4);
+            overflow: hidden;
+        }
+    }     
+}

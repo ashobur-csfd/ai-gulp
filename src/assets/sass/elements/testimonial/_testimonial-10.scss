@@ -1,0 +1,51 @@
+/*=========================
+    TESTIMONIAL CSS TEN
+==========================*/
+.cdx-testimonial-item-10 {
+    .cdx-top-item { 
+        background-repeat: no-repeat;
+        background-position-x: 30px;
+        background-position-y: 47px; 
+        border-radius: 30px 30px 30px 0px;
+        border: 1px solid rgba(16, 18, 33, 0.14);
+        background-color: var(--white);
+        padding: 50px 80px 50px 90px;
+        margin-bottom: 15px;
+        .cdx-title {
+            color: var(--dark); 
+            font-size: 18px; 
+            font-weight: 500; 
+            line-height: 1.2;
+            letter-spacing: -0.36px;
+            padding: 15px 0px;
+        }
+        .cdx-section-content-2 {
+            color: rgba(16, 18, 33, 0.60); 
+        }
+    }
+}
+
+// cdx-imgbox-style-2
+.cdx-imgbox-style-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .cdx-thumb-wrap {
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        overflow: hidden;
+    }
+    .cdx-name {
+        color: var(--dark); 
+        font-size: 16px; 
+        font-weight: 700;  
+    }
+    .cdx-designation {
+        color: rgba(16, 18, 33, 0.60); 
+        font-size: 14px; 
+        font-weight: 500;
+        line-height: 22px;
+        text-transform: uppercase;
+    }
+}

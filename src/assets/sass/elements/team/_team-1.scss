@@ -1,0 +1,190 @@
+/*=========================
+    TEAM CSS
+==========================*/
+
+.cdx-team-area {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid var(--gray-4);
+    @media #{$xxl} {
+        border-bottom: 0px solid var(--gray-4);
+    }
+    @media #{$md} {
+        border-bottom: 1px solid var(--gray-4);
+    }
+    .cdx-team-top {
+        padding-left: 135px;
+        padding-right: 360px;
+        border-bottom: 1px solid var(--gray-4);
+        margin-bottom: 60px;
+        @media #{$xxl} {
+            padding-left: 20px;
+            padding-right: 20px;
+        } 
+        @media #{$sm} {
+            margin-bottom: 150px;
+        }
+    }
+    .navigation-wrap { 
+        position: absolute;
+        top: 32%;
+        left: 6.3%;
+        @media #{$xxl} {
+            top: 31%;
+            left: 0.5%;
+        }
+        @media #{$xl} {
+            top: 32%;
+        }
+        @media #{$md} {
+            top: 31%;
+        }
+        @media #{$sm} {
+            top: 290px;
+        }
+    }
+    .cdx-section-content { 
+        padding-top: 70px;
+        @media #{$md} {
+            padding-top: 0px;
+        }
+    } 
+    .title-mark {
+        @media #{$xl} {
+            display: block;
+        } 
+    }
+    
+}
+
+.cdx-team-slider {
+    margin-left: 395px;
+    @media #{$xxl} {
+        margin-left: 200px;
+    }
+    @media #{$sm} {
+        margin-left: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+}
+
+.cdx-team-item.swiper-slide-active {
+    opacity: 1;
+    pointer-events: unset; 
+}
+
+.cdx-team-item {
+    opacity: 0.4;
+    pointer-events: none;
+    @media #{$xxxl} {
+        width: 650px !important;
+    } 
+    .title-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+    .thumb-wrap {   
+        width: 410px;
+        height: 380px;
+        background: linear-gradient(85deg, rgba(227, 180, 25, 0.10) 0%, rgba(35, 225, 115, 0.10) 50.5%, rgba(39, 161, 237, 0.10) 100%);
+        border: 1px solid;
+        border-image-slice: 1;
+        border-width: 1px; 
+        border-image-source: linear-gradient(85deg, #E3B419 0%, #23E173 50.5%, #27A1ED 100%);
+        padding: 30px;
+        text-align: center;
+        margin: 0 auto;
+        @media #{$xxl} {
+            width: 400px;
+        }
+        @media #{$xl} {
+            width: 385px;
+        }
+        .thumb {
+            width: auto;
+            height: 100%;
+            @media #{$sm} {
+                width: 100%;
+            }
+        }
+        @media #{$sm} {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .cdx-team-btm {
+        padding-top: 35px;
+    }
+    .team-icon-wrap {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        position: relative; 
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 50px; 
+            padding: 1px;  ;
+            background:linear-gradient(85deg, #E3B419 0%, #23E173 50.5%, #27A1ED 100%); 
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;  
+        }
+    }
+    
+    .name {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        color: var(--white); 
+        font-size: 20px; 
+        font-weight: 500; 
+        line-height: 1;
+    }
+    .designation {
+        display: block;
+        color: var(--gray-2); 
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500; 
+        padding-left: 16px;
+    }
+    .discription {
+        color: var(--gray-3); 
+        font-size: 18px; 
+        font-weight: 500; 
+        opacity: 0;
+    }
+    .bio-text {
+        color: var(--gray-3); 
+        font-size: 18px; 
+        font-weight: 500; 
+        padding-left: 6px;
+    }
+    .plus-icon {
+        transition: var(--transition);
+    }
+    .bio-text {
+        transition: var(--transition);
+    }
+    .show {
+        .discription {
+            opacity: 1;
+        }
+        .plus-icon {
+            transform: rotate(45deg);
+        }
+        .bio-text {
+            opacity: 0;
+        }
+    }
+}
