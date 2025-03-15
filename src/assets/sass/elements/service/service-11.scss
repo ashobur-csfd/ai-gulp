@@ -1,0 +1,56 @@
+/*=========================
+    SERVICE CSS ELEVEN
+==========================*/
+.cdx-service-area-11 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cdx-service-card-11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex: 1;
+    border-top: 1px solid rgba(16, 18, 33, 0.14);
+    padding: 20px 10px;
+
+    &:not(:last-child) {
+        border-right: 1px solid rgba(16, 18, 33, 0.14);
+    }
+
+    @media #{$sm} {
+        padding: 15px 10px;
+    }
+    .cdx-icon {
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(231, 234, 250, 1);
+        border: 1px solid rgba(16, 18, 33, 0.14);
+
+        @media #{$sm} {
+            width: 50px;
+            height: 50px;
+            padding: 13px;
+        }
+    }
+    .cdx-content {
+        .cdx-text {
+            color: #101221;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1;
+            @media #{$sm} {
+                font-size: 18px;
+            }
+            @media #{$xs} {
+                font-size: 16px;
+            }
+        }
+    }
+}
