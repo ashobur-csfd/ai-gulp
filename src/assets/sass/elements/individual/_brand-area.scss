@@ -1,13 +1,69 @@
 .cdx-brand-area {
-    background-image: url("../../assets/images/home-8/hero/hero-bg.svg");
-    padding: 232px 0px 210px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    padding: 100px 0px 150px;
+    overflow: hidden;
+    position: relative;
+
+    @media #{$lg} {
+        padding: 80px 0px 100px;
+    }
+    @media #{$md} {
+        padding: 50px 0px 60px;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: url("../../assets/images/home-8/hero/hero-bg.svg");
+        opacity: 0.8;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        top: 0;
+        left: 0;
+    }
     .cdx-icon-wrap {
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        padding-right: 50px;
+
+        @media #{$md} {
+            justify-content: center;
+            padding-right: 0;
+        }
+        @media #{$sm} {
+            justify-content: flex-start;
+            position: absolute;
+            left: 30px;
+        }
+        .cdx-icon-shape {
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 118px;
+                left: 50%;
+                width: 4px;
+                height: 170px;
+                background: #e3e6f2;
+                transform: translateX(-50%);
+                @media #{$xl} {
+                    height: 160px;
+                }
+                @media #{$lg} {
+                    height: 90px;
+                }
+                @media #{$md} {
+                    height: 60px;
+                }
+                @media #{$sm} {
+                    display: none;
+                }
+            }
+        }
         .cdx-icon-ai {
             background: #fff;
             filter: drop-shadow(0px 10px 10px rgba(16, 18, 33, 0.4));
@@ -21,6 +77,13 @@
             border-radius: 50%;
             position: relative;
             z-index: 1;
+
+            @media #{$xs} {
+                width: 60px;
+                height: 60px;
+                padding: 18px;
+            }
+
             &::before {
                 content: "";
                 position: absolute;
@@ -45,6 +108,207 @@
                 background: #fff;
                 z-index: -1;
             }
+        }
+    }
+}
+
+// cdx-brand-wrap
+.cdx-brand-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 34px;
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 220px 20px 0px 20px;
+
+    @media #{$xl} {
+        gap: 20px;
+    }
+    @media #{$lg} {
+        padding: 160px 20px 0px 20px;
+    }
+    @media #{$md} {
+        padding: 120px 20px 0px 20px;
+    }
+    @media #{$sm} {
+        flex-direction: column;
+        padding: 0px 20px 0px 200px;
+        margin-top: -16px;
+    }
+    @media #{$xs} {
+        padding: 0px 20px 0px 120px;
+    }
+}
+
+// cdx-brand-item
+.cdx-brand-item {
+    border: 1px solid rgba(16, 18, 33, 0.14);
+    background: #fff;
+    padding: 30px 14px;
+    text-align: center;
+    flex: 1;
+    height: fit-content;
+    max-width: 300px;
+    position: relative;
+    @media #{$sm} {
+        max-width: 100%;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -82px;
+        left: 50%;
+        width: 4px;
+        height: 82px;
+        background: #e3e6f2;
+        transform: translateX(-50%);
+
+        @media #{$md} {
+            height: 60px;
+            top: -60px;
+        }
+        @media #{$sm} {
+            top: 0;
+            left: -120px;
+            height: 100%;
+            width: 4px;
+        }
+        @media #{$xs} {
+            top: 0;
+            left: -60px;
+        }
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        top: -82px;
+        left: 50%;
+        width: calc(100% + 40px);
+        height: 4px;
+        background: #e3e6f2;
+        transform: translateY(-50%);
+
+        @media #{$md} {
+            top: -60px;
+        }
+        @media #{$sm} {
+            top: 50%;
+            left: -120px;
+            width: 120px;
+        }
+        @media #{$xs} {
+            top: 50%;
+            left: -60px;
+            width: 60px;
+        }
+    }
+
+    &:nth-child(even) {
+        margin-top: 70px;
+        max-width: 240px;
+        @media #{$sm} {
+            margin-top: 0;
+            max-width: 100%;
+        }
+        &::before {
+            top: -152px;
+            height: 152px;
+
+            @media #{$md} {
+                height: 130px;
+                top: -130px;
+            }
+            @media #{$sm} {
+                top: 0;
+                left: -120px;
+            }
+        }
+        &::after {
+            top: -152px;
+            height: 4px;
+            width: calc(100% + 65px);
+
+            @media #{$md} {
+                top: -130px;
+            }
+            @media #{$sm} {
+                top: 50%;
+                left: -120px;
+                width: 120px;
+            }
+            @media #{$xs} {
+                left: -60px;
+                width: 60px;
+            }
+        }
+    }
+    &:nth-child(odd) {
+        &::before {
+            @media #{$sm} {
+                height: 200%;
+            }
+        }
+    }
+
+    /* Select the last child of an even element */
+    &:nth-child(4) {
+        /* Your styles here */
+        &::after {
+            display: none;
+            @media #{$sm} {
+                display: inherit;
+            }
+        }
+    }
+
+    &:last-child {
+        &::after {
+            // display: none;
+            left: calc(-50% + -40px);
+
+            @media #{$sm} {
+                left: -120px;
+            }
+            @media #{$xs} {
+                left: -60px;
+            }
+        }
+        &::before {
+            @media #{$sm} {
+                top: -50%;
+                height: 100%;
+            }
+        }
+    }
+    &:first-child {
+        &::before {
+            @media #{$sm} {
+                top: 50%;
+            }
+        }
+    }
+    .cdx-icon-thumb {
+        width: 54px;
+        height: 54px;
+        flex-shrink: 0;
+        margin: 0 auto 24px auto;
+        @media #{$md} {
+            width: 40px;
+            height: 40px;
+            margin: 0 auto 16px auto;
+        }
+    }
+    .cdx-brand-text {
+        color: #101221;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: -0.4px;
+        @media #{$lg} {
+            font-size: 18px;
+        }
+        @media #{$md} {
+            font-size: 16px;
         }
     }
 }

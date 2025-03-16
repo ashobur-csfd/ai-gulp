@@ -1,0 +1,190 @@
+.cdx-pattern-item {
+    border: 1px solid rgba(16, 18, 33, 0.14);
+    background: var(--white-7);
+    position: relative;
+    z-index: -2;
+    align-items: center;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: -44px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../../assets/images/home-8/icon/shape-1.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+        vertical-align: middle;
+        z-index: -1;
+        max-width: 584px;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../../assets/images/home-8/icon/shape-2.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+        vertical-align: middle;
+        max-width: 584px;
+        z-index: -1;
+    }
+    .cdx-track-left {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        position: relative;
+        padding: 70px 80px;
+
+        @media #{$md} {
+            padding: 50px 20px;
+        }
+        @media #{$xs} {
+            gap: 20px;
+        }
+        .img-1 {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            background: #fff;
+            box-shadow: 0px 20px 60px 0px rgba(10, 9, 15, 0.3);
+
+            @media #{$xs} {
+                position: inherit;
+                transform: none;
+                width: 100%;
+            }
+        }
+        .img-2 {
+            background: #fff;
+            box-shadow: 0px 20px 60px 0px rgba(10, 9, 15, 0.3);
+            max-width: 330px;
+            @media #{$xs} {
+                max-width: 100%;
+            }
+        }
+
+        .img-3 {
+            max-width: 285px;
+            background: #fff;
+            box-shadow: 0px 20px 60px 0px rgba(10, 9, 15, 0.3);
+            @media #{$xs} {
+                max-width: 100%;
+            }
+        }
+    }
+
+    .cdx-track-right {
+        padding-left: 50px;
+
+        @media #{$md} {
+            padding-left: 20px;
+            padding-bottom: 50px;
+        }
+        .cdx-section-title {
+            font-weight: 700;
+        }
+    }
+}
+
+.cdx-track-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 21px;
+    column-gap: 24px;
+    .cdx-track-text {
+        color: var(--gray-11);
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 500;
+        position: relative;
+        padding-left: 22px;
+        line-height: 1;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0px;
+            width: 16px;
+            height: 16px;
+            background-image: url("../../assets/images/home-8/icon/checkbox.svg");
+        }
+    }
+}
+
+.cdx-pattern-item-grid {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    @media #{$md} {
+        grid-template-columns: 1fr;
+    }
+}
+.cdx-pattern-item-2 {
+    .cdx-pattern-warp {
+        background: var(--white-7);
+        .cdx-section-title {
+            padding: 60px;
+            color: var(--dark);
+            font-size: 44px;
+            font-weight: 700;
+            line-height: 50px;
+        }
+    }
+}
+.cdx-pattern-item-3 {
+    .cdx-pattern-warp {
+        background: var(--white-7);
+    }
+}
+
+.cdx-services-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.cdx-service-card-12 {
+    background: var(--white);
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+
+    .icon-wrapper {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--white-7);
+        border-radius: 8px;
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    span {
+        font-size: 16px;
+        font-weight: 500;
+        color: #333;
+    }
+}
