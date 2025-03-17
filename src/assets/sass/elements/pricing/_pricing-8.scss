@@ -1,0 +1,98 @@
+/*=========================
+    PRICING CSS EIGHT
+==========================*/
+
+.cdx-pricing-area-8 {
+    .cdx-pricing-btn {
+       padding-left: 351px;
+       @media #{$xl} {
+        padding-left: 267px;
+       }
+       @media #{$lg} {
+        padding-left: 175px;
+       }
+       @media #{$md} {
+        padding-left: 0px;
+       }
+    }
+    .cdx-pricing-tab-nav {
+        border-radius: 0px;
+    }
+    .cdx-pricing-tab-btn {
+        border-radius: 0px;
+    }
+}
+.cdx-pricing-card-8 {
+    border: 1px solid rgba(16, 18, 33, 0.14);
+    .cdx-pricing-top {
+        background-color: #E7EAFA;
+        padding: 34px;
+        position: relative;  
+       
+        .cdx-price {
+            color: var(--dark);
+            font-size: 40px;
+            font-weight: 700;
+        }
+        .cdx-subscription {
+            color: rgba(16, 18, 33, 0.70);
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 25px; 
+            align-items: end;
+        }
+        .cdx-btn-effect {
+            padding: 0px 107px;
+            @media #{$xl} {
+                padding: 0px 77px;   
+            }
+            @media #{$lg} {
+                padding: 0px 47px;   
+            }
+        }
+        .cdx-price-wrap {
+            display: flex;
+            align-items: end;
+            padding: 30px 0px 20px;
+        }
+        .cdx-title-wrap {
+            position: absolute;
+            top: 0%;
+            left: 9%;
+            gap: 6px;
+            display: flex;
+            background: linear-gradient(180deg, rgb(99, 116, 225) 0%, rgb(34, 53, 173) 100%);
+            box-shadow: 0px 10px 14px 0px rgba(34, 53, 173, 0.30);
+            justify-content: center;
+            align-items: center;
+            padding: 7px 16px;
+        }
+        .cdx-title {
+            color: var(--white);
+            font-size: 15px;
+            line-height: 1.2; 
+            letter-spacing: -0.3px;
+            text-transform: uppercase;
+        }
+    }
+        .cdx-list {
+            border-top: 1px solid rgba(16, 18, 33, 0.14);
+            padding: 40px 0px 45px 46px;         
+            .cdx-list-item {
+                color: rgba(16, 18, 33, 0.70);
+                font-size: 14px;
+                line-height: 1.3; 
+                position: relative;
+                &::before {
+                    position: absolute;
+                    top:6px;
+                    left: -15px;
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 100px;
+                    background-color: var(--dark);
+                    content: ""; 
+                }
+            }
+    }  
+}

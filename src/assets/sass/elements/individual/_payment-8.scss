@@ -1,0 +1,45 @@
+/*=========================
+   PAYMENT EIGHT
+==========================*/
+
+.payment-area-8 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    .swiper-wrapper {
+        transition-timing-function: linear;
+    }
+    .payment-card-8 {
+        border: 1px solid rgba(16, 18, 33, 0.14);
+        background: #fff;
+        padding: 40px 0px 30px;
+
+        .bank-payment {
+            padding: 0px 30px;
+        }
+        .cdx-section-content-2.text-gray {
+            padding: 10px 0px 30px;
+        }
+        .cdx-img-wrap {
+            max-width: 240px;
+            overflow: hidden;
+            .cdx-img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .cdx-online-payment {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 0px 30px;
+            .cdx-payment-box {
+                text-align: center;
+                border: 1px solid rgba(16, 18, 33, 0.14);
+                background: #fff;
+                max-width: 110px;
+                padding: 6px;
+            }
+        }
+    }
+}

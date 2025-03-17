@@ -6009,6 +6009,93 @@ li.voice-badge {
 }
 
 /*=========================
+    BLOG CSS EIGHT
+==========================*/
+.cdx-blog-area-8 .cdx-section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .cdx-blog-area-8 .cdx-section-heading {
+        display: block;
+    }
+}
+
+.cdx-blog-area-8 .cdx-section-title.cdx-dark, .cdx-blog-area-8 .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-dark.cdx-price, .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-blog-area-8 .cdx-dark.cdx-price {
+    max-width: 565px;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    .cdx-blog-area-8 .cdx-section-title.cdx-dark, .cdx-blog-area-8 .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-dark.cdx-price, .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-blog-area-8 .cdx-dark.cdx-price {
+        padding-bottom: 15px;
+    }
+}
+
+.cdx-blog-item-8 {
+    max-width: 410px;
+    margin: 0 auto;
+    transition: var(--transition);
+}
+
+.cdx-blog-item-8:hover .cdx-thumb {
+    transform: scale(1.1);
+}
+
+.cdx-blog-item-8:hover .cdx-section-title-xs.text-gray, .cdx-blog-item-8:hover .cdx-pricing-card-9 .cdx-pricing-card-header .text-gray.pricing-title, .cdx-pricing-card-9 .cdx-pricing-card-header .cdx-blog-item-8:hover .text-gray.pricing-title {
+    color: #55ED6C;
+}
+
+.cdx-blog-item-8 .cdx-thumb {
+    transition: var(--transition);
+    width: 100%;
+    height: 100%;
+}
+
+.cdx-blog-item-8 .cdx-thumb-wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.cdx-blog-item-8 .cdx-top {
+    padding-bottom: 10px;
+}
+
+.cdx-blog-item-8 .cdx-btn-wrap {
+    color: var(--dark);
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #55ED6C;
+    gap: 8px;
+    padding: 8px 14px;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+}
+
+.cdx-blog-item-8 .cdx-bottom {
+    padding-top: 15px;
+    background-color: #E7EAFA;
+    padding-left: 30px;
+}
+
+.cdx-blog-item-8 .cdx-btn-text {
+    color: var(--dark);
+    font-size: 15px;
+}
+
+.cdx-blog-item-8 .cdx-card-action {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 40px;
+    gap: 8px;
+}
+
+/*=========================
     BLOG CSS TEN
 ==========================*/
 .cdx-blog-item-10 {
@@ -9382,6 +9469,129 @@ li.voice-badge {
     }
 }
 /*=========================
+    PRICING CSS EIGHT
+==========================*/
+.cdx-pricing-area-8 .cdx-pricing-btn {
+    padding-left: 351px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .cdx-pricing-area-8 .cdx-pricing-btn {
+        padding-left: 267px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .cdx-pricing-area-8 .cdx-pricing-btn {
+        padding-left: 175px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .cdx-pricing-area-8 .cdx-pricing-btn {
+        padding-left: 0px;
+    }
+}
+
+.cdx-pricing-area-8 .cdx-pricing-tab-nav {
+    border-radius: 0px;
+}
+
+.cdx-pricing-area-8 .cdx-pricing-tab-btn {
+    border-radius: 0px;
+}
+
+.cdx-pricing-card-8 {
+    border: 1px solid rgba(16, 18, 33, 0.14);
+}
+
+.cdx-pricing-card-8 .cdx-pricing-top {
+    background-color: #E7EAFA;
+    padding: 34px;
+    position: relative;
+}
+
+.cdx-pricing-card-8 .cdx-pricing-top .cdx-price {
+    color: var(--dark);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cdx-pricing-card-8 .cdx-pricing-top .cdx-subscription {
+    color: rgba(16, 18, 33, 0.7);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    align-items: end;
+}
+
+.cdx-pricing-card-8 .cdx-pricing-top .cdx-btn-effect {
+    padding: 0px 107px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .cdx-pricing-card-8 .cdx-pricing-top .cdx-btn-effect {
+        padding: 0px 77px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .cdx-pricing-card-8 .cdx-pricing-top .cdx-btn-effect {
+        padding: 0px 47px;
+    }
+}
+
+.cdx-pricing-card-8 .cdx-pricing-top .cdx-price-wrap {
+    display: flex;
+    align-items: end;
+    padding: 30px 0px 20px;
+}
+
+.cdx-pricing-card-8 .cdx-pricing-top .cdx-title-wrap {
+    position: absolute;
+    top: 0%;
+    left: 9%;
+    gap: 6px;
+    display: flex;
+    background: linear-gradient(180deg, rgb(99, 116, 225) 0%, rgb(34, 53, 173) 100%);
+    box-shadow: 0px 10px 14px 0px rgba(34, 53, 173, 0.3);
+    justify-content: center;
+    align-items: center;
+    padding: 7px 16px;
+}
+
+.cdx-pricing-card-8 .cdx-pricing-top .cdx-title {
+    color: var(--white);
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+}
+
+.cdx-pricing-card-8 .cdx-list {
+    border-top: 1px solid rgba(16, 18, 33, 0.14);
+    padding: 40px 0px 45px 46px;
+}
+
+.cdx-pricing-card-8 .cdx-list .cdx-list-item {
+    color: rgba(16, 18, 33, 0.7);
+    font-size: 14px;
+    line-height: 1.3;
+    position: relative;
+}
+
+.cdx-pricing-card-8 .cdx-list .cdx-list-item::before {
+    position: absolute;
+    top: 6px;
+    left: -15px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: var(--dark);
+    content: "";
+}
+
+/*=========================
  PRICING SEVEN
 ==========================*/
 .cdx-pricing-tab-nav {
@@ -10281,6 +10491,48 @@ li.voice-badge {
 
 .cdx-testimonial-item-7 .cdx-subtitle {
     color: var(--gray-7);
+}
+
+/*=========================
+    TESTIMONIAL CSS TWO
+==========================*/
+.cdx-testimonial-area-8 {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cdx-testimonial-area-8 .swiper-wrapper {
+    transition-timing-function: linear;
+}
+
+.cdx-testimonial-area-8 .cdx-section-heading {
+    max-width: 621px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.cdx-testimonial-area-8 .cdx-section-content-2, .cdx-testimonial-area-8 .cdx-pricing-tab-nav .cdx-pricing-tab-btn, .cdx-pricing-tab-nav .cdx-testimonial-area-8 .cdx-pricing-tab-btn, .cdx-testimonial-area-8 .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-price sub, .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-price .cdx-testimonial-area-8 sub {
+    color: rgba(16, 18, 33, 0.5);
+}
+
+.cdx-testimonial-area-8 .cdx-section-title.cdx-dark, .cdx-testimonial-area-8 .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-dark.cdx-price, .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-testimonial-area-8 .cdx-dark.cdx-price {
+    font-weight: 700;
+}
+
+.cdx-testimonial-area-8 .cdx-title {
+    color: var(--dark);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.cdx-testimonial-area-8 .cdx-subtitle {
+    color: var(--gray-7);
+}
+
+.cdx-testimonial-area-8 .cdx-testimonial-item-2 {
+    border: 1px solid #c9ccdc;
+    background-color: var(--white);
 }
 
 /*=========================
@@ -12043,7 +12295,7 @@ li.voice-badge {
     }
 }
 
-.cdx-language-support-area-1 .cdx-countries .cdx-country {
+.cdx-countries .cdx-country {
     height: 60px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(255, 255, 255, 0);
@@ -12053,17 +12305,26 @@ li.voice-badge {
     padding: 10px;
 }
 
-.cdx-language-support-area-1 .cdx-countries .cdx-country .cdx-country-name {
+.cdx-countries .cdx-country .cdx-country-name {
     color: #fff;
     font-size: 14px;
     font-weight: 500;
 }
 
-.cdx-language-support-area-1 .cdx-countries .swiper-wrapper {
+.cdx-countries .cdx-country.dark {
+    border: 1px solid rgba(16, 18, 33, 0.14);
+    background: #fff;
+}
+
+.cdx-countries .cdx-country.dark .cdx-country-name {
+    color: #101221;
+}
+
+.cdx-countries .swiper-wrapper {
     transition-timing-function: linear;
 }
 
-.cdx-language-support-area-1 .country-slider-reverse {
+.country-slider-reverse {
     margin-top: 20px;
 }
 
@@ -12634,8 +12895,46 @@ li.voice-badge {
     }
 }
 
+.cdx-pattern-item-2 {
+    position: relative;
+    overflow: hidden;
+    height: 570px;
+}
+
+.cdx-pattern-item-2::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    transform: translate(50%, 50%);
+    border-radius: 50%;
+    outline: 120px solid #dadef3;
+    width: 360px;
+    height: 360px;
+    max-width: 584px;
+    z-index: 1;
+    background: linear-gradient(180deg, #f4f6ff 0%, #e1e4f7 100%);
+}
+
+.cdx-pattern-item-2::after {
+    content: "";
+    position: absolute;
+    bottom: -40%;
+    right: 20%;
+    border-left: 1px solid rgba(255, 255, 255, 0.7333333333);
+    background: linear-gradient(70deg, rgba(255, 255, 255, 0.5) 14.58%, rgba(217, 172, 238, 0.5) 88.41%);
+    width: 160px;
+    height: 700px;
+    transform: rotate(58.927deg);
+    flex-shrink: 0;
+}
+
 .cdx-pattern-item-2 .cdx-pattern-warp {
-    background: var(--white-7);
+    background: linear-gradient(180deg, #e7eafa 0%, #dadef3 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .cdx-pattern-item-2 .cdx-pattern-warp .cdx-section-title, .cdx-pattern-item-2 .cdx-pattern-warp .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-price, .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-pattern-item-2 .cdx-pattern-warp .cdx-price {
@@ -12644,23 +12943,85 @@ li.voice-badge {
     font-size: 44px;
     font-weight: 700;
     line-height: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.cdx-pattern-item-3 {
+    position: relative;
+    overflow: hidden;
+}
+
+.cdx-pattern-item-3::before {
+    content: "";
+    position: absolute;
+    bottom: -230px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/images/home-8/icon/shape-3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    vertical-align: middle;
+    z-index: 1;
+    max-width: 584px;
+}
+
+.cdx-pattern-item-3 .cdx-slider-box {
+    rotate: -18deg;
+    top: 10;
+    position: absolute;
+    bottom: 100px;
+    width: 120%;
+    left: -50px;
+    z-index: 3;
+}
+
+.cdx-pattern-item-3 .cdx-slider-box .country-slider-reverse-2 {
+    margin: 10px 0;
 }
 
 .cdx-pattern-item-3 .cdx-pattern-warp {
+    height: 100%;
     background: var(--white-7);
 }
 
+.cdx-pattern-item-3 .cdx-pattern-warp .cdx-section-title, .cdx-pattern-item-3 .cdx-pattern-warp .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-price, .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-pattern-item-3 .cdx-pattern-warp .cdx-price {
+    padding: 60px;
+    color: var(--dark);
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 50px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.cdx-pattern-item-3 .cdx-pattern-warp .cdx-count {
+    color: rgba(16, 18, 33, 0.08);
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1;
+}
+
 .cdx-services-wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    z-index: 2;
 }
 
 .cdx-service-card-12 {
-    background: var(--white);
-    padding: 20px;
-    border-radius: 12px;
+    border: 1px solid #c9ccdc;
+    background: #fff;
+    padding: 10px 20px;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -12679,18 +13040,71 @@ li.voice-badge {
     align-items: center;
     justify-content: center;
     background: var(--white-7);
-    border-radius: 8px;
+    border-radius: 50%;
+    border: 1px solid rgba(16, 18, 33, 0.14);
 }
 
-.cdx-service-card-12 .icon-wrapper img {
+.cdx-service-card-12 .icon-wrapper .cdx-image {
     width: 20px;
     height: 20px;
 }
 
-.cdx-service-card-12 span {
+.cdx-service-card-12 .cdx-text {
+    color: #101221;
     font-size: 16px;
     font-weight: 500;
-    color: #333;
+    letter-spacing: -0.48px;
+}
+
+/*=========================
+   PAYMENT EIGHT
+==========================*/
+.payment-area-8 {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.payment-area-8 .swiper-wrapper {
+    transition-timing-function: linear;
+}
+
+.payment-area-8 .payment-card-8 {
+    border: 1px solid rgba(16, 18, 33, 0.14);
+    background: #fff;
+    padding: 40px 0px 30px;
+}
+
+.payment-area-8 .payment-card-8 .bank-payment {
+    padding: 0px 30px;
+}
+
+.payment-area-8 .payment-card-8 .cdx-section-content-2.text-gray, .payment-area-8 .payment-card-8 .cdx-pricing-tab-nav .text-gray.cdx-pricing-tab-btn, .cdx-pricing-tab-nav .payment-area-8 .payment-card-8 .text-gray.cdx-pricing-tab-btn, .payment-area-8 .payment-card-8 .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-price sub.text-gray, .cdx-pricing-card-9 .cdx-pricing-card-body .cdx-price .payment-area-8 .payment-card-8 sub.text-gray {
+    padding: 10px 0px 30px;
+}
+
+.payment-area-8 .payment-card-8 .cdx-img-wrap {
+    max-width: 240px;
+    overflow: hidden;
+}
+
+.payment-area-8 .payment-card-8 .cdx-img-wrap .cdx-img {
+    width: 100%;
+    height: 100%;
+}
+
+.payment-area-8 .payment-card-8 .cdx-online-payment {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0px 30px;
+}
+
+.payment-area-8 .payment-card-8 .cdx-online-payment .cdx-payment-box {
+    text-align: center;
+    border: 1px solid rgba(16, 18, 33, 0.14);
+    background: #fff;
+    max-width: 110px;
+    padding: 6px;
 }
 
 /* Client  */
@@ -13233,8 +13647,7 @@ li.voice-badge {
     .cdx-landing-tab-content {
         margin-block-start: 40px;
     }
-}
-/* Header  */
+} /* Header  */
 /*=========================
    HEADER CSS ONE
 ==========================*/

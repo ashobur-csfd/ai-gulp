@@ -9,7 +9,7 @@
     },
     "scripts": {
         "dev": "gulp watch",
-        "format": "prettier --write \"**/*.html\""
+        "format": "prettier --write \"**/*.html\" --ignore-path .prettierignoreCMD"
     },
     "lint-staged": {
         "*.html": "prettier --write"
