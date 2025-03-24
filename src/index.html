@@ -20,7 +20,7 @@
         <!-- Style CSS -->
         <link rel="stylesheet" href="assets/css/main.css" />
     </head>
-    <body class="body-bg">
+    <body class="body-bg-2">
         <!--==================== Preloader Start ====================-->
         <div id="loading">
             <div id="loading-center">
@@ -31,16 +31,13 @@
         </div>
         <!--==================== Preloader End ====================-->
         <!-- start header  -->
-        <header class="navbar-area">
-            <div class="navbar-top">
-                <p class="text text-center">Power of Artificial Intelligence - Special features for your services</p>
-            </div>
+        <header class="navbar-area-2">
             <div class="container-fluid">
                 <div class="navbar">
                     <a class="main-logo" href="index.html">
                         <img src="assets/images/home-1/logo/logo.svg" alt="img" />
                     </a>
-                    <nav class="navbar-menu">
+                    <nav class="navbar-menu d-xl-block d-lg-none">
                         <ul class="nav-menu">
                             <li class="menu-item menu-item-has-children">
                                 <a class="menu-link" href="#">Home</a>
@@ -77,23 +74,15 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="menu-item">
-                                <a class="menu-link" href="about.html">Solution</a>
-                            </li>
+                            <li class="menu-item"><a class="menu-link" href="about.html">Solution</a></li>
                             <li class="menu-item menu-item-has-children">
                                 <a class="menu-link" href="#">Pages</a>
                                 <ul class="sub-menu">
                                     <li><a class="submenu-link" href="about.html">About Us</a></li>
-                                    <li>
-                                        <a class="submenu-link" href="service.html">Service Page</a>
-                                    </li>
-                                    <li>
-                                        <a class="submenu-link" href="servie-details.html">Service Details Page</a>
-                                    </li>
+                                    <li><a class="submenu-link" href="service.html">Service Page</a></li>
+                                    <li><a class="submenu-link" href="servie-details.html">Service Details Page</a></li>
                                     <li><a class="submenu-link" href="blog.html">Blog Page</a></li>
-                                    <li>
-                                        <a class="submenu-link" href="blog-details.html">Blog Details</a>
-                                    </li>
+                                    <li><a class="submenu-link" href="blog-details.html">Blog Details</a></li>
                                     <li><a class="submenu-link" href="contact.html">Contact</a></li>
                                 </ul>
                             </li>
@@ -101,1022 +90,675 @@
                                 <a class="menu-link" href="#">Shop</a>
                                 <ul class="sub-menu">
                                     <li><a class="submenu-link" href="shop.html">Shop</a></li>
-                                    <li>
-                                        <a class="submenu-link" href="shop-detail.html">Shop Details</a>
-                                    </li>
+                                    <li><a class="submenu-link" href="shop-detail.html">Shop Details</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item menu-item-has-children">
                                 <a class="menu-link" href="#">Blog</a>
                                 <ul class="sub-menu">
                                     <li><a class="submenu-link" href="blog.html">Blog</a></li>
-                                    <li>
-                                        <a class="submenu-link" href="blog-details.html">Blog Details</a>
-                                    </li>
+                                    <li><a class="submenu-link" href="blog-details.html">Blog Details</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item">
-                                <a class="menu-link" href="contact.html">Contact Us</a>
-                            </li>
+                            <li class="menu-item"><a class="menu-link" href="contact.html">Contact Us</a></li>
                         </ul>
                     </nav>
-                    <div class="nav-right">
-                        <a class="btn-gradient-border" href="contact.html">Get in Touch</a>
+                    <div class="nav-right d-flex align-items-center gap-3">
+                        <a class="cdx-btn-underline" href="#">Sign in</a>
+                        <a class="cdx-btn-filled cdx-hover-corners" href="contact.html">
+                            <span class="cdx-btn-effect">Launch App</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </header>
 
-        <!-- Offcanvas area start  -->
-        <div class="offcanvas offcanvas-end" id="offcanvasRight">
-            <button type="button" class="offcanvas-icon" data-bs-dismiss="offcanvas" aria-label="Close">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
-                    ></path>
-                </svg>
-            </button>
-            <div class="offcanvas-inner">
-                <div class="offcanvas-body">
-                    <div class="mobile_menu_nav">
-                        <ul class="menu_list">
-                            <li class="menu-item menu-item-has-children">
-                                <a href="#">Home</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="index.html">Home 01</a></li>
-                                    <li class="menu-item">
-                                        <a href="index-2.html" aria-current="page">Home 02</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="index-3.html" aria-current="page">Home 03</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="index-4.html" aria-current="page">Home 04</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="about.html">About Us</a></li>
-                            <li class="menu-item menu-item-has-children">
-                                <a href="#">Service</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item">
-                                        <a href="service.html">Service List</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="service-details.html">Service Details</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-has-children">
-                                <a href="#">Pages</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item">
-                                        <a href="team.html">Team</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="team-details.html">Team Details</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="404.html">404</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-has-children">
-                                <a href="#">Blog</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item">
-                                        <a href="blog.html">Blog</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="blog-details.html">Blog Details</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item">
-                                <a href="contact.html">Conatct</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="offcanvas-bottom">
-                    <div class="offcanvas-copyright">
-                        <p class="mb-0 text-center">© Anthon 2024, Designed CodeXshaper</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Offcanvas area end  -->
-
         <!-- end header  -->
-        <main>
-            <!-- start hero area  -->
-            <section class="hero-area">
-                <div class="container line">
+        <main class="main">
+            <!-- Hero area start  -->
+            <section class="cdx-hero-area-2" style="background-image: url(assets/images/home-2/bg/hero-bg-2.webp)">
+                <div class="container">
                     <div class="row">
-                        <div class="col-xl-6 col-lg-6 g-0">
-                            <div class="hero-left">
-                                <span class="quote-icon gradient-border">
-                                    <img src="assets/images/home-1/icon/quote.png" alt="Icon" />
-                                </span>
-                                <!-- Slider  -->
-                                <div class="slider-wrap">
-                                    <div class="swiper hero-slider">
-                                        <div class="swiper-wrapper">
-                                            <!-- Slide  -->
-                                            <div class="swiper-slide">
-                                                <div class="hero-slide">
-                                                    <h2 class="content">Complete documentation & Support for themes accessible.</h2>
-                                                </div>
-                                            </div>
-                                            <!-- Slide  -->
-                                            <div class="swiper-slide">
-                                                <div class="hero-slide">
-                                                    <h2 class="content">Complete documentation & Support for themes accessible.</h2>
-                                                </div>
-                                            </div>
-                                            <!-- Slide  -->
-                                            <div class="swiper-slide">
-                                                <div class="hero-slide">
-                                                    <h2 class="content">Complete documentation & Support for themes accessible.</h2>
-                                                </div>
-                                            </div>
-                                            <!-- Slide  -->
-                                            <div class="swiper-slide">
-                                                <div class="hero-slide">
-                                                    <h2 class="content">Complete documentation & Support for themes accessible.</h2>
-                                                </div>
-                                            </div>
-                                            <!-- Slide  -->
-                                            <div class="swiper-slide">
-                                                <div class="hero-slide">
-                                                    <h2 class="content">Complete documentation & Support for themes accessible.</h2>
-                                                </div>
-                                            </div>
-                                            <!-- Slide  -->
-                                            <div class="swiper-slide">
-                                                <div class="hero-slide">
-                                                    <h2 class="content">Complete documentation & Support for themes accessible.</h2>
-                                                </div>
-                                            </div>
-                                            <!-- Slide  -->
-                                            <div class="swiper-slide">
-                                                <div class="hero-slide">
-                                                    <h2 class="content">Complete documentation & Support for themes accessible.</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Add Pagination -->
-                                        <div class="swiper-pagination"></div>
+                        <div class="col-xl-12 m-auto">
+                            <div class="hero-wrap text-center">
+                                <form class="cdx-search-style-2 m-auto">
+                                    <span class="d-flex gap-2">
+                                        <img class="cdx-input-icon" src="assets/images/home-2/icon/imagineart-icon.svg" alt="Icon" />
+                                        <input class="cdx-form-input" type="search" placeholder="Flux Is Now Available On Imagineart" />
+                                    </span>
+                                    <button class="cdx-btn-submit" type="submit">Try Now</button>
+                                </form>
+                                <h1 class="cdx-section-title-2">Create magical images with AI</h1>
+                                <p class="cdx-section-content-5">
+                                    Quisque vitae odio id tellus ultricies egestas quis id orci. In id varius nunc, ut faucibus ex. Etiam ac enim ac
+                                    nunc laoreet dignissim in nec elit.Donec.
+                                </p>
+                                <form class="cdx-search-style-3 m-auto">
+                                    <input class="cdx-form-input" type="search" placeholder="Realistic Portrait of an Eldery Sailor" />
+                                    <button class="cdx-btn-submit" type="submit">
+                                        <img src="assets/images/home-2/icon/star-bar.svg" alt="Icon" />
+                                        Try Now
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Hero area end  -->
+
+            <!-- Client area start  -->
+            <section class="cdx-client-area-2">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-4 col-md-12">
+                            <div class="left">
+                                <h2 class="cdx-section-title-xxs">The 14k + Business Using Tech-ai image generator.</h2>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-8 col-md-12">
+                            <!-- Slider  -->
+                            <div class="swiper client-slider">
+                                <div class="swiper-wrapper">
+                                    <!-- Slide -->
+                                    <div class="swiper-slide cdx-client-item-2">
+                                        <img class="client-logo" src="assets/images/home-2/logo/apple.png" alt="Logo" />
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide cdx-client-item-2">
+                                        <img class="client-logo" src="assets/images/home-2/logo/google.png" alt="Logo" />
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide cdx-client-item-2">
+                                        <img class="client-logo" src="assets/images/home-1/logo/amazon.png" alt="Logo" />
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide cdx-client-item-2">
+                                        <img class="client-logo" src="assets/images/home-1/logo/fedex.png" alt="Logo" />
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide cdx-client-item-2">
+                                        <img class="client-logo" src="assets/images/home-2/logo/olv.png" alt="Logo" />
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide cdx-client-item-2">
+                                        <img class="client-logo" src="assets/images/home-1/logo/airbanb.png" alt="Logo" />
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide cdx-client-item-2">
+                                        <img class="client-logo" src="assets/images/home-2/logo/apple.png" alt="Logo" />
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide cdx-client-item-2">
+                                        <img class="client-logo" src="assets/images/home-1/logo/airbanb.png" alt="Logo" />
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide cdx-client-item-2">
+                                        <img class="client-logo" src="assets/images/home-1/logo/amazon.png" alt="Logo" />
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-6 g-0">
-                            <div class="hero-right">
-                                <img class="img-1" src="assets/images/home-1/hero/layer-shape.webp" alt="Image" />
-                                <ul class="features">
-                                    <li class="list">DEVELOPMENT</li>
-                                    <li class="list">MARKET ANALYSIS</li>
-                                    <li class="list">MARKET ANALYSIS</li>
-                                    <li class="list">AI TRADING</li>
-                                    <li class="list">AND MUCH MORE</li>
-                                </ul>
-                                <img class="img-2" src="assets/images/home-1/hero/robot-img.webp" alt="Image" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Button  -->
-                <div class="btn-arrow-box">
-                    <div class="btn-arrow-text gradient-border">
-                        <a class="btn-text" href="#">
-                            Artificial Intelligence
-                            <span class="icon-wrap">
-                                <img class="icon-1" src="assets/images/home-1/icon/arrow-up-shape.png" alt="Icon" />
-                                <img class="icon-2" src="assets/images/home-1/icon/arrow-up-shape.png" alt="Icon" />
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <!-- Section pagination  -->
-                <div class="sec-pagination-wrap">
-                    <ul class="sec-pagination">
-                        <li><a class="list-nav" href="#"></a></li>
-                        <li><a class="list-nav" href="#"></a></li>
-                        <li><a class="list-nav active" href="#"></a></li>
-                        <li><a class="list-nav" href="#"></a></li>
-                        <li><a class="list-nav" href="#"></a></li>
-                    </ul>
-                </div>
-                <!-- Scroll  -->
-                <a class="scroll-btn move-bottom" href="#service">
-                    <img src="assets/images/home-1/icon/arrow-down-shape.png" alt="Icon" />
-                    <span class="text">Scroll</span>
-                </a>
-            </section>
-            <!-- end hero area  -->
-            <!-- start service area  -->
-            <section class="service-area cdx-pt-120 cdx-pb-120" id="service">
-                <div class="container">
-                    <div class="service-heading text-center mb-60">
-                        <h2 class="cdx-section-title">
-                            <span class="title-mark">Our Services</span>
-                        </h2>
-                    </div>
-                    <div class="row gy-4 justify-content-center">
-                        <div class="col-xl-3 col-lg-6 col-md-6">
-                            <!-- Service card -->
-                            <div class="cdx-service-card">
-                                <img class="icon" src="assets/images/home-1/icon/service-icon-1.png" alt="Icon" />
-                                <h3><a class="title" href="#">Ai Consulting Services</a></h3>
-                                <p class="text">Imperdiet leo in arcu luctus non nunc moles.</p>
-                                <a class="btn-arrow" href="#">
-                                    Read More
-                                    <img class="btn-icon" src="assets/images/home-1/icon/arrow-up.svg" alt="Icon" />
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6">
-                            <!-- Service card -->
-                            <div class="cdx-service-card">
-                                <img class="icon" src="assets/images/home-1/icon/service-icon-2.png" alt="Icon" />
-                                <h3><a class="title" href="#">Intelligent Automation</a></h3>
-                                <p class="text">Imperdiet leo in arcu luctus non nunc moles.</p>
-                                <a class="btn-arrow" href="#">
-                                    Read More
-                                    <img class="btn-icon" src="assets/images/home-1/icon/arrow-up.svg" alt="Icon" />
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6">
-                            <!-- Service card -->
-                            <div class="cdx-service-card">
-                                <img class="icon" src="assets/images/home-1/icon/service-icon-3.png" alt="Icon" />
-                                <h3><a class="title" href="#">AI-Powered Solutions</a></h3>
-                                <p class="text">Imperdiet leo in arcu luctus non nunc moles.</p>
-                                <a class="btn-arrow" href="#">
-                                    Read More
-                                    <img class="btn-icon" src="assets/images/home-1/icon/arrow-up.svg" alt="Icon" />
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6">
-                            <!-- Service card -->
-                            <div class="cdx-service-card">
-                                <img class="icon" src="assets/images/home-1/icon/service-icon-4.png" alt="Icon" />
-                                <h3><a class="title" href="#">Ai Driven Services</a></h3>
-                                <p class="text">Imperdiet leo in arcu luctus non nunc moles.</p>
-                                <a class="btn-arrow" href="#">
-                                    Read More
-                                    <img class="btn-icon" src="assets/images/home-1/icon/arrow-up.svg" alt="Icon" />
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
-            <!-- end service area  -->
-            <!-- about area start  -->
-            <section class="about-area pt-50">
+            <!-- Client area end  -->
+
+            <!-- About area start  -->
+            <section class="cdx-about-area-2 cdx-pt-120 cdx-pb-120">
                 <div class="container">
-                    <img class="about-shape" src="assets/images/home-1/shape/about-shape.webp" alt="About" />
-                    <div class="row gy-5">
-                        <div class="col-xl-6 col-lg-6 col-md-10">
-                            <div class="left">
-                                <img class="img-1" src="assets/images/home-1/thumb/about-1.webp" alt="About" />
-                                <img class="img-2" src="assets/images/home-1/thumb/about-2.webp" alt="About" />
-                                <img class="img-3" src="assets/images/home-1/thumb/about-3.webp" alt="About" />
+                    <div class="row gy-5 align-items-center">
+                        <div class="col-xl-5 col-lg-6 col-md-12">
+                            <div class="left-2 position-relative">
+                                <img class="cdx-img-1" src="assets/images/home-2/thumb/about-1.webp" alt="About" />
+                                <img class="cdx-img-2" src="assets/images/home-2/thumb/about-2.webp" alt="About" />
+                                <img class="cdx-shape" src="assets/images/home-2/shape/faq-border.png" alt="Shape" />
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-6 col-md-11">
-                            <div class="right">
-                                <img class="cdx-pb-20" src="assets/images/home-1/icon/intelligent.png" alt="Icon" />
-                                <h2 class="cdx-section-title">
-                                    Grow Your Business With Intelligent Solutions
-                                    <span class="title-mark">Marketing Content.</span>
-                                </h2>
-                                <p class="cdx-section-content">
-                                    Cras tincidunt lobortis feugiat vivamus sagittis eu volutpa facilisis gravida neque convallis software.
+                        <div class="col-xl-7 col-lg-6 col-md-12">
+                            <div class="right-2 cdx-pt-70">
+                                <img src="assets/images/home-2/shape/section-border.svg" alt="Shape" />
+                                <h2 class="cdx-section-title-2 cdx-pt-30">Welcome To Our Tech - ai Image Generator.</h2>
+                                <p class="cdx-section-content-2">
+                                    Velit sed ullamcorper morbi tincidunt ornare massa. Pulvinar mattis nunc sed blandit libero volutpat sed cras.
+                                    Libero id faucibus nisl tincidunt eget nullam. At quis risus sed tempusas enim blandit massa sed elementum tempus.
                                 </p>
-                                <a class="btn-gradient-border" href="#">Get Started - It’s Free</a>
+                                <a class="cdx-btn-filled cdx-hover-corners" href="#"><span class="cdx-btn-effect">Get Started - It’s Free</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- about area end  -->
-            <!-- start technology area  -->
-            <section class="cdx-technology-area cdx-pt-120 cdx-pb-120">
+
+            <!-- Service area start  -->
+            <section class="service-area-2 cdx-pt-120 cdx-pb-120">
                 <div class="container">
-                    <div class="row gy-5">
-                        <div class="col-xl-6 col-lg-8 col-md-11">
-                            <div class="left">
-                                <img class="cdx-pb-20" src="assets/images/home-1/icon/ai.png" alt="Icon" />
-                                <h2 class="cdx-section-title">
-                                    Integrate with Your
-                                    <span class="title-mark">Existing Platforms</span>
-                                </h2>
-                                <p class="cdx-section-content">
-                                    There are many variations of passages of Lorem Ipsum available but the majority have suffered Alteration in some
-                                    form.
+                    <h2 class="cdx-section-title-2 text-center cdx-pb-40">Why Choose Tech - Ai</h2>
+                    <div class="row gy-4">
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="cdx-service-card-2">
+                                <div class="icon-wrap one">
+                                    <img class="cdx-icon" src="assets/images/home-2/icon/service-icon-1.png" alt="Icon" />
+                                </div>
+                                <h3><a href="#" class="title">Style Transfer</a></h3>
+                                <p class="text">
+                                    Lorem Ipsum is simply dummy text printing etting Velit sed ullamcorper morbi cidunt elit sed ullamcorper morbi
+                                    tincidunt
                                 </p>
-                                <a class="btn-gradient-border" href="#">Book a Demo</a>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-12 col-md-12">
-                            <div class="right">
-                                <!-- Circular social  -->
-                                <div class="circular-social-wrap">
-                                    <div class="circle-border circle-1">
-                                        <div class="icon-block">
-                                            <img class="icon" src="assets/images/home-1/icon/slack.png" alt="Icon" />
-                                        </div>
-                                        <div class="icon-block">
-                                            <img class="icon" src="assets/images/home-1/icon/google.png" alt="Icon" />
-                                        </div>
-                                        <div class="icon-block">
-                                            <img class="icon" src="assets/images/home-1/icon/layer.png" alt="Icon" />
-                                        </div>
-                                        <div class="icon-block">
-                                            <img class="icon" src="assets/images/home-1/icon/layer.png" alt="Icon" />
-                                        </div>
-                                    </div>
-                                    <div class="circle-border circle-2">
-                                        <div class="icon-block">
-                                            <img class="icon" src="assets/images/home-1/icon/firebase.png" alt="Icon" />
-                                        </div>
-                                        <div class="icon-block">
-                                            <img class="icon" src="assets/images/home-1/icon/figma.png" alt="Icon" />
-                                        </div>
-                                        <div class="icon-block">
-                                            <img class="icon" src="assets/images/home-1/icon/gmail.png" alt="Icon" />
-                                        </div>
-                                    </div>
-                                    <div class="circle-border circle-3">
-                                        <div class="icon-block">
-                                            <img class="icon" src="assets/images/home-1/icon/facebook.png" alt="Icon" />
-                                        </div>
-                                    </div>
-                                    <div class="circle-border circle-4">
-                                        <img src="assets/images/home-1/icon/tech.png" alt="Icon" />
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="cdx-service-card-2">
+                                <div class="icon-wrap two">
+                                    <img class="cdx-icon" src="assets/images/home-2/icon/service-icon-2.png" alt="Icon" />
+                                </div>
+                                <h3><a href="#" class="title">Inpainting and Restoration</a></h3>
+                                <p class="text">
+                                    Lorem Ipsum is simply dummy text printing etting Velit sed ullamcorper morbi cidunt elit sed ullamcorper morbi
+                                    tincidunt
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="cdx-service-card-2">
+                                <div class="icon-wrap three">
+                                    <img class="cdx-icon" src="assets/images/home-2/icon/service-icon-3.png" alt="Icon" />
+                                </div>
+                                <h3><a href="#" class="title">Conditional Image Generation</a></h3>
+                                <p class="text">
+                                    Lorem Ipsum is simply dummy text printing etting Velit sed ullamcorper morbi cidunt elit sed ullamcorper morbi
+                                    tincidunt
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="cdx-service-card-2">
+                                <div class="icon-wrap four">
+                                    <img class="cdx-icon" src="assets/images/home-2/icon/service-icon-4.png" alt="Icon" />
+                                </div>
+                                <h3><a href="#" class="title">Text to Image Generation</a></h3>
+                                <p class="text">
+                                    Lorem Ipsum is simply dummy text printing etting Velit sed ullamcorper morbi cidunt elit sed ullamcorper morbi
+                                    tincidunt
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="cdx-service-card-2">
+                                <div class="icon-wrap five">
+                                    <img class="cdx-icon" src="assets/images/home-2/icon/service-icon-5.png" alt="Icon" />
+                                </div>
+                                <h3><a href="#" class="title">Image Translation</a></h3>
+                                <p class="text">
+                                    Lorem Ipsum is simply dummy text printing etting Velit sed ullamcorper morbi cidunt elit sed ullamcorper morbi
+                                    tincidunt
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="cdx-service-card-2">
+                                <div class="icon-wrap six">
+                                    <img class="cdx-icon" src="assets/images/home-2/icon/service-icon-6.png" alt="Icon" />
+                                </div>
+                                <h3><a href="#" class="title">Super Resolution</a></h3>
+                                <p class="text">
+                                    Lorem Ipsum is simply dummy text printing etting Velit sed ullamcorper morbi cidunt elit sed ullamcorper morbi
+                                    tincidunt
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Service area end  -->
+
+            <!-- Features area start  -->
+            <section class="cdx-features-area-2">
+                <div class="container-fluid">
+                    <div class="row gy-4">
+                        <div class="col-xl-4 col-lg-6 col-md-8">
+                            <div class="cdx-features-img">
+                                <img class="w-100 h-100" src="assets/images/home-2/thumb/bird.webp" alt="Image" />
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-12">
+                            <div class="cdx-features-social-box">
+                                <img class="cdx-pb-50" src="assets/images/home-1/logo/logo.svg" alt="Image" />
+                                <img class="cdx-robot-img" src="assets/images/home-2/thumb/robot.webp" alt="Image" />
+                                <div class="d-flex align-items-center gap-3">
+                                    <button class="cdx-btn">Solutions</button>
+                                    <button class="cdx-btn">Plugins</button>
+                                </div>
+                                <p class="cdx-section-content-3">Enhance customer support with Intelligent Chatbots for seamless Service</p>
+                                <ul class="cdx-social-list">
+                                    <li>
+                                        <a class="cdx-social-link" href="#" target="_blank">
+                                            <img src="assets/images/home-2/icon/gmail.svg" alt="Icon" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="cdx-social-link" href="#" target="_blank">
+                                            <img src="assets/images/home-2/icon/browser.svg" alt="Icon" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="cdx-social-link" href="#" target="_blank">
+                                            <img src="assets/images/home-2/icon/facebook.svg" alt="Icon" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="cdx-social-link" href="#" target="_blank">
+                                            <img src="assets/images/home-2/icon/figma.svg" alt="Icon" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-12 col-md-12">
+                            <div class="cdx-features-item-2">
+                                <div class="cdx-content-box mb-4">
+                                    <button class="cdx-btn two">Solutions</button>
+                                    <h2 class="cdx-sec-title">
+                                        How to generate images with
+                                        <span>Tech -ai</span>
+                                    </h2>
+                                </div>
+                                <div class="cdx-content-box bottom">
+                                    <div class="count-box">
+                                        <h3 class="cdx-title">40k+</h3>
+                                        <p class="cdx-section-content-3">Happy Clients</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <img class="robot-icon right-to-left-move" src="assets/images/home-1/icon/robot.png" alt="Icon" />
             </section>
-            <!-- end technology area  -->
-            <!-- section area 1  -->
-            <section class="cdx-section-wrap">
-                <div class="sec-line">
-                    <!-- Team area start  -->
-                    <div class="cdx-team-area cdx-pt-100">
-                        <div class="cdx-team-top cdx-pb-50">
-                            <div class="row gy-3">
-                                <div class="col-xl-7 col-lg-6 col-md-10">
-                                    <h2 class="cdx-section-title">
-                                        Faces behind
-                                        <span class="title-mark">Artificial Intelligence</span>
-                                    </h2>
-                                </div>
-                                <div class="col-xl-5 col-lg-6 col-md-10">
-                                    <p class="cdx-section-content">
-                                        There are many variations of passages of Lorem Ipsum available but the majority have suffered Alteration in
-                                        some form.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <!-- Slider  -->
-                            <div class="swiper cdx-team-slider cdx-pb-120">
-                                <div class="swiper-wrapper">
-                                    <!-- Slide -->
-                                    <div class="swiper-slide cdx-team-item">
-                                        <div class="thumb-wrap">
-                                            <img class="thumb" src="assets/images/home-1/team/team-1.webp" alt="Team" />
-                                        </div>
-                                        <div class="cdx-team-btm show">
-                                            <div class="title-item">
-                                                <div class="details">
-                                                    <h3 class="name">
-                                                        <img src="assets/images/home-1/icon/polygon-icon.svg" alt="Icon" />
-                                                        Wisteria Ravenclaw
-                                                    </h3>
-                                                    <span class="designation">Founder & Ceo</span>
-                                                </div>
-                                                <div class="team-btn">
-                                                    <div class="team-icon-wrap">
-                                                        <img class="plus-icon" src="assets/images/home-1/icon/plus-white.svg" alt="Icon" />
-                                                    </div>
-                                                    <span class="bio-text">Bio</span>
-                                                </div>
-                                            </div>
-                                            <p class="discription">
-                                                Quisque vitae odio id tellus ultricies egestas quis id orci. In varius nunc, ut faucibus ex. Etiam ac
-                                                enim ac nunc laoreet dignissim in nec elit donec pulvinar in ipsum ut facilisis.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!-- Slide -->
-                                    <div class="swiper-slide cdx-team-item">
-                                        <div class="thumb-wrap">
-                                            <img class="thumb" src="assets/images/home-1/team/team-2.webp" alt="Team" />
-                                        </div>
-                                        <div class="cdx-team-btm">
-                                            <div class="title-item">
-                                                <div class="details">
-                                                    <h3 class="name">
-                                                        <img src="assets/images/home-1/icon/polygon-icon.svg" alt="Icon" />
-                                                        Ravencla Adam
-                                                    </h3>
-                                                    <span class="designation">Chief Operations Officer</span>
-                                                </div>
-                                                <div class="team-btn">
-                                                    <div class="team-icon-wrap">
-                                                        <img class="plus-icon" src="assets/images/home-1/icon/plus-white.svg" alt="Icon" />
-                                                    </div>
-                                                    <span class="bio-text">Bio</span>
-                                                </div>
-                                            </div>
-                                            <p class="discription">
-                                                Quisque vitae odio id tellus ultricies egestas quis id orci. In varius nunc, ut faucibus ex. Etiam ac
-                                                enim ac nunc laoreet dignissim in nec elit donec pulvinar in ipsum ut facilisis.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!-- Slide -->
-                                    <div class="swiper-slide cdx-team-item">
-                                        <div class="thumb-wrap">
-                                            <img class="thumb" src="assets/images/home-1/team/team-3.webp" alt="Team" />
-                                        </div>
-                                        <div class="cdx-team-btm">
-                                            <div class="title-item">
-                                                <div class="details">
-                                                    <h3 class="name">
-                                                        <img src="assets/images/home-1/icon/polygon-icon.svg" alt="Icon" />
-                                                        Ben Ravenclaw
-                                                    </h3>
-                                                    <span class="designation">Chief Operations Director</span>
-                                                </div>
-                                                <div class="team-btn">
-                                                    <div class="team-icon-wrap">
-                                                        <img class="plus-icon" src="assets/images/home-1/icon/plus-white.svg" alt="Icon" />
-                                                    </div>
-                                                    <span class="bio-text">Bio</span>
-                                                </div>
-                                            </div>
-                                            <p class="discription">
-                                                Quisque vitae odio id tellus ultricies egestas quis id orci. In varius nunc, ut faucibus ex. Etiam ac
-                                                enim ac nunc laoreet dignissim in nec elit donec pulvinar in ipsum ut facilisis.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!-- Slide -->
-                                    <div class="swiper-slide cdx-team-item">
-                                        <div class="thumb-wrap">
-                                            <img class="thumb" src="assets/images/home-1/team/team-2.webp" alt="Team" />
-                                        </div>
-                                        <div class="cdx-team-btm">
-                                            <div class="title-item">
-                                                <div class="details">
-                                                    <h3 class="name">
-                                                        <img src="assets/images/home-1/icon/polygon-icon.svg" alt="Icon" />
-                                                        Wisteria Ravenclaw
-                                                    </h3>
-                                                    <span class="designation">Founder & Ceo</span>
-                                                </div>
-                                                <div class="team-btn">
-                                                    <div class="team-icon-wrap">
-                                                        <img class="plus-icon" src="assets/images/home-1/icon/plus-white.svg" alt="Icon" />
-                                                    </div>
-                                                    <span class="bio-text">Bio</span>
-                                                </div>
-                                            </div>
-                                            <p class="discription">
-                                                Quisque vitae odio id tellus ultricies egestas quis id orci. In varius nunc, ut faucibus ex. Etiam ac
-                                                enim ac nunc laoreet dignissim in nec elit donec pulvinar in ipsum ut facilisis.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Navigation -->
-                            <div class="navigation-wrap">
-                                <div class="team-prev navigation-btn">
-                                    <img class="icon" src="assets/images/home-1/icon/arrow-down-sm.svg" alt="Icon" />
-                                </div>
-                                <div class="team-next navigation-btn">
-                                    <img class="icon" src="assets/images/home-1/icon/arrow-up-sm.svg" alt="Icon" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Team area end  -->
+            <!-- Features area end  -->
 
-                    <!-- Client area start  -->
-                    <div class="cdx-client-area cdx-pt-100">
-                        <div class="client-top cdx-pb-50">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-xl-7 col-lg-6 col-md-10">
-                                        <h2 class="cdx-section-title">
-                                            Trusted by 20,000+
-                                            <span class="title-mark d-block">Marketing Departments.</span>
-                                        </h2>
-                                    </div>
-                                    <div class="col-xl-5 col-lg-6 col-md-10">
-                                        <p class="cdx-section-content">
-                                            There are many variations of passages of Lorem Ipsum available but the majority have suffered Alteration
-                                            in some form.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="row g-0 client-border">
-                                <div class="col-lg-6">
-                                    <div class="cdx-client-item">
-                                        <img src="assets/images/home-1/logo/hubspot.png" alt="Client Logo" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="cdx-client-item">
-                                        <img src="assets/images/home-1/logo/amazon.png" alt="Client Logo" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="cdx-client-item">
-                                        <img src="assets/images/home-1/logo/airbanb.png" alt="Client Logo" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="cdx-client-item">
-                                        <img src="assets/images/home-1/logo/fedex.png" alt="Client Logo" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Client area end  -->
-
-                    <!-- Testimonial area start  -->
-                    <div class="cdx-testimonial-area cdx-pt-100">
-                        <div class="testimonial-top cdx-pb-50">
-                            <div class="row">
-                                <div class="col-xl-7 col-lg-6 col-md-10">
-                                    <h2 class="cdx-section-title">
-                                        Faces behind
-                                        <span class="title-mark d-block">Artificial Intelligence</span>
-                                    </h2>
-                                </div>
-                                <div class="col-xl-5 col-lg-6 col-md-10">
-                                    <p class="cdx-section-content">
-                                        There are many variations of passages of Lorem Ipsum available but the majority have suffered Alteration in
-                                        some form.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <!-- Slider  -->
-                            <div class="swiper testimonial-slider cdx-pb-120">
-                                <div class="swiper-wrapper">
-                                    <!-- Slide -->
-                                    <div class="swiper-slide cdx-testimonial-item">
-                                        <div class="top-wrap">
-                                            <div class="author-wrap">
-                                                <div class="author-img">
-                                                    <div class="thumb-wrap">
-                                                        <img class="thumb" src="assets/images/home-1/blog/author-1.jpg" alt="Blog" />
-                                                    </div>
-                                                    <div class="icon-wrap">
-                                                        <img src="assets/images/home-1/icon/star-white.svg" alt="Icon" />
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <h3 class="name">Hanson</h3>
-                                                    <span class="username">@kawyate 07</span>
-                                                </div>
-                                            </div>
-                                            <div class="review">
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                            </div>
-                                        </div>
-                                        <p class="content">
-                                            Praesent mollis tortor augu lacinia cursus leo Suspendisse quis sed odio dictumSed Mattis eros lectors, eu
-                                            fermentum Felis laborites convallis. Nam Felis arco, sed mi Faubus quips.
-                                        </p>
-                                    </div>
-                                    <!-- Slide -->
-                                    <div class="swiper-slide cdx-testimonial-item">
-                                        <div class="top-wrap">
-                                            <div class="author-wrap">
-                                                <div class="author-img">
-                                                    <div class="thumb-wrap">
-                                                        <img class="thumb" src="assets/images/home-1/blog/author-2.jpg" alt="Blog" />
-                                                    </div>
-                                                    <div class="icon-wrap">
-                                                        <img src="assets/images/home-1/icon/star-white.svg" alt="Icon" />
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <h3 class="name">Jobin</h3>
-                                                    <span class="username">@jobin 07</span>
-                                                </div>
-                                            </div>
-                                            <div class="review">
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                            </div>
-                                        </div>
-                                        <p class="content">
-                                            Praesent mollis tortor augu lacinia cursus leo Suspendisse quis sed odio dictumSed Mattis eros lectors, eu
-                                            fermentum Felis laborites convallis. Nam Felis arco, sed mi Faubus quips.
-                                        </p>
-                                    </div>
-                                    <!-- Slide -->
-                                    <div class="swiper-slide cdx-testimonial-item">
-                                        <div class="top-wrap">
-                                            <div class="author-wrap">
-                                                <div class="author-img">
-                                                    <div class="thumb-wrap">
-                                                        <img class="thumb" src="assets/images/home-1/blog/author-3.jpg" alt="Blog" />
-                                                    </div>
-                                                    <div class="icon-wrap">
-                                                        <img src="assets/images/home-1/icon/star-white.svg" alt="Icon" />
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <h3 class="name">Maklon</h3>
-                                                    <span class="username">@maklon 07</span>
-                                                </div>
-                                            </div>
-                                            <div class="review">
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                            </div>
-                                        </div>
-                                        <p class="content">
-                                            Praesent mollis tortor augu lacinia cursus leo Suspendisse quis sed odio dictumSed Mattis eros lectors, eu
-                                            fermentum Felis laborites convallis. Nam Felis arco, sed mi Faubus quips.
-                                        </p>
-                                    </div>
-                                    <!-- Slide -->
-                                    <div class="swiper-slide cdx-testimonial-item">
-                                        <div class="top-wrap">
-                                            <div class="author-wrap">
-                                                <div class="author-img">
-                                                    <div class="thumb-wrap">
-                                                        <img class="thumb" src="assets/images/home-1/blog/author-2.jpg" alt="Blog" />
-                                                    </div>
-                                                    <div class="icon-wrap">
-                                                        <img src="assets/images/home-1/icon/star-white.svg" alt="Icon" />
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <h3 class="name">Hanson</h3>
-                                                    <span class="username">@kawyate 07</span>
-                                                </div>
-                                            </div>
-                                            <div class="review">
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                                <img class="icon" src="assets/images/home-1/icon/star-red.svg" alt="Icon" />
-                                            </div>
-                                        </div>
-                                        <p class="content">
-                                            Praesent mollis tortor augu lacinia cursus leo Suspendisse quis sed odio dictumSed Mattis eros lectors, eu
-                                            fermentum Felis laborites convallis. Nam Felis arco, sed mi Faubus quips.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Navigation -->
-                            <div class="navigation-wrap">
-                                <div class="testimonial-prev navigation-btn">
-                                    <img class="icon" src="assets/images/home-1/icon/arrow-down-sm.svg" alt="Icon" />
-                                </div>
-                                <div class="testimonial-next navigation-btn">
-                                    <img class="icon" src="assets/images/home-1/icon/arrow-up-sm.svg" alt="Icon" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Testimonial area end  -->
-
-                    <!-- Blog area start  -->
-                    <div class="cdx-blog-area cdx-pt-100">
-                        <div class="blog-top cdx-pb-50">
-                            <div class="row">
-                                <div class="col-xl-7 col-lg-8 col-md-10">
-                                    <h2 class="cdx-section-title">
-                                        Don't miss any of the updates
-                                        <span class="title-mark">Latest from the blog</span>
-                                    </h2>
-                                </div>
-                                <div class="col-xl-5 col-lg-4 col-md-10">
-                                    <p class="cdx-section-content">
-                                        There are many variations of passages of Lorem Ipsum available but the majority have suffered Alteration in
-                                        some form.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <!-- Slider  -->
-                            <div class="swiper blog-slider cdx-pb-120">
-                                <div class="swiper-wrapper">
-                                    <!-- Slide -->
-                                    <div class="swiper-slide">
-                                        <article class="cdx-blog-item">
-                                            <img class="thumb" src="assets/images/home-1/blog/blog-1.webp" alt="Blog" />
-                                            <ul class="meta">
-                                                <li class="meta-list">November 13, 2024</li>
-                                                <li class="meta-list">03 Min</li>
-                                                <li class="meta-list">
-                                                    <a class="meta-link" href="#">Incubations/Idos</a>
-                                                </li>
-                                            </ul>
-                                            <h3>
-                                                <a class="title" href="blog-detail">The Ethical Implications of AI Generated Images</a>
-                                            </h3>
-                                            <div class="d-flex align-items-center gap-3">
-                                                <div class="author">
-                                                    <img class="author-img" src="assets/images/home-1/blog/author-1.jpg" alt="Image" />
-                                                </div>
-                                                <div class="details">
-                                                    <p class="text">
-                                                        <span class="author-text">By</span>
-                                                        Malcolm Function.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <!-- Slide -->
-                                    <div class="swiper-slide">
-                                        <article class="cdx-blog-item">
-                                            <img class="thumb" src="assets/images/home-1/blog/blog-2.webp" alt="Blog" />
-                                            <ul class="meta">
-                                                <li class="meta-list">November 13, 2024</li>
-                                                <li class="meta-list">03 Min</li>
-                                                <li class="meta-list">
-                                                    <a class="meta-link" href="#">Incubations/Idos</a>
-                                                </li>
-                                            </ul>
-                                            <h3>
-                                                <a class="title" href="blog-detail">Our work shows real results from a wide Range of clients.</a>
-                                            </h3>
-                                            <div class="d-flex align-items-center gap-3">
-                                                <div class="author">
-                                                    <img class="author-img" src="assets/images/home-1/blog/author-2.jpg" alt="Image" />
-                                                </div>
-                                                <div class="details">
-                                                    <p class="text">
-                                                        <span class="author-text">By</span>
-                                                        Valentino Morose
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <!-- Slide -->
-                                    <div class="swiper-slide">
-                                        <article class="cdx-blog-item">
-                                            <img class="thumb" src="assets/images/home-1/blog/blog-3.webp" alt="Blog" />
-                                            <ul class="meta">
-                                                <li class="meta-list">November 13, 2024</li>
-                                                <li class="meta-list">03 Min</li>
-                                                <li class="meta-list">
-                                                    <a class="meta-link" href="#">Incubations/Idos</a>
-                                                </li>
-                                            </ul>
-                                            <h3>
-                                                <a class="title" href="blog-detail">The story about company that created VR influencer</a>
-                                            </h3>
-                                            <div class="d-flex align-items-center gap-3">
-                                                <div class="author">
-                                                    <img class="author-img" src="assets/images/home-1/blog/author-3.jpg" alt="Image" />
-                                                </div>
-                                                <div class="details">
-                                                    <p class="text">
-                                                        <span class="author-text">By</span>
-                                                        Bodrum Salvador
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <!-- Slide -->
-                                    <div class="swiper-slide">
-                                        <article class="cdx-blog-item">
-                                            <img class="thumb" src="assets/images/home-1/blog/blog-2.webp" alt="Blog" />
-                                            <ul class="meta">
-                                                <li class="meta-list">November 13, 2024</li>
-                                                <li class="meta-list">03 Min</li>
-                                                <li class="meta-list">
-                                                    <a class="meta-link" href="#">Incubations/Idos</a>
-                                                </li>
-                                            </ul>
-                                            <h3>
-                                                <a class="title" href="blog-detail">The Ethical Implications of AI Generated Images</a>
-                                            </h3>
-                                            <div class="d-flex align-items-center gap-3">
-                                                <div class="author">
-                                                    <img class="author-img" src="assets/images/home-1/blog/author-2.jpg" alt="Image" />
-                                                </div>
-                                                <div class="details">
-                                                    <p class="text">
-                                                        <span class="author-text">By</span>
-                                                        Malcolm Function.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Navigation -->
-                            <div class="navigation-wrap">
-                                <div class="button-prev navigation-btn">
-                                    <img class="icon" src="assets/images/home-1/icon/arrow-down-sm.svg" alt="Icon" />
-                                </div>
-                                <div class="button-next navigation-btn">
-                                    <img class="icon" src="assets/images/home-1/icon/arrow-up-sm.svg" alt="Icon" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Blog area end  -->
-
-                    <!-- Social area start  -->
-                    <div class="cdx-social-area cdx-pt-120">
-                        <div class="container">
-                            <div class="row g-md-0 gy-lg-0 gy-4 social-border">
-                                <div class="col-lg-6 col-md-3 col-6 social-box">
-                                    <div class="cdx-social-item">
-                                        <span class="subtext">Join Our</span>
-                                        <a class="social-btn" href="#" target="_blank">
-                                            Telegram
-                                            <img class="icon" src="assets/images/home-1/icon/arrow-up-sm.svg" alt="Icon" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-3 col-6 social-box">
-                                    <div class="cdx-social-item">
-                                        <span class="subtext">Hop Info</span>
-                                        <a class="social-btn" href="#" target="_blank">
-                                            Dicord
-                                            <img class="icon" src="assets/images/home-1/icon/arrow-up-sm.svg" alt="Icon" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-3 col-6 social-box">
-                                    <div class="cdx-social-item">
-                                        <span class="subtext">Follow Us</span>
-                                        <a class="social-btn" href="#" target="_blank">
-                                            Twitter
-                                            <img class="icon" src="assets/images/home-1/icon/arrow-up-sm.svg" alt="Icon" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-3 col-6 social-box">
-                                    <div class="cdx-social-item">
-                                        <span class="subtext">Drop Us a Message</span>
-                                        <a class="social-btn" href="#" target="_blank">
-                                            Contact
-                                            <img class="icon" src="assets/images/home-1/icon/arrow-up-sm.svg" alt="Icon" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="icon-box">
-                                <div class="icon-lg gradient-border">
-                                    <img src="assets/images/home-1/icon/logo-tech.png" alt="Icon" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Social area end  -->
-                </div>
-            </section>
-            <!-- section area end  -->
-            <!-- faq area start -->
-            <section class="faq-area cdx-pt-120">
+            <!-- Portfolio area start  -->
+            <section class="cdx-tecnology-area-2 cdx-pt-120 cdx-pb-120">
                 <div class="container">
-                    <div class="row gy-5 justify-content-center align-items-center">
-                        <div class="col-xl-5 col-lg-5 col-md-12">
-                            <div class="faq-thumb-wrap">
-                                <h2 class="cdx-section-title cdx-pb-40">
-                                    Frequently
-                                    <span class="title-mark d-block">Asked questions.</span>
-                                </h2>
-                                <img src="assets/images/home-1/thumb/faq.webp" alt="FAQ" />
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-8 m-auto">
+                            <div class="cdx-section-top cdx-pb-50">
+                                <h2 class="cdx-section-title-2 text-center">Visuals Powered by Imagination and Tech</h2>
+                                <p class="text-center">Visuals Powered by Imagination and Tech</p>
                             </div>
                         </div>
-                        <div class="col-xl-7 col-lg-7 col-md-12">
-                            <div class="accordion accordion-style-1" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button
-                                            class="accordion-button collapsed"
-                                            type="button"
-                                            data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne"
-                                            aria-expanded="true"
-                                            aria-controls="collapseOne"
-                                        >
-                                            What is Tech Ai?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p class="content">
-                                                Sed Mattis eros lectors, eu fermentum Felis laborites convallis. Nam Felis arco, sed mi Faubus quips.
-                                                Fusco id dui nil. Sed ac lorem a dolor incident suscept quips Purus. Poetesque auctor
-                                            </p>
+                    </div>
+                    <div class="row gy-4 justify-content-center">
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="cdx-tecnology-item">
+                                <div class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/home-2/portfolio/portfolio-1.webp" alt="Portfolio" />
+                                    <div class="cdx-details">
+                                        <h3 class="cdx-subtitle">Parrot</h3>
+                                        <h4 class="cdx-title">Ai Design</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cdx-tecnology-item">
+                                <div class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/home-2/portfolio/portfolio-2.webp" alt="Portfolio" />
+                                    <div class="cdx-details">
+                                        <h3 class="cdx-subtitle">Parrot</h3>
+                                        <h4 class="cdx-title">Artificial</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="cdx-tecnology-item">
+                                <div class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/home-2/portfolio/portfolio-3.webp" alt="Portfolio" />
+                                    <div class="cdx-details">
+                                        <h3 class="cdx-subtitle">Parrot</h3>
+                                        <h4 class="cdx-title">Image Translation</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cdx-tecnology-item">
+                                <div class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/home-2/portfolio/portfolio-4.webp" alt="Portfolio" />
+                                    <div class="cdx-details">
+                                        <h3 class="cdx-subtitle">Super</h3>
+                                        <h4 class="cdx-title">Super Resolution</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="cdx-tecnology-item">
+                                <div class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/home-2/portfolio/portfolio-5.webp" alt="Portfolio" />
+                                    <div class="cdx-details">
+                                        <h3 class="cdx-subtitle">Parrot</h3>
+                                        <h4 class="cdx-title">Ai Design</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cdx-tecnology-item">
+                                <div class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/home-2/portfolio/portfolio-6.webp" alt="Portfolio" />
+                                    <div class="cdx-details">
+                                        <h3 class="cdx-subtitle">Parrot</h3>
+                                        <h4 class="cdx-title">Ai Design</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="cdx-tecnology-item">
+                                <div class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/home-2/portfolio/portfolio-7.webp" alt="Portfolio" />
+                                    <div class="cdx-details">
+                                        <h3 class="cdx-subtitle">Parrot</h3>
+                                        <h4 class="cdx-title">Ai Design</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cdx-tecnology-item">
+                                <div class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/home-2/portfolio/portfolio-8.webp" alt="Portfolio" />
+                                    <div class="cdx-details">
+                                        <h3 class="cdx-subtitle">Parrot</h3>
+                                        <h4 class="cdx-title">Ai Design</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Portfolio area end  -->
+
+            <!-- Pricing area start  -->
+            <section class="cdx-pricing-area cdx-pt-120 cdx-pb-120">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-8 m-auto">
+                            <h2 class="cdx-section-title-2 text-center cdx-pb-40">Simple & flexible. Only pay for what you use.</h2>
+                        </div>
+                    </div>
+                    <div class="cdx-prcing-wrap">
+                        <div class="cdx-tabs-btn cdx-tab-wrap mb-5">
+                            <button class="cdx-tab-btn" data-tab="price-item-one">Monthly</button>
+                            <button class="cdx-tab-btn active" data-tab="price-item-two">
+                                Annually
+                                <span class="cdx-off">-25%</span>
+                            </button>
+                        </div>
+                        <div class="cdx-tab-contents">
+                            <div id="price-item-one" class="cdx-tab-item">
+                                <div class="row gy-4 justify-content-center">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="cdx-pricing-card">
+                                            <div class="cdx-pricing-top">
+                                                <span class="cdx-section-title-xxs">Free</span>
+                                                <div class="cdx-price-wrap">
+                                                    <h3 class="cdx-title">$16</h3>
+                                                    <p>
+                                                        <span class="cdx-off-price">$29</span>
+                                                        <span class="cdx-subscription">/Month</span>
+                                                    </p>
+                                                </div>
+                                                <div class="cdx-billed d-flex align-items-center gap-3 cdx-pb-50">
+                                                    <button class="cdx-btn-billed">Billed yearly</button>
+                                                    <button class="cdx-btn-billed">30% off</button>
+                                                </div>
+                                                <a href="#" class="cdx-btn-pricing">Subscribe</a>
+                                            </div>
+                                            <div class="cdx-details">
+                                                <h4 class="cdx-section-title-xs">What’s Packed Inside</h4>
+                                                <ul class="cdx-list">
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Fast Processing
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        All Styles & Models
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Commercial License
+                                                    </li>
+                                                    <li class="cdx-list-item disable">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Android Access
+                                                    </li>
+                                                    <li class="cdx-list-item disable">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Early Access to new features
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="cdx-pricing-card">
+                                            <div class="cdx-pricing-top">
+                                                <span class="cdx-section-title-xxs">Standard</span>
+                                                <div class="cdx-price-wrap">
+                                                    <h3 class="cdx-title">$39</h3>
+                                                    <p>
+                                                        <span class="cdx-off-price">$45</span>
+                                                        <span class="cdx-subscription">/Month</span>
+                                                    </p>
+                                                </div>
+                                                <div class="cdx-billed d-flex align-items-center gap-3 cdx-pb-50">
+                                                    <button class="cdx-btn-billed">Billed yearly</button>
+                                                    <button class="cdx-btn-billed">30% off</button>
+                                                </div>
+                                                <a href="#" class="cdx-btn-pricing">Subscribe</a>
+                                            </div>
+                                            <div class="cdx-details">
+                                                <h4 class="cdx-section-title-xs">What’s Packed Inside</h4>
+                                                <ul class="cdx-list">
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Fast Processing
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        All Styles & Models
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Commercial License
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Android Access
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Early Access to new features
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="cdx-pricing-card">
+                                            <div class="cdx-pricing-top">
+                                                <span class="cdx-section-title-xxs">Enterprise</span>
+                                                <div class="cdx-price-wrap">
+                                                    <h3 class="cdx-title">$58</h3>
+                                                    <p>
+                                                        <span class="cdx-off-price">$29</span>
+                                                        <span class="cdx-subscription">/Month</span>
+                                                    </p>
+                                                </div>
+                                                <div class="cdx-billed d-flex align-items-center gap-3 cdx-pb-50">
+                                                    <button class="cdx-btn-billed">Billed yearly</button>
+                                                    <button class="cdx-btn-billed">30% off</button>
+                                                </div>
+                                                <a href="#" class="cdx-btn-pricing">Subscribe</a>
+                                            </div>
+                                            <div class="cdx-details">
+                                                <h4 class="cdx-section-title-xs">What’s Packed Inside</h4>
+                                                <ul class="cdx-list">
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Fast Processing
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        All Styles & Models
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Commercial License
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Android Access
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Early Access to new features
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button
-                                            class="accordion-button collapsed"
-                                            type="button"
-                                            data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo"
-                                            aria-expanded="false"
-                                            aria-controls="collapseTwo"
-                                        >
-                                            Are Tech Ai products already available?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p class="content">
-                                                Sed Mattis eros lectors, eu fermentum Felis laborites convallis. Nam Felis arco, sed mi Faubus quips.
-                                                Fusco id dui nil. Sed ac lorem a dolor incident suscept quips Purus. Poetesque auctor
-                                            </p>
+                            </div>
+                            <div id="price-item-two" class="cdx-tab-item active">
+                                <div class="row gy-4 justify-content-center">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="cdx-pricing-card">
+                                            <div class="cdx-pricing-top">
+                                                <span class="cdx-section-title-xxs">Free</span>
+                                                <div class="cdx-price-wrap">
+                                                    <h3 class="cdx-title">$16</h3>
+                                                    <p>
+                                                        <span class="cdx-off-price">$29</span>
+                                                        <span class="cdx-subscription">/Month</span>
+                                                    </p>
+                                                </div>
+                                                <div class="cdx-billed d-flex align-items-center gap-3 cdx-pb-50">
+                                                    <button class="cdx-btn-billed">Billed yearly</button>
+                                                    <button class="cdx-btn-billed">30% off</button>
+                                                </div>
+                                                <a href="#" class="cdx-btn-pricing">Subscribe</a>
+                                            </div>
+                                            <div class="cdx-details">
+                                                <h4 class="cdx-section-title-xs">What’s Packed Inside</h4>
+                                                <ul class="cdx-list">
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Fast Processing
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        All Styles & Models
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Commercial License
+                                                    </li>
+                                                    <li class="cdx-list-item disable">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Android Access
+                                                    </li>
+                                                    <li class="cdx-list-item disable">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Early Access to new features
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button
-                                            class="accordion-button collapsed"
-                                            type="button"
-                                            data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree"
-                                            aria-expanded="false"
-                                            aria-controls="collapseThree"
-                                        >
-                                            What services can Tech Ai help with?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p class="content">
-                                                Sed Mattis eros lectors, eu fermentum Felis laborites convallis. Nam Felis arco, sed mi Faubus quips.
-                                                Fusco id dui nil. Sed ac lorem a dolor incident suscept quips Purus. Poetesque auctor
-                                            </p>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="cdx-pricing-card">
+                                            <div class="cdx-pricing-top">
+                                                <span class="cdx-section-title-xxs">Standard</span>
+                                                <div class="cdx-price-wrap">
+                                                    <h3 class="cdx-title">$39</h3>
+                                                    <p>
+                                                        <span class="cdx-off-price">$45</span>
+                                                        <span class="cdx-subscription">/Month</span>
+                                                    </p>
+                                                </div>
+                                                <div class="cdx-billed d-flex align-items-center gap-3 cdx-pb-50">
+                                                    <button class="cdx-btn-billed">Billed yearly</button>
+                                                    <button class="cdx-btn-billed">30% off</button>
+                                                </div>
+                                                <a href="#" class="cdx-btn-pricing">Subscribe</a>
+                                            </div>
+                                            <div class="cdx-details">
+                                                <h4 class="cdx-section-title-xs">What’s Packed Inside</h4>
+                                                <ul class="cdx-list">
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Fast Processing
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        All Styles & Models
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Commercial License
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Android Access
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Early Access to new features
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button
-                                            class="accordion-button collapsed"
-                                            type="button"
-                                            data-bs-toggle="collapse"
-                                            data-bs-target="#collapseFour"
-                                            aria-expanded="false"
-                                            aria-controls="collapseFour"
-                                        >
-                                            Are the LLMs (AI-Models) developed by Tech Ai Open Sourced?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p class="content">
-                                                Sed Mattis eros lectors, eu fermentum Felis laborites convallis. Nam Felis arco, sed mi Faubus quips.
-                                                Fusco id dui nil. Sed ac lorem a dolor incident suscept quips Purus. Poetesque auctor
-                                            </p>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="cdx-pricing-card">
+                                            <div class="cdx-pricing-top">
+                                                <span class="cdx-section-title-xxs">Enterprise</span>
+                                                <div class="cdx-price-wrap">
+                                                    <h3 class="cdx-title">$58</h3>
+                                                    <p>
+                                                        <span class="cdx-off-price">$29</span>
+                                                        <span class="cdx-subscription">/Month</span>
+                                                    </p>
+                                                </div>
+                                                <div class="cdx-billed d-flex align-items-center gap-3 cdx-pb-50">
+                                                    <button class="cdx-btn-billed">Billed yearly</button>
+                                                    <button class="cdx-btn-billed">30% off</button>
+                                                </div>
+                                                <a href="#" class="cdx-btn-pricing">Subscribe</a>
+                                            </div>
+                                            <div class="cdx-details">
+                                                <h4 class="cdx-section-title-xs">What’s Packed Inside</h4>
+                                                <ul class="cdx-list">
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Fast Processing
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        All Styles & Models
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Commercial License
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Android Access
+                                                    </li>
+                                                    <li class="cdx-list-item">
+                                                        <img class="cdx-list-icon" src="assets/images/home-2/icon/check-mark.svg" alt="Icon" />
+                                                        Early Access to new features
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1125,50 +767,597 @@
                     </div>
                 </div>
             </section>
-            <!-- faq area end -->
+            <!-- Pricing area end  -->
+
+            <!-- FAQ area start  -->
+            <section class="cdx-faq-area-2 cdx-pb-120">
+                <div class="container">
+                    <div class="row gy-5 align-items-center">
+                        <div class="col-xl-7 col-lg-6 col-md-12">
+                            <h2 class="cdx-section-title-2">Have a Any Question?</h2>
+                            <div class="cdx-accordion">
+                                <div class="cdx-accordion-item">
+                                    <div class="cdx-accordion-heading">
+                                        <div class="cdx-title-wrap">
+                                            <h3 class="cdx-title">Is there a free trial?</h3>
+                                        </div>
+                                        <div class="cdx-icon-wrap">
+                                            <img class="cdx-plus" src="assets/images/home-2/icon/plus.svg" alt="Icon" />
+                                            <img class="cdx-minus" src="assets/images/home-2/icon/minus.svg" alt="Icon" />
+                                        </div>
+                                    </div>
+                                    <div class="cdx-accordion-body active">
+                                        <p class="cdx-section-content-3">
+                                            Consectetur adipiscing eiusmod tempor incididunt labore Magna aliqconsectadipiscing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="cdx-accordion-item">
+                                    <div class="cdx-accordion-heading">
+                                        <div class="cdx-title-wrap">
+                                            <h3 class="cdx-title">What is Imagine?</h3>
+                                        </div>
+                                        <div class="cdx-icon-wrap">
+                                            <img class="cdx-plus" src="assets/images/home-2/icon/plus.svg" alt="Icon" />
+                                            <img class="cdx-minus" src="assets/images/home-2/icon/minus.svg" alt="Icon" />
+                                        </div>
+                                    </div>
+                                    <div class="cdx-accordion-body">
+                                        <p class="cdx-section-content-3">
+                                            Consectetur adipiscing eiusmod tempor incididunt labore Magna aliqconsectadipiscing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="cdx-accordion-item">
+                                    <div class="cdx-accordion-heading">
+                                        <div class="cdx-title-wrap">
+                                            <h3 class="cdx-title">What payment options are available?</h3>
+                                        </div>
+                                        <div class="cdx-icon-wrap">
+                                            <img class="cdx-plus" src="assets/images/home-2/icon/plus.svg" alt="Icon" />
+                                            <img class="cdx-minus" src="assets/images/home-2/icon/minus.svg" alt="Icon" />
+                                        </div>
+                                    </div>
+                                    <div class="cdx-accordion-body">
+                                        <p class="cdx-section-content-3">
+                                            Consectetur adipiscing eiusmod tempor incididunt labore Magna aliqconsectadipiscing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="cdx-accordion-item">
+                                    <div class="cdx-accordion-heading">
+                                        <div class="cdx-title-wrap">
+                                            <h3 class="cdx-title">Can I customize the images?</h3>
+                                        </div>
+                                        <div class="cdx-icon-wrap">
+                                            <img class="cdx-plus" src="assets/images/home-2/icon/plus.svg" alt="Icon" />
+                                            <img class="cdx-minus" src="assets/images/home-2/icon/minus.svg" alt="Icon" />
+                                        </div>
+                                    </div>
+                                    <div class="cdx-accordion-body">
+                                        <p class="cdx-section-content-3">
+                                            Consectetur adipiscing eiusmod tempor incididunt labore Magna aliqconsectadipiscing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6 col-md-12">
+                            <div class="cdx-faq-right-2 position-relative">
+                                <img src="assets/images/home-2/thumb/faq-img.jpg" alt="FAQ" />
+                                <img class="faq-shape" src="assets/images/home-2/shape/faq-border.png" alt="FAQ" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- FAQ area end  -->
+
+            <!-- Testimonial area start  -->
+            <section class="cdx-testimonial-area-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-8 m-auto cdx-pb-40">
+                            <h2 class="cdx-section-title-2 text-center">Tech-Ai Received 4.8/5 Stars in Over 14,000+ Reviews.</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider  -->
+                <div class="swiper cdx-testimonial-slider-2 cdx-pb-30">
+                    <div class="swiper-wrapper">
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-1.jpg" alt="Image" />
+                                </div>
+                                <div class="cdx-details">
+                                    <h3 class="cdx-title">Max Conversion</h3>
+                                    <h4 class="cdx-subtitle">SEO Contain Writer</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-2.jpg" alt="Image" />
+                                </div>
+                                <div class="decdx-tails">
+                                    <h3 class="cdx-title">Nathaneal Down</h3>
+                                    <h4 class="cdx-subtitle">Blogge</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-3.jpg" alt="Image" />
+                                </div>
+                                <div class="cdx-details">
+                                    <h3 class="cdx-title">Nigel Nigel</h3>
+                                    <h4 class="cdx-subtitle">President of Sales</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-4.jpg" alt="Image" />
+                                </div>
+                                <div class="cdx-details">
+                                    <h3 class="cdx-title">Nigel Nigel</h3>
+                                    <h4 class="cdx-subtitle">President of Sales</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-5.jpg" alt="Image" />
+                                </div>
+                                <div class="cdx-details">
+                                    <h3 class="cdx-title">Nathaneal Down</h3>
+                                    <h4 class="cdx-subtitle">Content Writer</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-6.jpg" alt="Image" />
+                                </div>
+                                <div class="cdx-details">
+                                    <h3 class="cdx-title">Russell Sprout</h3>
+                                    <h4 class="cdx-subtitle">Blog Writer</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-7.jpg" alt="Image" />
+                                </div>
+                                <div class="cdx-details">
+                                    <h3 class="cdx-title">Hanson Deck</h3>
+                                    <h4 class="cdx-subtitle">Marketer</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider dir right  -->
+                <div class="swiper cdx-testimonial-slider-2 style-right" dir="rtl">
+                    <div class="swiper-wrapper">
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-1.jpg" alt="Image" />
+                                </div>
+                                <div class="cdx-details">
+                                    <h3 class="cdx-title">Max Conversion</h3>
+                                    <h4 class="cdx-subtitle">SEO Contain Writer</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-2.jpg" alt="Image" />
+                                </div>
+                                <div class="decdx-tails">
+                                    <h3 class="cdx-title">Nathaneal Down</h3>
+                                    <h4 class="cdx-subtitle">Blogge</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-3.jpg" alt="Image" />
+                                </div>
+                                <div class="cdx-details">
+                                    <h3 class="cdx-title">Nigel Nigel</h3>
+                                    <h4 class="cdx-subtitle">President of Sales</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-4.jpg" alt="Image" />
+                                </div>
+                                <div class="cdx-details">
+                                    <h3 class="cdx-title">Nigel Nigel</h3>
+                                    <h4 class="cdx-subtitle">President of Sales</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-5.jpg" alt="Image" />
+                                </div>
+                                <div class="cdx-details">
+                                    <h3 class="cdx-title">Nathaneal Down</h3>
+                                    <h4 class="cdx-subtitle">Content Writer</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-6.jpg" alt="Image" />
+                                </div>
+                                <div class="cdx-details">
+                                    <h3 class="cdx-title">Russell Sprout</h3>
+                                    <h4 class="cdx-subtitle">Blog Writer</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide cdx-testimonial-item-2">
+                            <div class="review">
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review.svg" alt="Icon" />
+                                <img class="icon" src="assets/images/home-2/icon/review-solid.svg" alt="Icon" />
+                            </div>
+                            <p class="cdx-section-content-2">
+                                Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate.
+                                Donec arcu elit
+                            </p>
+                            <div class="cdx-imgbox-style-1">
+                                <div class="cdx-img-wrap">
+                                    <img class="cdx-img" src="assets/images/home-2/team/client-7.jpg" alt="Image" />
+                                </div>
+                                <div class="cdx-details">
+                                    <h3 class="cdx-title">Hanson Deck</h3>
+                                    <h4 class="cdx-subtitle">Marketer</h4>
+                                </div>
+                            </div>
+                            <img class="cdx-quote-icon" src="assets/images/home-2/icon/quote-icon.svg" alt="Icon" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonial area end  -->
+
+            <!-- Blog area start  -->
+            <section class="cdx-blog-area-2 cdx-pt-120">
+                <div class="container">
+                    <div class="cdx-section-heading text-center cdx-pb-40">
+                        <h2 class="cdx-section-title-2">Read about AI images</h2>
+                    </div>
+                    <div class="cdx-blog-style-2">
+                        <div class="cdx-left">
+                            <article class="cdx-blog-item-2">
+                                <div class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/home-2/blog/blog-1.webp" alt="Blog" />
+                                </div>
+                                <div class="cdx-details">
+                                    <ul class="cdx-meta-2">
+                                        <li class="cdx-meta-item">August 19, 2024</li>
+                                        <li class="cdx-meta-item">02 Min</li>
+                                    </ul>
+                                    <h3><a class="cdx-section-title-md" href="blog-detail.html">Turn Ideas into Images with the Power of AI.</a></h3>
+                                    <p class="cdx-section-content-2">
+                                        Quisque vitae odio id tellus ultricies egestas Quis id orci. In id us Nunc, ut faucibus.
+                                    </p>
+                                    <a class="cdx-btn-border" href="blog-detail.html">Read More</a>
+                                </div>
+                            </article>
+                            <article class="cdx-blog-item-2">
+                                <div class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/home-2/blog/blog-2.webp" alt="Blog" />
+                                </div>
+                                <div class="cdx-details">
+                                    <ul class="cdx-meta-2">
+                                        <li class="cdx-meta-item">September 19, 2024</li>
+                                        <li class="cdx-meta-item">02 Min</li>
+                                    </ul>
+                                    <h3><a class="cdx-section-title-md" href="blog-detail.html">Turn Ideas into Images with the Power of AI.</a></h3>
+                                    <p class="cdx-section-content-2">
+                                        Quisque vitae odio id tellus ultricies egestas Quis id orci. In id us Nunc, ut faucibus.
+                                    </p>
+                                    <a class="cdx-btn-border" href="blog-detail.html">Read More</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="cdx-right">
+                            <article class="cdx-blog-item-2">
+                                <div class="cdx-item-inner">
+                                    <div class="cdx-thumb-wrap">
+                                        <img class="cdx-thumb" src="assets/images/home-2/blog/blog-3.webp" alt="Blog" />
+                                    </div>
+                                    <div class="cdx-details">
+                                        <ul class="cdx-meta-2">
+                                            <li class="cdx-meta-item">Nov 19, 2024</li>
+                                            <li class="cdx-meta-item">02 Min</li>
+                                        </ul>
+                                        <h3><a class="cdx-section-title-xxs" href="blog-detail.html">Let AI Bring Your Ideas To Life</a></h3>
+                                        <a class="cdx-btn-border" href="blog-detail.html">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="cdx-blog-item-2">
+                                <div class="cdx-item-inner">
+                                    <div class="cdx-thumb-wrap">
+                                        <img class="cdx-thumb" src="assets/images/home-2/blog/blog-4.webp" alt="Blog" />
+                                    </div>
+                                    <div class="cdx-details">
+                                        <ul class="cdx-meta-2">
+                                            <li class="cdx-meta-item">Nov 19, 2024</li>
+                                            <li class="cdx-meta-item">02 Min</li>
+                                        </ul>
+                                        <h3><a class="cdx-section-title-xxs" href="blog-detail.html">Build Visuals in Seconds with AI.</a></h3>
+                                        <a class="cdx-btn-border" href="blog-detail.html">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="cdx-blog-item-2">
+                                <div class="cdx-item-inner">
+                                    <div class="cdx-thumb-wrap">
+                                        <img class="cdx-thumb" src="assets/images/home-2/blog/blog-5.webp" alt="Blog" />
+                                    </div>
+                                    <div class="cdx-details">
+                                        <ul class="cdx-meta-2">
+                                            <li class="cdx-meta-item">Sep 19, 2024</li>
+                                            <li class="cdx-meta-item">02 Min</li>
+                                        </ul>
+                                        <h3><a class="cdx-section-title-xxs" href="blog-detail.html">Intelligent Automation Services</a></h3>
+                                        <a class="cdx-btn-border" href="blog-detail.html">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Blog area end  -->
         </main>
         <!-- start footer area  -->
-        <footer class="footer-area">
+        <footer class="cdx-footer-area-2">
             <div class="container">
-                <div class="footer-cta bg-cover gradient-border" style="background-image: url(assets/images/home-1/bg/footer-top-bg.webp)">
-                    <div class="row align-items-center gy-3">
-                        <div class="col-lg-7">
-                            <h2 class="top-title">Ready To Meet Your Personal AI Writing Assistant?</h2>
+                <div class="cta-wrap-2">
+                    <div class="row gy-5">
+                        <div class="col-xl-8 col-lg-6 col-md-12">
+                            <h2 class="cdx-section-title-2">Create magical images with Tech - AI.</h2>
+                            <p class="cdx-section-content-3 pt-3 cdx-pb-40">
+                                Quisque vitae odio id tellus ultricies egestaQuis id orci. In id us Nunc, ut faucibus ex. Etiam Enim ac nunc.
+                            </p>
+                            <div class="d-flex align-items-center gap-2">
+                                <a class="cdx-btn-filled-3 cdx-hover-alernate" href="#">
+                                    <img class="cdx-btn-icon" src="assets/images/home-2/icon/apple.svg" alt="Icon" />
+                                    <span class="cdx-btn-effect">Apple Store</span>
+                                </a>
+                                <a class="cdx-btn-filled-3 style-dark cdx-hover-corners" href="#">
+                                    <img class="cdx-btn-icon" src="assets/images/home-2/icon/play-stor.svg" alt="Icon" />
+                                    <span class="cdx-btn-effect">Play Story</span>
+                                </a>
+                            </div>
                         </div>
-                        <div class="col-lg-5">
-                            <div class="d-flex align-items-center justify-content-lg-end justify-content-center gap-2">
-                                <a class="btn-gradient-border" href="#">Purchase Now</a>
-                                <a class="btn-gradient-border" href="#">Try It Free</a>
+                        <div class="col-xl-4 col-lg-6 col-md-12">
+                            <div class="cdx-right">
+                                <img class="cdx-img" src="assets/images/home-2/thumb/mini-robot.webp" alt="Image" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row gy-5">
-                    <div class="col-xl-3 col-lg-4 col-md-4">
+                <div class="row gy-5 cdx-pb-120">
+                    <div class="col-xl-3 col-lg-4 col-md-5">
                         <div class="footer-widget">
                             <a href="index.html">
                                 <img src="assets/images/home-1/logo/logo.svg" alt="Logo" />
                             </a>
-                            <p class="cdx-section-content">Cras incident lobotids feudist makes viramas.</p>
-                            <ul class="social-wrap pt-30">
-                                <li class="social-list">
-                                    <a class="social-link" href="#" target="_blank">
-                                        <img class="icon" src="assets/images/home-1/icon/facebook-icon.svg" alt="Social" />
+                            <p class="cdx-section-content-3 pt-3 cdx-pb-30">Cras incident lobotids feudist makes viramas.</p>
+                            <ul class="cdx-social-style-2 pt-30">
+                                <li class="cdx-social-list">
+                                    <a class="cdx-social-link" href="#" target="_blank">
+                                        <img class="cdx-social-icon" src="assets/images/home-1/icon/facebook-icon.svg" alt="Social" />
                                     </a>
                                 </li>
-                                <li class="social-list">
-                                    <a class="social-link" href="#" target="_blank">
-                                        <img class="icon" src="assets/images/home-1/icon/twitter.svg" alt="Social" />
+                                <li class="cdx-social-list">
+                                    <a class="cdx-social-link" href="#" target="_blank">
+                                        <img class="cdx-social-icon" src="assets/images/home-1/icon/twitter.svg" alt="Social" />
                                     </a>
                                 </li>
-                                <li class="social-list">
-                                    <a class="social-link" href="#" target="_blank">
-                                        <img class="icon" src="assets/images/home-1/icon/linkedin.svg" alt="Social" />
+                                <li class="cdx-social-list">
+                                    <a class="cdx-social-link" href="#" target="_blank">
+                                        <img class="cdx-social-icon" src="assets/images/home-1/icon/linkedin.svg" alt="Social" />
                                     </a>
                                 </li>
-                                <li class="social-list">
-                                    <a class="social-link" href="#" target="_blank">
-                                        <img class="icon" src="assets/images/home-1/icon/pinterest.svg" alt="Social" />
+                                <li class="cdx-social-list">
+                                    <a class="cdx-social-link" href="#" target="_blank">
+                                        <img class="cdx-social-icon" src="assets/images/home-1/icon/pinterest.svg" alt="Social" />
                                     </a>
                                 </li>
                             </ul>
@@ -1178,41 +1367,23 @@
                         <div class="footer-widget">
                             <h3 class="widget-title">Product</h3>
                             <ul class="menu-wrap">
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">Chat by Tech - ai</a>
-                                </li>
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">Tech Ai Reviews</a>
-                                </li>
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">50+ Templates</a>
-                                </li>
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">25+ Languages</a>
-                                </li>
+                                <li class="menu-list"><a class="menu-link" href="#">Chat by Tech - ai</a></li>
+                                <li class="menu-list"><a class="menu-link" href="#">Tech Ai Reviews</a></li>
+                                <li class="menu-list"><a class="menu-link" href="#">50+ Templates</a></li>
+                                <li class="menu-list"><a class="menu-link" href="#">25+ Languages</a></li>
                                 <li class="menu-list"><a class="menu-link" href="#">Pricing</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-4 col-md-4">
+                    <div class="col-xl-2 col-lg-4 col-md-3">
                         <div class="footer-widget">
                             <h3 class="widget-title">Solutions</h3>
                             <ul class="menu-wrap">
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">Ecommerce</a>
-                                </li>
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">SaaS</a>
-                                </li>
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">Marketplaces</a>
-                                </li>
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">Finance</a>
-                                </li>
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">Platforms</a>
-                                </li>
+                                <li class="menu-list"><a class="menu-link" href="#">Ecommerce</a></li>
+                                <li class="menu-list"><a class="menu-link" href="#">SaaS</a></li>
+                                <li class="menu-list"><a class="menu-link" href="#">Marketplaces</a></li>
+                                <li class="menu-list"><a class="menu-link" href="#">Finance</a></li>
+                                <li class="menu-list"><a class="menu-link" href="#">Platforms</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1220,46 +1391,35 @@
                         <div class="footer-widget">
                             <h3 class="widget-title">Resources</h3>
                             <ul class="menu-wrap">
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">Support Center</a>
-                                </li>
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">Guides</a>
-                                </li>
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">Customer Stories</a>
-                                </li>
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">Blog</a>
-                                </li>
-                                <li class="menu-list">
-                                    <a class="menu-link" href="#">Annual Conference</a>
-                                </li>
+                                <li class="menu-list"><a class="menu-link" href="#">Support Center</a></li>
+                                <li class="menu-list"><a class="menu-link" href="#">Guides</a></li>
+                                <li class="menu-list"><a class="menu-link" href="#">Customer Stories</a></li>
+                                <li class="menu-list"><a class="menu-link" href="#">Blog</a></li>
+                                <li class="menu-list"><a class="menu-link" href="#">Annual Conference</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="footer-widget">
                             <h3 class="widget-title">Feeling Like Subscribe?</h3>
-                            <form action="/" class="newsletter-form gradient-border">
-                                <input class="input-search" type="email" name="email" placeholder="Enter your email" />
-                                <button class="btn-submit gradient-border">Get</button>
-                            </form>
+                            <p class="cdx-section-content-2 cdx-pb-30">235 Bowery, New York, NY 40882, United States</p>
+                            <a class="cdx-info-link" href="mailto:example@gmail.com">
+                                <img class="cdx-icon" src="assets/images/home-2/icon/mail.svg" alt="Icon" />
+                                example@gmail.com
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div
-                    class="footer-btm d-flex align-items-center justify-content-md-between justify-content-center flex-md-row flex-column gap-3 pt-3"
-                >
-                    <p>© 2025 Codexshaper All rights reserved.</p>
-                    <ul class="privacy-menu">
-                        <li class="menu-list">
-                            <a class="menu-link" href="#">Privacy Policy</a>
-                        </li>
-                        <li class="menu-list">
-                            <a class="menu-link" href="#">Term of Service</a>
-                        </li>
-                    </ul>
+            </div>
+            <div class="footer-btm py-2">
+                <div class="container">
+                    <div class="d-flex align-items-center justify-content-md-between justify-content-center flex-md-row flex-column gap-3">
+                        <p class="cdx-section-content">© 2025 Codexshaper All rights reserved.</p>
+                        <ul class="privacy-menu">
+                            <li class="menu-list"><a class="menu-link" href="#">Privacy Policy</a></li>
+                            <li class="menu-list"><a class="menu-link" href="#">Term of Service</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </footer>
