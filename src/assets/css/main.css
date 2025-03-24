@@ -981,7 +981,7 @@ h6 {
     left: -300px;
     opacity: 0.8;
     animation: cloud-move-left 28s linear 0s infinite reverse;
-    z-index: 99;
+    z-index: 9999;
 }
 
 @keyframes cloud-move-left {
@@ -1967,6 +1967,10 @@ h6 {
     background-color: var(--black-2);
 }
 
+.body-bg-white {
+    background-color: var(--white);
+}
+
 .body-bg-2 {
     background-color: var(--dark);
 }
@@ -1988,7 +1992,7 @@ h6 {
     border: 1px solid;
     border-image-slice: 1;
     border-width: 1px;
-    border-image-source: linear-gradient(85deg, #E3B419 0%, #23E173 50.5%, #27A1ED 100%);
+    border-image-source: linear-gradient(85deg, #e3b419 0%, #23e173 50.5%, #27a1ed 100%);
 }
 
 .line {
@@ -10499,6 +10503,22 @@ li.voice-badge {
 .cdx-testimonial-area-8 {
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+.cdx-testimonial-area-8:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url("../../assets/images/home-8/hero/hero-bg.svg");
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    top: 0;
+    left: 0;
 }
 
 .cdx-testimonial-area-8 .swiper-wrapper {

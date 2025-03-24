@@ -4,6 +4,9 @@
 .body-bg {
     background-color: var(--black-2);
 }
+.body-bg-white {
+    background-color: var(--white);
+}
 .body-bg-2 {
     background-color: var(--dark);
 }
@@ -17,14 +20,14 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.gradient-border { 
+.gradient-border {
     border: 1px solid;
     border-image-slice: 1;
-    border-width: 1px; 
-    border-image-source: linear-gradient(85deg, #E3B419 0%, #23E173 50.5%, #27A1ED 100%); 
+    border-width: 1px;
+    border-image-source: linear-gradient(85deg, #e3b419 0%, #23e173 50.5%, #27a1ed 100%);
 }
 
-// Border line 
+// Border line
 .line {
     position: relative;
     border-left: 1px solid var(--gray-5);
@@ -41,7 +44,7 @@
     }
 }
 
-// position-center 
+// position-center
 .position-center {
     position: absolute;
     top: 50%;
