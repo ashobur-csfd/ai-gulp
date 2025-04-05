@@ -3,41 +3,60 @@
 ==========================*/
 
 .cdx-faq-area-3 {
-	@media #{$md} {
-		.cdx-faq-right {
-			rotate: 90deg;
-			width: fit-content;
+    @media #{$md} {
+        .cdx-faq-right {
+            rotate: 90deg;
+            width: fit-content;
 
-			img {
-				transform: translateY(-30px);
-				max-width: 120px;
-			}
-		}
-	}
+            img {
+                transform: translateY(-30px);
+                max-width: 120px;
+            }
+        }
+    }
 }
 
 .cdx-accordion-style-3 {
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	.cdx-accordion-heading {
-		position: relative;
-		&::before {
-			position: absolute;
-			top: 37%;
-			left: -20px;
-			width: 5px;
-			height: 5px;
-			background-color: var(--white);
-			border-radius: 100px;
-			content: '';
-		}
-	}
-	.cdx-title {
-		color: var(--white);
-	}
-	.cdx-accordion-item {
-		padding: 25px 30px 25px 50px;
-	}
-	.cdx-accordion-content {
-		padding: 10px 71px 9px 0px;
-	}
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    .cdx-accordion-heading {
+        position: relative;
+        &::before {
+            position: absolute;
+            top: 37%;
+            left: -20px;
+            width: 5px;
+            height: 5px;
+            background-color: var(--white);
+            border-radius: 100px;
+            content: "";
+        }
+    }
+    .cdx-title {
+        color: var(--white);
+    }
+    .cdx-accordion-item {
+        padding: 25px 30px 25px 50px;
+    }
+    .cdx-accordion-content {
+        padding: 10px 71px 9px 0px;
+    }
+    &.style-white {
+        .cdx-accordion-item {
+            background: #eef7fc;
+            border-bottom: 1px solid #cfd7dd;
+            border-left: 1px solid #cfd7dd;
+            border-right: 1px solid #cfd7dd;
+            &:first-child {
+                border-top: 1px solid #cfd7dd;
+            }
+        }
+        .cdx-accordion-heading {
+            &::before {
+                background-color: var(--dark);
+            }
+        }
+        .cdx-title {
+            color: var(--dark);
+        }
+    }
 }

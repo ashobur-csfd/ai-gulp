@@ -1,0 +1,42 @@
+<svg width="1920" height="544" viewBox="0 0 1920 544" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_9353_1413" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="544">
+<rect width="1920" height="544" fill="url(#paint0_linear_9353_1413)"/>
+</mask>
+<g mask="url(#mask0_9353_1413)">
+<path d="M0 -370H1920V590C1920 1120.19 1490.19 1550 960 1550V1550C429.807 1550 0 1120.19 0 590V-370Z" fill="#1D2739"/>
+<rect x="113" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="226" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="339" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="452" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="565" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="678" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="791" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="904" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="1017" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="1130" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="1243" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="1356" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="1469" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="1582" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="1695" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect x="1808" width="1" height="950" fill="white" fill-opacity="0.14"/>
+<rect y="105" width="1920" height="1" fill="white" fill-opacity="0.14"/>
+<rect y="210" width="1920" height="1" fill="white" fill-opacity="0.14"/>
+<rect y="315" width="1920" height="1" fill="white" fill-opacity="0.14"/>
+<rect y="420" width="1920" height="1" fill="white" fill-opacity="0.14"/>
+<rect y="525" width="1920" height="1" fill="white" fill-opacity="0.14"/>
+<rect x="1017" y="210" width="114" height="106" fill="#3B4659"/>
+<rect x="1356" y="420" width="114" height="106" fill="#58657C"/>
+<rect x="1356" y="105" width="114" height="106" fill="#3B4659"/>
+<rect x="1695" y="315" width="114" height="106" fill="#58657C"/>
+<rect x="1809" y="421" width="114" height="106" fill="#58657C"/>
+<rect x="226" y="210" width="114" height="106" fill="#333D50"/>
+<rect x="113" y="105" width="114" height="106" fill="#333D50"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_9353_1413" x1="960" y1="0" x2="960" y2="544" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1D2739" stop-opacity="0.8"/>
+<stop offset="0.640508" stop-color="#1D2739" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
