@@ -40,7 +40,7 @@
     .cdx-accordion-content {
         padding: 10px 71px 9px 0px;
     }
-    &.style-white {
+    &.style-for-white {
         .cdx-accordion-item {
             background: #eef7fc;
             border-bottom: 1px solid #cfd7dd;
@@ -50,6 +50,11 @@
                 border-top: 1px solid #cfd7dd;
             }
         }
+        .cdx-minus,
+        .cdx-plus {
+            filter: brightness(0) saturate(100%);
+        }
+
         .cdx-accordion-heading {
             &::before {
                 background-color: var(--dark);
