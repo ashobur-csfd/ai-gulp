@@ -111,6 +111,24 @@
     }
 }
 
+.cdx-btn-filled-5 {
+    color: var(--dark);
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: var(--yellow-3);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    white-space: nowrap;
+
+    &:hover {
+        background: var(--green-3);
+        color: var(--dark);
+    }
+}
+
 .cdx-btn-filled-3.style-dark {
     background-color: var(--primary);
     color: var(--dark-2);

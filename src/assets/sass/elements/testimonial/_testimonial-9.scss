@@ -34,7 +34,7 @@ $spacing-base: 8px;
     align-items: stretch;
 
     .cdx-testimonial-content {
-        background-color: #fff;
+        background-color: var(--white);
         box-shadow: 0 2px 4px rgba(16, 18, 33, 0.2);
         padding: clamp(20px, 5vw, 70px);
         height: 100%;

@@ -34,7 +34,7 @@
         padding: 8px 14px;
         border-radius: 40px;
         border: 1px solid rgba(16, 18, 33, 0.14);
-        background: #fff;
+        background: var(--white);
         position: relative;
         z-index: 0;
         transition: color 0.3s ease;
@@ -52,7 +52,7 @@
 
         &:hover,
         &.active {
-            color: #fff;
+            color: var(--white);
             border-color: transparent;
 
             &::before {

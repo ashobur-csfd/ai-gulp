@@ -13,7 +13,7 @@
     #{$x}: -6px;
     #{$y}: -6px;
     @include square-element(12px);
-    background: #fff;
+    background: var(--white);
     border: 2px solid var(--dark);
 }
 
@@ -82,7 +82,7 @@
 
                 &.gradient-bg {
                     background: linear-gradient(95deg, #4038b7 0%, #e24a70 100%);
-                    color: #fff;
+                    color: var(--white);
                 }
 
                 &.solid-bg {
@@ -165,7 +165,7 @@
     .text {
         border: 2px solid transparent;
         border-image: linear-gradient(95deg, #4038b7 0%, #e24a70 100%) 1;
-        background: #fff;
+        background: var(--white);
     }
 
     .cursor-icon {

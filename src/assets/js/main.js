@@ -177,7 +177,7 @@
         slidesPerView: 4,
         loop: true,
         spaceBetween: 30,
-        speed: 3000,
+        speed: 5000,
         autoplay: {
             delay: 3,
             disableOnInteraction: false
@@ -267,7 +267,7 @@
     Testimonial slider six
     ----------------------------------------------------- */
     var testimonialSlider = new Swiper(".cdx-testimonial-slider-6", {
-        slidesPerView: 4.8,
+        slidesPerView: 3.8,
         loop: true,
         spaceBetween: 30,
         speed: 2000,
@@ -293,7 +293,7 @@
                 spaceBetween: 25
             },
             1200: {
-                slidesPerView: 4.8
+                slidesPerView: 3.8
             }
         }
     });

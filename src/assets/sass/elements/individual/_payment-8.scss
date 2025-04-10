@@ -10,7 +10,7 @@
     }
     .payment-card-8 {
         border: 1px solid rgba(16, 18, 33, 0.14);
-        background: #fff;
+        background: var(--white);
         padding: 40px 0px 30px;
 
         .bank-payment {
@@ -36,7 +36,7 @@
             .cdx-payment-box {
                 text-align: center;
                 border: 1px solid rgba(16, 18, 33, 0.14);
-                background: #fff;
+                background: var(--white);
                 max-width: 110px;
                 padding: 6px;
             }

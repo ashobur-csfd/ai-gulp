@@ -89,7 +89,7 @@
 
     &.style-gradient {
         .cdx-social-link {
-            background: #fff;
+            background: var(--white);
             transition: var(--transition);
             img {
                 filter: brightness(0) saturate(100%);

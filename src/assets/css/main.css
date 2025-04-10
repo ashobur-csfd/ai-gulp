@@ -1176,6 +1176,24 @@ h6 {
     color: var(--white);
 }
 
+.cdx-btn-filled-5 {
+    color: var(--dark);
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: var(--yellow-3);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.cdx-btn-filled-5:hover {
+    background: var(--green-3);
+    color: var(--dark);
+}
+
 .cdx-btn-filled-3.style-dark {
     background-color: var(--primary);
     color: var(--dark-2);
@@ -2628,7 +2646,7 @@ h6 {
 }
 
 .cdx-form-7 .form-group.form-cta-7 {
-    background: #fff;
+    background: var(--white);
     border-color: transparent;
     box-shadow: 0px 6px 6px 0px rgba(16, 18, 33, 0.14);
 }
@@ -2722,7 +2740,7 @@ h6 {
 }
 
 .cdx-form-style-4 .form-group .form-label {
-    color: #fff;
+    color: var(--white);
     font-size: 16px;
     font-weight: 700;
     opacity: 0.5;
@@ -3427,7 +3445,7 @@ h6 {
     font-weight: 500;
     letter-spacing: -0.3px;
     display: inline-block;
-    background-color: #f8a85e;
+    background-color: var(--yellow-2);
     padding: 3px 12px;
 }
 
@@ -3482,7 +3500,7 @@ h6 {
     border: 0;
     font-weight: 500;
     letter-spacing: -0.32px;
-    background-color: #f8a85e;
+    background-color: var(--yellow-2);
     padding: 11px 20px;
 }
 
@@ -4624,7 +4642,7 @@ h6 {
 }
 
 .cdx-hero-badge .cdx-icon-wrap .cdx-text {
-    color: #fff;
+    color: var(--white);
     font-size: 15px;
     font-weight: 500;
     letter-spacing: -0.3px;
@@ -4720,7 +4738,7 @@ h6 {
 
 .cdx-hero-area-9 .cdx-hero-title .text-border.gradient-bg {
     background: linear-gradient(95deg, #4038b7 0%, #e24a70 100%);
-    color: #fff;
+    color: var(--white);
 }
 
 .cdx-hero-area-9 .cdx-hero-title .text-border.solid-bg {
@@ -4734,7 +4752,7 @@ h6 {
     left: -6px;
     width: 12px;
     height: 12px;
-    background: #fff;
+    background: var(--white);
     border: 2px solid var(--dark);
 }
 
@@ -4745,7 +4763,7 @@ h6 {
     right: -6px;
     width: 12px;
     height: 12px;
-    background: #fff;
+    background: var(--white);
     border: 2px solid var(--dark);
 }
 
@@ -4756,7 +4774,7 @@ h6 {
     left: -6px;
     width: 12px;
     height: 12px;
-    background: #fff;
+    background: var(--white);
     border: 2px solid var(--dark);
 }
 
@@ -4767,7 +4785,7 @@ h6 {
     right: -6px;
     width: 12px;
     height: 12px;
-    background: #fff;
+    background: var(--white);
     border: 2px solid var(--dark);
 }
 
@@ -4834,7 +4852,7 @@ h6 {
 .total-language-count .text {
     border: 2px solid transparent;
     border-image: linear-gradient(95deg, #4038b7 0%, #e24a70 100%) 1;
-    background: #fff;
+    background: var(--white);
 }
 
 .total-language-count .cursor-icon {
@@ -5456,6 +5474,18 @@ li.voice-badge {
     grid-template-columns: 150px auto;
     align-items: center;
     gap: 24px;
+}
+
+@media only screen and (max-width: 991px) {
+    .cdx-blog-item-2 .cdx-item-inner {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .cdx-blog-item-2 .cdx-item-inner {
+        gap: 15px;
+    }
 }
 
 .cdx-blog-item-2 .cdx-details {
@@ -6100,12 +6130,16 @@ li.voice-badge {
     transition: var(--transition);
 }
 
+.cdx-blog-item-8 .cdx-section-title-xs.text-gray, .cdx-blog-item-8 .cdx-pricing-card-9 .cdx-pricing-card-header .text-gray.pricing-title, .cdx-pricing-card-9 .cdx-pricing-card-header .cdx-blog-item-8 .text-gray.pricing-title {
+    transition: var(--transition);
+}
+
 .cdx-blog-item-8:hover .cdx-thumb {
     transform: scale(1.1);
 }
 
 .cdx-blog-item-8:hover .cdx-section-title-xs.text-gray, .cdx-blog-item-8:hover .cdx-pricing-card-9 .cdx-pricing-card-header .text-gray.pricing-title, .cdx-pricing-card-9 .cdx-pricing-card-header .cdx-blog-item-8:hover .text-gray.pricing-title {
-    color: #55ED6C;
+    color: #55ed6c;
 }
 
 .cdx-blog-item-8 .cdx-thumb {
@@ -6129,7 +6163,7 @@ li.voice-badge {
     font-size: 15px;
     display: flex;
     align-items: center;
-    background-color: #55ED6C;
+    background-color: #55ed6c;
     gap: 8px;
     padding: 8px 14px;
     position: absolute;
@@ -6139,7 +6173,7 @@ li.voice-badge {
 
 .cdx-blog-item-8 .cdx-bottom {
     padding-top: 15px;
-    background-color: #E7EAFA;
+    background-color: #e7eafa;
     padding-left: 30px;
 }
 
@@ -7052,6 +7086,10 @@ li.voice-badge {
     position: relative;
 }
 
+.cdx-tecnology-item .cdx-thumb-wrap .cdx-thumb {
+    width: 100%;
+}
+
 .cdx-tecnology-item .cdx-thumb-wrap::before {
     position: absolute;
     bottom: 0px;
@@ -7341,12 +7379,17 @@ li.voice-badge {
     border-image: linear-gradient(to bottom, #101221 0%, #4de864 100%) 0.5;
     border-width: 1px;
     border-style: solid;
+    height: 100%;
 }
 
 @media only screen and (min-width: 1921px) {
     .cdx-features-area-2 .cdx-features-img {
         height: 550px;
     }
+}
+
+.cdx-features-area-2 .cdx-features-img img {
+    object-fit: cover;
 }
 
 .cdx-features-area-2 .cdx-content-box {
@@ -7433,7 +7476,7 @@ li.voice-badge {
 }
 
 .cdx-features-area-2 .cdx-btn {
-    color: #fff;
+    color: var(--white);
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -7442,7 +7485,7 @@ li.voice-badge {
 }
 
 .cdx-features-area-2 .cdx-sec-title {
-    color: #fff;
+    color: var(--white);
     text-align: center;
     font-size: 40px;
     font-weight: 500;
@@ -7457,6 +7500,7 @@ li.voice-badge {
     display: flex;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .cdx-social-list .cdx-social-link {
@@ -7481,6 +7525,25 @@ li.voice-badge {
         height: 55px;
     }
 }
+
+.cdx-features-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.cdx-features-lists li {
+    color: var(--black-2);
+    list-style: disc;
+}
+
+.cdx-features-lists .cdx-item {
+    color: var(--black-2);
+    font-size: 14px;
+    font-weight: 500;
+}
+
 /*=========================
     Features CSS THREE
 ==========================*/
@@ -8811,7 +8874,7 @@ li.voice-badge {
     padding: 8px 14px;
     border-radius: 40px;
     border: 1px solid rgba(16, 18, 33, 0.14);
-    background: #fff;
+    background: var(--white);
     position: relative;
     z-index: 0;
     transition: color 0.3s ease;
@@ -8829,7 +8892,7 @@ li.voice-badge {
 }
 
 .cdx-ready-voice-tab-btn:hover, .cdx-ready-voice-tab-btn.active {
-    color: #fff;
+    color: var(--white);
     border-color: transparent;
 }
 
@@ -9691,7 +9754,7 @@ li.voice-badge {
 }
 
 .cdx-pricing-tab-nav .cdx-pricing-tab-btn .cdx-discount {
-    color: #fff;
+    color: var(--white);
     border-radius: 50px;
     background-image: linear-gradient(95deg, #4038b7, #e24a70);
     box-shadow: 0 4px 6px rgba(16, 18, 33, 0.24);
@@ -10646,7 +10709,7 @@ li.voice-badge {
 }
 
 .cdx-testimonial-card-nine .cdx-testimonial-content {
-    background-color: #fff;
+    background-color: var(--white);
     box-shadow: 0 2px 4px rgba(16, 18, 33, 0.2);
     padding: clamp(20px, 5vw, 70px);
     height: 100%;
@@ -10755,7 +10818,7 @@ li.voice-badge {
 
 .cdx-testimonial-11-group {
     border: 1px solid rgba(16, 18, 33, 0.1);
-    background: #fff;
+    background: var(--white);
     padding: 60px 80px;
 }
 
@@ -11767,7 +11830,7 @@ li.voice-badge {
 }
 
 .cdx-audio-controls .cdx-audio-play-button:hover, .cdx-audio-controls .cdx-audio-play-button.playing {
-    color: #fff;
+    color: var(--white);
     border-color: transparent;
     box-shadow: 0px 4px 6px 0px rgba(16, 18, 33, 0.24);
 }
@@ -12285,7 +12348,7 @@ li.voice-badge {
     top: 50%;
     transform: translateY(-50%);
     left: 100%;
-    color: #fff;
+    color: var(--white);
     font-size: 14px;
     font-weight: 700;
     width: 28px;
@@ -12295,7 +12358,7 @@ li.voice-badge {
     justify-content: center;
     flex-shrink: 0;
     border-radius: 30px;
-    border: 2px solid #fff;
+    border: 2px solid var(--white);
     background: linear-gradient(90deg, #9a20df 0%, #2467d0 53.68%, #1fc042 100%);
 }
 
@@ -12340,7 +12403,7 @@ li.voice-badge {
 }
 
 .cdx-language-support-area-1 .cdx-count-country .cdx-count {
-    color: #fff;
+    color: var(--white);
     font-size: 100px;
     font-weight: 700;
 }
@@ -12358,7 +12421,7 @@ li.voice-badge {
 }
 
 .cdx-language-support-area-1 .cdx-count-country .cdx-count-text {
-    color: #fff;
+    color: var(--white);
     font-size: 20px;
     font-weight: 400;
     transform: translateY(-50%) rotate(-90deg);
@@ -12391,14 +12454,14 @@ li.voice-badge {
 }
 
 .cdx-countries .cdx-country .cdx-country-name {
-    color: #fff;
+    color: var(--white);
     font-size: 14px;
     font-weight: 500;
 }
 
 .cdx-countries .cdx-country.dark {
     border: 1px solid rgba(16, 18, 33, 0.14);
-    background: #fff;
+    background: var(--white);
 }
 
 .cdx-countries .cdx-country.dark .cdx-country-name {
@@ -12508,7 +12571,7 @@ li.voice-badge {
 }
 
 .cdx-brand-area .cdx-icon-wrap .cdx-icon-ai {
-    background: #fff;
+    background: var(--white);
     filter: drop-shadow(0px 10px 10px rgba(16, 18, 33, 0.4));
     width: 100px;
     height: 100px;
@@ -12552,7 +12615,7 @@ li.voice-badge {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #fff;
+    background: var(--white);
     z-index: -1;
 }
 
@@ -12599,13 +12662,14 @@ li.voice-badge {
 
 .cdx-brand-item {
     border: 1px solid rgba(16, 18, 33, 0.14);
-    background: #fff;
+    background: var(--white);
     padding: 30px 14px;
     text-align: center;
     flex: 1;
     height: fit-content;
     max-width: 300px;
     position: relative;
+    transition: var(--transition);
   /* Select the last child of an even element */
 }
 
@@ -12796,6 +12860,10 @@ li.voice-badge {
     margin: 0 auto 24px auto;
 }
 
+.cdx-brand-item .cdx-icon-thumb img {
+    transition: var(--transition);
+}
+
 @media only screen and (max-width: 991px) {
     .cdx-brand-item .cdx-icon-thumb {
         width: 40px;
@@ -12821,6 +12889,14 @@ li.voice-badge {
     .cdx-brand-item .cdx-brand-text {
         font-size: 16px;
     }
+}
+
+.cdx-brand-item:hover {
+    box-shadow: 0px 10px 10px 0px rgba(197, 197, 197, 0.3);
+}
+
+.cdx-brand-item:hover .cdx-icon-thumb img {
+    transform: scale(1.1);
 }
 
 .cdx-pattern-item {
@@ -12888,7 +12964,7 @@ li.voice-badge {
     top: 50%;
     transform: translateY(-50%);
     right: 0;
-    background: #fff;
+    background: var(--white);
     box-shadow: 0px 20px 60px 0px rgba(10, 9, 15, 0.3);
 }
 
@@ -12901,7 +12977,7 @@ li.voice-badge {
 }
 
 .cdx-pattern-item .cdx-track-left .img-2 {
-    background: #fff;
+    background: var(--white);
     box-shadow: 0px 20px 60px 0px rgba(10, 9, 15, 0.3);
     max-width: 330px;
 }
@@ -12914,7 +12990,7 @@ li.voice-badge {
 
 .cdx-pattern-item .cdx-track-left .img-3 {
     max-width: 285px;
-    background: #fff;
+    background: var(--white);
     box-shadow: 0px 20px 60px 0px rgba(10, 9, 15, 0.3);
 }
 
@@ -13105,7 +13181,7 @@ li.voice-badge {
 
 .cdx-service-card-12 {
     border: 1px solid #c9ccdc;
-    background: #fff;
+    background: var(--white);
     padding: 10px 20px;
     display: flex;
     align-items: center;
@@ -13155,7 +13231,7 @@ li.voice-badge {
 
 .payment-area-8 .payment-card-8 {
     border: 1px solid rgba(16, 18, 33, 0.14);
-    background: #fff;
+    background: var(--white);
     padding: 40px 0px 30px;
 }
 
@@ -13187,7 +13263,7 @@ li.voice-badge {
 .payment-area-8 .payment-card-8 .cdx-online-payment .cdx-payment-box {
     text-align: center;
     border: 1px solid rgba(16, 18, 33, 0.14);
-    background: #fff;
+    background: var(--white);
     max-width: 110px;
     padding: 6px;
 }
@@ -13413,6 +13489,7 @@ li.voice-badge {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding: 25px 0px;
     transition: 0.8s ease-out;
+    overflow: hidden;
 }
 
 .cdx-accordion .cdx-accordion-item.active .cdx-accordion-body {
@@ -13563,6 +13640,7 @@ li.voice-badge {
     background-color: var(--white);
     margin-bottom: 24px;
     padding: 25px 34px;
+    overflow: hidden;
 }
 
 /*=========================
@@ -13602,6 +13680,7 @@ li.voice-badge {
     background: #1d2739;
     border: none;
     margin-bottom: 10px;
+    overflow: hidden;
 }
 
 .cdx-accordion-style-6 .cdx-accordion-item .cdx-minus {
@@ -13671,7 +13750,7 @@ li.voice-badge {
     position: relative;
     height: 100%;
     min-height: 40px;
-    background: #fff;
+    background: var(--white);
     box-shadow: 4px 2px 4px 0px rgba(16, 18, 33, 0.2);
     padding: 8px 20px;
     overflow: hidden;
@@ -13691,7 +13770,7 @@ li.voice-badge {
 }
 
 .cdx-landing-tab-btn:hover, .cdx-landing-tab-btn.active {
-    color: #fff;
+    color: var(--white);
 }
 
 .cdx-landing-tab-btn:hover::before, .cdx-landing-tab-btn.active::before {
@@ -13723,7 +13802,7 @@ li.voice-badge {
 }
 
 .cdx-landing-tab-content .cdx-img-group-1 {
-    background: #fff;
+    background: var(--white);
     box-shadow: 0px 20px 60px 0px rgba(10, 9, 15, 0.3);
     align-self: flex-start;
     position: relative;
@@ -13731,7 +13810,7 @@ li.voice-badge {
 }
 
 .cdx-landing-tab-content .cdx-img-group-2 {
-    background: #fff;
+    background: var(--white);
     box-shadow: 0px 20px 60px 0px rgba(10, 9, 15, 0.3);
     align-self: flex-start;
     position: relative;
@@ -13739,7 +13818,7 @@ li.voice-badge {
 }
 
 .cdx-landing-tab-content .cdx-img-group-3 {
-    background: #fff;
+    background: var(--white);
     box-shadow: 0px 20px 60px 0px rgba(10, 9, 15, 0.3);
     position: absolute;
     transform: translate(80%, 10%);
@@ -14095,7 +14174,7 @@ li.voice-badge {
     box-shadow: 0px 2px 4px 0px rgba(16, 18, 33, 0.1);
     max-width: 1720px;
     margin: 0 auto;
-    background: #fff;
+    background: var(--white);
     padding: 14px 30px;
 }
 
@@ -14595,7 +14674,7 @@ li.voice-badge {
 }
 
 .cdx-business-card .cdx-author-status .cdx-author-active-badge {
-    background: #fff;
+    background: var(--white);
     box-shadow: 0px 4px 6px 0px rgba(16, 18, 33, 0.24);
     color: #101221;
     font-size: 15px;
@@ -15053,7 +15132,7 @@ li.voice-badge {
 }
 
 .cdx-social-style-2.style-gradient .cdx-social-link {
-    background: #fff;
+    background: var(--white);
     transition: var(--transition);
 }
 
@@ -15517,5 +15596,9 @@ li.voice-badge {
     background: linear-gradient(95deg, #4038b7 0%, #e24a70 100%);
     color: var(--white);
     padding: 8px;
+}
+
+.cdx-footer-area-10 {
+    background-color: var(--dark-5);
 }
 /*# sourceMappingURL=main.css.map */

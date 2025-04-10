@@ -24,7 +24,7 @@
             position: inherit;
         }
         .cdx-count {
-            color: #fff;
+            color: var(--white);
             font-size: 100px;
             font-weight: 700;
             @media #{$md} {
@@ -35,7 +35,7 @@
             }
         }
         .cdx-count-text {
-            color: #fff;
+            color: var(--white);
             font-size: 20px;
             font-weight: 400;
             transform: translateY(-50%) rotate(-90deg);
@@ -62,14 +62,14 @@
         gap: 12px;
         padding: 10px;
         .cdx-country-name {
-            color: #fff;
+            color: var(--white);
             font-size: 14px;
             font-weight: 500;
         }
 
         &.dark {
             border: 1px solid rgba(16, 18, 33, 0.14);
-            background: #fff;
+            background: var(--white);
             .cdx-country-name {
                 color: #101221;
             }
